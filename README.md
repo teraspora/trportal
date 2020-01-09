@@ -12,7 +12,7 @@ There will be an admin user role which can manage user accounts, creating/editin
 
 The following were used in development:
 
-● XAMPP for Linux 7.2.26-0 (PHP 7.2.26, Apache/2.4.41 (Unix), MariaDB 10.4.11)
-● CakePHP 3.8.8 - For the server code.
-● Bootstrap 4.4 - For front end UI
+- XAMPP for Linux 7.2.26-0 (PHP 7.2.26, Apache/2.4.41 (Unix), MariaDB 10.4.11)
+- CakePHP 3.8.8 - For the server code.
+- Bootstrap 4.4 - For front end UI
 
