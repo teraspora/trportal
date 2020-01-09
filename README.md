@@ -16,3 +16,31 @@ The following were used in development:
 - CakePHP 3.8.8 - For the server code.
 - Bootstrap 4.4 - For front end UI
 
+## Database
+
+- Name:     `testresults`
+- Tables:   `users`, `results`
+
+### Users Table
+
+- Name:     `users`
+
+### Results Table
+
+- Name:     `results`
+
+## Views (excluding modals)
+
+### Unauthenticated
+
+- Users::login() - Login view
+
+### Authenticated - use Portal Template
+
+- Results::index() - Results listing​ page
+- Users::view() - User account page
+
+### Authenticated + Admin
+
+- Users::index() - Users listing page
+
