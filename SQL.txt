@@ -6,7 +6,7 @@ CREATE TABLE users (
     password VARCHAR(128) NOT NULL,
     status TINYINT(1) UNSIGNED DEFAULT 1,
     created_by INT(11) UNSIGNED,
-    FOREIGN KEY (created_by) REFERENCES users(id)
+    FOREIGN KEY (created_by) REFERENCES users(id),
     created_on DATETIME
 );
 
@@ -22,7 +22,7 @@ CREATE TABLE results (
     score FLOAT(5, 2) UNSIGNED,
     url VARCHAR(1024),
     added_by INT(11) UNSIGNED,
-    added_on DATETIME
-    FOREIGN KEY (added_by) REFERENCES users(id)
+    added_on DATETIME,
+    FOREIGN KEY (added_by) REFERENCES users(id),
     PRIMARY KEY (job_processing_id, test_type_id, test_counter)
 );
