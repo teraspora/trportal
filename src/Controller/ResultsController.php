@@ -19,6 +19,9 @@ class ResultsController extends AppController
      */
     public function index()
     {
+        $this->paginate = [
+            'contain' => ['JobProcessings', 'TestTypes'],
+        ];
         $results = $this->paginate($this->Results);
 
         $this->set(compact('results'));
@@ -34,7 +37,7 @@ class ResultsController extends AppController
     public function view($id = null)
     {
         $result = $this->Results->get($id, [
-            'contain' => [],
+            'contain' => ['JobProcessings', 'TestTypes'],
         ]);
 
         $this->set('result', $result);
@@ -57,7 +60,9 @@ class ResultsController extends AppController
             }
             $this->Flash->error(__('The result could not be saved. Please, try again.'));
         }
-        $this->set(compact('result'));
+        $jobProcessings = $this->Results->JobProcessings->find('list', ['limit' => 200]);
+        $testTypes = $this->Results->TestTypes->find('list', ['limit' => 200]);
+        $this->set(compact('result', 'jobProcessings', 'testTypes'));
     }
 
     /**
@@ -81,7 +86,9 @@ class ResultsController extends AppController
             }
             $this->Flash->error(__('The result could not be saved. Please, try again.'));
         }
-        $this->set(compact('result'));
+        $jobProcessings = $this->Results->JobProcessings->find('list', ['limit' => 200]);
+        $testTypes = $this->Results->TestTypes->find('list', ['limit' => 200]);
+        $this->set(compact('result', 'jobProcessings', 'testTypes'));
     }
 
     /**

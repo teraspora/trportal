@@ -18,7 +18,7 @@
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">RESULTS PORTAL</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">Username</a>
+          <a class="nav-link" href="#"><?= $username ?></a>
         </li>
       </ul>
     </nav>
@@ -29,13 +29,13 @@
           <div class="sidebar-sticky pt-5">
             <ul class="nav flex-column">
               <button class="nav-item">
-                <a class="nav-link text-nowrap" href="#">Results</a>
+                <?= $this->Html->link(__('Results'), ['controller' => 'Results', 'action' => 'index'], ['class' => 'nav-link text-nowrap']) ?>
               </button>
               <button class="nav-item">
-                <a class="nav-link text-nowrap" href="#">Users</a>
+                <?= $this->Html->link(__('Users'), ['controller' => 'Users', 'action' => 'index'], ['class' => 'nav-link text-nowrap']) ?>
               </button>
               <button class="nav-item">
-                <a class="nav-link text-nowrap" href="#">Logout</a>
+                <?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout'], ['class' => 'nav-link text-nowrap']) ?>
               </button>
             </ul>
           </div>

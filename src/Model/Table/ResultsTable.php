@@ -9,8 +9,8 @@ use Cake\Validation\Validator;
 /**
  * Results Model
  *
- * @property &\Cake\ORM\Association\BelongsTo $JobProcessings
- * @property &\Cake\ORM\Association\BelongsTo $TestTypes
+ * @property \App\Model\Table\JobProcessingsTable&\Cake\ORM\Association\BelongsTo $JobProcessings
+ * @property \App\Model\Table\TestTypesTable&\Cake\ORM\Association\BelongsTo $TestTypes
  *
  * @method \App\Model\Entity\Result get($primaryKey, $options = [])
  * @method \App\Model\Entity\Result newEntity($data = null, array $options = [])
@@ -34,16 +34,14 @@ class ResultsTable extends Table
         parent::initialize($config);
 
         $this->setTable('results');
-        $this->setDisplayField('job_processing_id');
-        $this->setPrimaryKey(['job_processing_id', 'test_type_id', 'test_counter']);
+        $this->setDisplayField('id');
+        $this->setPrimaryKey('id');
 
         $this->belongsTo('JobProcessings', [
             'foreignKey' => 'job_processing_id',
-            'joinType' => 'INNER',
         ]);
         $this->belongsTo('TestTypes', [
             'foreignKey' => 'test_type_id',
-            'joinType' => 'INNER',
         ]);
     }
 
@@ -56,8 +54,13 @@ class ResultsTable extends Table
     public function validationDefault(Validator $validator)
     {
         $validator
+            ->scalar('id')
+            ->maxLength('id', 23)
+            ->allowEmptyString('id', null, 'create');
+
+        $validator
             ->nonNegativeInteger('test_counter')
-            ->allowEmptyString('test_counter', null, 'create');
+            ->allowEmptyString('test_counter');
 
         $validator
             ->scalar('number')
