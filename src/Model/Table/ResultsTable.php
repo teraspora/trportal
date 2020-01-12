@@ -9,9 +9,6 @@ use Cake\Validation\Validator;
 /**
  * Results Model
  *
- * @property \App\Model\Table\JobProcessingsTable&\Cake\ORM\Association\BelongsTo $JobProcessings
- * @property \App\Model\Table\TestTypesTable&\Cake\ORM\Association\BelongsTo $TestTypes
- *
  * @method \App\Model\Entity\Result get($primaryKey, $options = [])
  * @method \App\Model\Entity\Result newEntity($data = null, array $options = [])
  * @method \App\Model\Entity\Result[] newEntities(array $data, array $options = [])
@@ -36,13 +33,6 @@ class ResultsTable extends Table
         $this->setTable('results');
         $this->setDisplayField('id');
         $this->setPrimaryKey('id');
-
-        $this->belongsTo('JobProcessings', [
-            'foreignKey' => 'job_processing_id',
-        ]);
-        $this->belongsTo('TestTypes', [
-            'foreignKey' => 'test_type_id',
-        ]);
     }
 
     /**
@@ -54,13 +44,16 @@ class ResultsTable extends Table
     public function validationDefault(Validator $validator)
     {
         $validator
-            ->scalar('id')
-            ->maxLength('id', 23)
-            ->allowEmptyString('id', null, 'create');
+            ->nonNegativeInteger('job_processing_uid')
+            ->allowEmptyString('job_processing_uid', null, 'create');
+
+        $validator
+            ->nonNegativeInteger('test_type_uid')
+            ->allowEmptyString('test_type_uid', null, 'create');
 
         $validator
             ->nonNegativeInteger('test_counter')
-            ->allowEmptyString('test_counter');
+            ->allowEmptyString('test_counter', null, 'create');
 
         $validator
             ->scalar('number')
@@ -103,20 +96,5 @@ class ResultsTable extends Table
             ->allowEmptyDateTime('added_on');
 
         return $validator;
-    }
-
-    /**
-     * Returns a rules checker object that will be used for validating
-     * application integrity.
-     *
-     * @param \Cake\ORM\RulesChecker $rules The rules object to be modified.
-     * @return \Cake\ORM\RulesChecker
-     */
-    public function buildRules(RulesChecker $rules)
-    {
-        $rules->add($rules->existsIn(['job_processing_id'], 'JobProcessings'));
-        $rules->add($rules->existsIn(['test_type_id'], 'TestTypes'));
-
-        return $rules;
     }
 }

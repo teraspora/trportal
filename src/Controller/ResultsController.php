@@ -33,6 +33,10 @@ class ResultsController extends AppController
      */
     public function view($id = null)
     {
+        $result = $this->Results->get($id, [
+            'contain' => [],
+        ]);
+
         $this->set('result', $result);
     }
 
@@ -53,6 +57,7 @@ class ResultsController extends AppController
             }
             $this->Flash->error(__('The result could not be saved. Please, try again.'));
         }
+        $this->set(compact('result'));
     }
 
     /**
@@ -76,6 +81,7 @@ class ResultsController extends AppController
             }
             $this->Flash->error(__('The result could not be saved. Please, try again.'));
         }
+        $this->set(compact('result'));
     }
 
     /**

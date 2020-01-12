@@ -15,10 +15,9 @@ class ResultsFixture extends TestFixture
      */
     // @codingStandardsIgnoreStart
     public $fields = [
-        'id' => ['type' => 'string', 'length' => 23, 'null' => false, 'default' => null, 'collate' => 'utf8mb4_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
-        'job_processing_id' => ['type' => 'integer', 'length' => 11, 'unsigned' => true, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
-        'test_type_id' => ['type' => 'integer', 'length' => 5, 'unsigned' => true, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
-        'test_counter' => ['type' => 'integer', 'length' => 5, 'unsigned' => true, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
+        'job_processing_uid' => ['type' => 'integer', 'length' => 11, 'unsigned' => true, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
+        'test_type_uid' => ['type' => 'integer', 'length' => 5, 'unsigned' => true, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
+        'test_counter' => ['type' => 'integer', 'length' => 5, 'unsigned' => true, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'number' => ['type' => 'string', 'length' => 20, 'null' => true, 'default' => null, 'collate' => 'utf8mb4_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'country' => ['type' => 'string', 'length' => 100, 'null' => true, 'default' => null, 'collate' => 'utf8mb4_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'start_time' => ['type' => 'datetime', 'length' => null, 'null' => true, 'default' => null, 'comment' => '', 'precision' => null],
@@ -32,7 +31,7 @@ class ResultsFixture extends TestFixture
             'added_by' => ['type' => 'index', 'columns' => ['added_by'], 'length' => []],
         ],
         '_constraints' => [
-            'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
+            'primary' => ['type' => 'primary', 'columns' => ['job_processing_uid', 'test_type_uid', 'test_counter'], 'length' => []],
             'results_ibfk_1' => ['type' => 'foreign', 'columns' => ['added_by'], 'references' => ['users', 'id'], 'update' => 'restrict', 'delete' => 'restrict', 'length' => []],
         ],
         '_options' => [
@@ -50,19 +49,18 @@ class ResultsFixture extends TestFixture
     {
         $this->records = [
             [
-                'id' => '030fda25-bbf3-4ab4-b47e-5a294e650c4f',
-                'job_processing_id' => 1,
-                'test_type_id' => 1,
+                'job_processing_uid' => 1,
+                'test_type_uid' => 1,
                 'test_counter' => 1,
                 'number' => 'Lorem ipsum dolor ',
                 'country' => 'Lorem ipsum dolor sit amet',
-                'start_time' => '2020-01-12 16:08:57',
-                'end_time' => '2020-01-12 16:08:57',
-                'connect_time' => '2020-01-12 16:08:57',
+                'start_time' => '2020-01-12 23:02:11',
+                'end_time' => '2020-01-12 23:02:11',
+                'connect_time' => '2020-01-12 23:02:11',
                 'score' => 1,
                 'url' => 'Lorem ipsum dolor sit amet',
                 'added_by' => 1,
-                'added_on' => '2020-01-12 16:08:57',
+                'added_on' => '2020-01-12 23:02:11',
             ],
         ];
         parent::init();

@@ -4,10 +4,9 @@
  * @var \App\Model\Entity\User[]|\Cake\Collection\CollectionInterface $users
  */
 ?>
-
 <div class="users index large-9 medium-8 columns content">
     <h3><?= __('Users') ?></h3>
-    <table cellpadding="12" cellspacing="12">
+    <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>

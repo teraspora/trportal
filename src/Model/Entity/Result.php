@@ -6,10 +6,9 @@ use Cake\ORM\Entity;
 /**
  * Result Entity
  *
- * @property string $id
- * @property int|null $job_processing_id
- * @property int|null $test_type_id
- * @property int|null $test_counter
+ * @property int $job_processing_uid
+ * @property int $test_type_uid
+ * @property int $test_counter
  * @property string|null $number
  * @property string|null $country
  * @property \Cake\I18n\FrozenTime|null $start_time
@@ -19,9 +18,6 @@ use Cake\ORM\Entity;
  * @property string|null $url
  * @property int|null $added_by
  * @property \Cake\I18n\FrozenTime|null $added_on
- *
- * @property \App\Model\Entity\JobProcessing $job_processing
- * @property \App\Model\Entity\TestType $test_type
  */
 class Result extends Entity
 {
@@ -35,8 +31,8 @@ class Result extends Entity
      * @var array
      */
     protected $_accessible = [
-        'job_processing_id' => true,
-        'test_type_id' => true,
+        'job_processing_uid' => true,
+        'test_type_uid' => true,
         'test_counter' => true,
         'number' => true,
         'country' => true,
@@ -47,7 +43,5 @@ class Result extends Entity
         'url' => true,
         'added_by' => true,
         'added_on' => true,
-        'job_processing' => true,
-        'test_type' => true,
     ];
 }

@@ -4,20 +4,14 @@
  * @var \App\Model\Entity\Result[]|\Cake\Collection\CollectionInterface $results
  */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Result'), ['action' => 'add']) ?></li>
-    </ul>
-</nav>
+
 <div class="results index large-9 medium-8 columns content">
     <h3><?= __('Results') ?></h3>
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('job_processing_id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('test_type_id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('job_processing_uid') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('test_type_uid') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('test_counter') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('number') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('country') ?></th>
@@ -34,9 +28,8 @@
         <tbody>
             <?php foreach ($results as $result): ?>
             <tr>
-                <td><?= h($result->id) ?></td>
-                <td><?= $this->Number->format($result->job_processing_id) ?></td>
-                <td><?= $this->Number->format($result->test_type_id) ?></td>
+                <td><?= $this->Number->format($result->job_processing_uid) ?></td>
+                <td><?= $this->Number->format($result->test_type_uid) ?></td>
                 <td><?= $this->Number->format($result->test_counter) ?></td>
                 <td><?= h($result->number) ?></td>
                 <td><?= h($result->country) ?></td>

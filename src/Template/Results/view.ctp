@@ -17,10 +17,6 @@
     <h3><?= h($result->id) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th scope="row"><?= __('Id') ?></th>
-            <td><?= h($result->id) ?></td>
-        </tr>
-        <tr>
             <th scope="row"><?= __('Number') ?></th>
             <td><?= h($result->number) ?></td>
         </tr>
@@ -33,12 +29,12 @@
             <td><?= h($result->url) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Job Processing Id') ?></th>
-            <td><?= $this->Number->format($result->job_processing_id) ?></td>
+            <th scope="row"><?= __('Job Processing Uid') ?></th>
+            <td><?= $this->Number->format($result->job_processing_uid) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Test Type Id') ?></th>
-            <td><?= $this->Number->format($result->test_type_id) ?></td>
+            <th scope="row"><?= __('Test Type Uid') ?></th>
+            <td><?= $this->Number->format($result->test_type_uid) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Test Counter') ?></th>

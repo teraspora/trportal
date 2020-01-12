@@ -21,8 +21,6 @@ class ResultsControllerTest extends TestCase
      */
     public $fixtures = [
         'app.Results',
-        'app.JobProcessings',
-        'app.TestTypes',
     ];
 
     /**

@@ -15,8 +15,8 @@
     <fieldset>
         <legend><?= __('Add Result') ?></legend>
         <?php
-            echo $this->Form->control('job_processing_id');
-            echo $this->Form->control('test_type_id');
+            echo $this->Form->control('job_processing_uid');
+            echo $this->Form->control('test_type_uid');
             echo $this->Form->control('test_counter');
             echo $this->Form->control('number');
             echo $this->Form->control('country');

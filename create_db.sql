@@ -11,9 +11,8 @@ CREATE TABLE users (
 );
 
 CREATE TABLE results (
-    id VARCHAR(23) PRIMARY KEY,
-    job_processing_id INT(11) UNSIGNED,
-    test_type_id INT(5) UNSIGNED,
+    job_processing_uid INT(11) UNSIGNED,
+    test_type_uid INT(5) UNSIGNED,
     test_counter INT(5) UNSIGNED,
     number VARCHAR(20),
     country VARCHAR(100),
@@ -24,15 +23,6 @@ CREATE TABLE results (
     url VARCHAR(1024),
     added_by INT(11) UNSIGNED,
     added_on DATETIME,
-    FOREIGN KEY (added_by) REFERENCES users(id)
+    FOREIGN KEY (added_by) REFERENCES users(id),
+    PRIMARY KEY (job_processing_uid, test_type_uid, test_counter)
 );
-
-CREATE TRIGGER insert_result_id_generator
-BEFORE INSERT ON results
-FOR EACH ROW
-SET new.id = CONCAT(new.job_processing_id, '_', new.test_type_id, '_', new.test_counter);
-
-CREATE TRIGGER update_result_id_generator
-BEFORE UPDATE ON results
-FOR EACH ROW
-SET new.id = CONCAT(new.job_processing_id, '_', new.test_type_id, '_', new.test_counter);
