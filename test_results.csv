@@ -1,0 +1,1001 @@
+#ID,Number,Country,Start time,Connect time,End time,Score,URL
+3258637_1_1,0061280476517,Australia,2019-10-01 00:01:04,2019-10-01 00:01:09,2019-10-01 00:02:29,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258637_1_1.wav
+3258650_1_1,0061180082149,Australia,2019-10-01 00:01:05,2019-10-01 00:01:13,2019-10-01 00:03:15,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258650_1_1.wav
+3258665_2_1,00971800082621,United Arab Emirates,2019-10-01 00:01:06,2019-10-01 00:01:09,2019-10-01 00:02:48,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258665_1_1.wav
+3258669_1_1,0061281016995,Australia,2019-10-01 00:01:06,2019-10-01 00:01:13,2019-10-01 00:03:16,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258669_1_1.wav
+3258670_1_1,0061384077729,Australia,2019-10-01 00:01:07,2019-10-01 00:01:15,2019-10-01 00:03:26,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258670_1_1.wav
+3258654_1_1,00852300182609,Hong Kong,2019-10-01 00:01:09,2019-10-01 00:01:14,2019-10-01 00:02:55,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258654_1_1.wav
+3258671_1_4,0061383782014,Australia,2019-10-01 00:01:09,2019-10-01 00:01:18,2019-10-01 00:03:21,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258671_1_1.wav
+3258655_1_1,00852580882610,Hong Kong,2019-10-01 00:01:10,2019-10-01 00:01:15,2019-10-01 00:02:51,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258655_1_1.wav
+3258662_1_1,0082234782617,Korea South,2019-10-01 00:01:11,2019-10-01 00:01:14,2019-10-01 00:02:51,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258662_1_1.wav
+3258672_1_1,0061863682015,Australia,2019-10-01 00:01:11,2019-10-01 00:01:20,2019-10-01 00:03:30,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258672_1_1.wav
+3258727_4_1,00852580377307,Hong Kong,2019-10-01 00:01:11,2019-10-01 00:01:16,2019-10-01 00:02:58,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258727_1_1.wav
+3258649_1_1,0064800081845,New Zealand,2019-10-01 00:01:12,2019-10-01 00:01:19,2019-10-01 00:03:16,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258649_1_1.wav
+3258700_1_1,0061180046023,Australia,2019-10-01 00:01:12,2019-10-01 00:01:16,2019-10-01 00:02:57,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258700_1_1.wav
+3258640_1_1,0091807177730,India,2019-10-01 00:01:15,2019-10-01 00:01:18,2019-10-01 00:03:13,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258640_1_1.wav
+3258652_1_1,0091800077064,India,2019-10-01 00:01:16,2019-10-01 00:01:21,2019-10-01 00:03:01,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258652_1_1.wav
+3258641_1_1,0065315877732,Singapore,2019-10-01 00:01:18,2019-10-01 00:01:23,2019-10-01 00:03:31,2.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258641_1_1.wav
+3258642_1_1,0086108781830,China,2019-10-01 00:01:18,2019-10-01 00:01:26,2019-10-01 00:03:36,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258642_1_1.wav
+3258643_1_6,0060392182011,Malaysia,2019-10-01 00:01:18,2019-10-01 00:01:22,2019-10-01 00:03:31,3.24,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258643_1_1.wav
+3258645_1_1,0065800182167,Singapore,2019-10-01 00:01:19,2019-10-01 00:01:24,2019-10-01 00:03:35,2.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258645_1_1.wav
+3258646_1_1,0084180082168,Vietnam,2019-10-01 00:01:19,2019-10-01 00:01:24,2019-10-01 00:03:21,2.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258646_1_1.wav
+3258728_1_1,0065315877313,Singapore,2019-10-01 00:01:21,2019-10-01 00:01:26,2019-10-01 00:03:08,3.5,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258728_1_1.wav
+3258647_1_1,0062180382449,Indonesia,2019-10-01 00:01:32,2019-10-01 00:01:37,2019-10-01 00:03:35,4.17,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258647_1_1.wav
+3258706_1_1,0086400646033,China,2019-10-01 00:02:09,2019-10-01 00:02:16,2019-10-01 00:03:59,3.24,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258706_1_1.wav
+3258638_1_1,0061180076518,Australia,2019-10-01 00:03:03,2019-10-01 00:03:05,2019-10-01 00:04:19,3.39,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258638_1_1.wav
+3258698_1_1,0082264144482,Korea South,2019-10-01 00:03:07,2019-10-01 00:03:08,2019-10-01 00:04:51,4.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258698_1_1.wav
+3258608_1_1,004980013787,Germany,2019-10-01 00:03:08,2019-10-01 00:03:13,2019-10-01 00:05:00,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258608_1_1.wav
+3258739_1_1,0034900983171,Spain,2019-10-01 00:03:08,2019-10-01 00:03:10,2019-10-01 00:04:26,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258739_1_1.wav
+3258741_1_1,00358800983169,Finland,2019-10-01 00:03:08,2019-10-01 00:03:12,2019-10-01 00:04:33,3.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258741_1_1.wav
+3258742_1_1,0064800883168,New Zealand,2019-10-01 00:03:08,2019-10-01 00:03:12,2019-10-01 00:04:30,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258742_1_1.wav
+3258648_1_1,0086400882491,China,2019-10-01 00:03:09,2019-10-01 00:03:16,2019-10-01 00:05:20,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258648_1_1.wav
+3258651_1_1,0086400677062,China,2019-10-01 00:03:12,2019-10-01 00:03:24,2019-10-01 00:05:05,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258651_1_1.wav
+3258694_1_1,0086108733864,China,2019-10-01 00:03:12,2019-10-01 00:03:15,2019-10-01 00:04:55,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258694_1_1.wav
+3258659_1_1,0060377282614,Malaysia,2019-10-01 00:03:13,2019-10-01 00:03:17,2019-10-01 00:04:56,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258659_1_1.wav
+3258661_1_1,0065662282616,Singapore,2019-10-01 00:03:14,2019-10-01 00:03:18,2019-10-01 00:05:00,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258661_1_1.wav
+3258738_1_1,0065800183170,Singapore,2019-10-01 00:03:14,2019-10-01 00:03:18,2019-10-01 00:04:39,3.4,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258738_1_1.wav
+3258660_1_1,0063286282615,Philippines,2019-10-01 00:03:15,2019-10-01 00:03:19,2019-10-01 00:05:03,2.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258660_1_1.wav
+3258718_1_1,0081645672239,Japan,2019-10-01 00:03:23,2019-10-01 00:03:28,2019-10-01 00:05:07,4.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258718_1_1.wav
+3258696_1_1,0065180038487,Singapore,2019-10-01 00:04:13,2019-10-01 00:04:19,2019-10-01 00:06:18,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258696_1_1.wav
+3258687_1_1,0063180029351,Philippines,2019-10-01 00:04:14,2019-10-01 00:04:16,2019-10-01 00:06:19,4.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258687_1_1.wav
+3258712_1_1,0081120946046,Japan,2019-10-01 00:04:22,2019-10-01 00:04:24,2019-10-01 00:06:12,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258712_1_1.wav
+3258725_1_1,0061283177297,Australia,2019-10-01 00:05:03,2019-10-01 00:05:05,2019-10-01 00:06:43,3.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258725_1_1.wav
+3258740_1_1,0061180082989,Australia,2019-10-01 00:05:04,2019-10-01 00:05:07,2019-10-01 00:06:31,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258740_1_1.wav
+3258604_1_1,004480003889,United Kingdom,2019-10-01 00:05:05,2019-10-01 00:05:07,2019-10-01 00:06:49,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258604_1_1.wav
+3258610_1_1,003120794154,Netherlands,2019-10-01 00:05:07,2019-10-01 00:05:10,2019-10-01 00:06:51,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258610_1_1.wav
+3258705_1_1,0086800846032,China,2019-10-01 00:05:08,2019-10-01 00:05:15,2019-10-01 00:07:01,3.17,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258705_1_1.wav
+3258716_1_1,0086105368299,China,2019-10-01 00:05:09,2019-10-01 00:05:14,2019-10-01 00:06:53,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258716_1_1.wav
+3258653_1_1,0081345877065,Japan,2019-10-01 00:05:17,2019-10-01 00:05:21,2019-10-01 00:07:01,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258653_1_1.wav
+3258658_1_1,0081344782613,Japan,2019-10-01 00:05:19,2019-10-01 00:05:24,2019-10-01 00:07:04,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258658_1_1.wav
+3258663_1_1,00886277382618,Taiwan,2019-10-01 00:05:22,2019-10-01 00:05:40,2019-10-01 00:07:29,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258663_1_1.wav
+3258656_1_1,0062180382611,Indonesia,2019-10-01 00:05:23,2019-10-01 00:05:28,2019-10-01 00:07:06,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258656_1_1.wav
+3258657_1_1,0062218082612,Indonesia,2019-10-01 00:05:24,2019-10-01 00:05:26,2019-10-01 00:07:05,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258657_1_1.wav
+3258809_1_1,0027110642521,South Africa,2019-10-01 00:06:03,2019-10-01 00:06:05,2019-10-01 00:07:46,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258809_1_1.wav
+3258810_1_1,0027800942522,South Africa,2019-10-01 00:06:03,2019-10-01 00:06:07,2019-10-01 00:07:41,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258810_1_1.wav
+3258873_1_1,0027110142520,South Africa,2019-10-01 00:06:03,2019-10-01 00:06:06,2019-10-01 00:07:45,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258873_1_1.wav
+3258874_1_1,0027800942518,South Africa,2019-10-01 00:06:04,2019-10-01 00:06:07,2019-10-01 00:07:42,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258874_1_1.wav
+3258941_1_1,0027105377579,South Africa,2019-10-01 00:06:04,2019-10-01 00:06:08,2019-10-01 00:08:19,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258941_1_1.wav
+3258743_1_1,00971800076669,United Arab Emirates,2019-10-01 00:06:05,2019-10-01 00:06:07,2019-10-01 00:07:46,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258743_1_1.wav
+3258811_1_1,00971800076676,United Arab Emirates,2019-10-01 00:06:07,2019-10-01 00:06:08,2019-10-01 00:07:46,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258811_1_1.wav
+3258753_1_1,001416941498,Canada,2019-10-01 00:06:08,2019-10-01 00:06:10,2019-10-01 00:07:53,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258753_1_1.wav
+3258875_1_1,00971800077588,United Arab Emirates,2019-10-01 00:06:08,2019-10-01 00:06:10,2019-10-01 00:08:20,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258875_1_1.wav
+3258869_1_1,00380893284014,Ukraine,2019-10-01 00:06:09,2019-10-01 00:06:11,2019-10-01 00:07:57,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258869_1_1.wav
+3258885_1_1,001647477551,Canada,2019-10-01 00:06:09,2019-10-01 00:06:11,2019-10-01 00:08:24,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258885_1_1.wav
+3258644_2_1,00852800982004,Hong Kong,2019-10-01 00:06:10,2019-10-01 00:06:15,2019-10-01 00:08:11,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258644_2_1.wav
+3258772_1_1,0044800042712,United Kingdom,2019-10-01 00:06:10,2019-10-01 00:06:12,2019-10-01 00:07:52,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258772_1_1.wav
+3258835_1_1,0044203442709,United Kingdom,2019-10-01 00:06:10,2019-10-01 00:06:11,2019-10-01 00:07:51,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258835_1_1.wav
+3258836_1_1,0044800042710,United Kingdom,2019-10-01 00:06:10,2019-10-01 00:06:12,2019-10-01 00:07:52,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258836_1_1.wav
+3258903_1_1,0044203876944,United Kingdom,2019-10-01 00:06:10,2019-10-01 00:06:12,2019-10-01 00:08:22,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258903_1_1.wav
+3258904_1_1,0044800077589,United Kingdom,2019-10-01 00:06:10,2019-10-01 00:06:12,2019-10-01 00:08:23,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258904_1_1.wav
+3258710_1_1,00852301846042,Hong Kong,2019-10-01 00:06:11,2019-10-01 00:06:14,2019-10-01 00:08:03,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258710_1_1.wav
+3258802_1_1,0090212984080,Turkey,2019-10-01 00:06:11,2019-10-01 00:06:15,2019-10-01 00:07:51,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258802_1_1.wav
+3258866_1_1,0090212984079,Turkey,2019-10-01 00:06:11,2019-10-01 00:06:14,2019-10-01 00:07:51,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258866_1_1.wav
+3258934_1_1,0090212984081,Turkey,2019-10-01 00:06:11,2019-10-01 00:06:16,2019-10-01 00:08:28,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258934_1_1.wav
+3258704_1_1,0082273946028,Korea South,2019-10-01 00:06:12,2019-10-01 00:06:14,2019-10-01 00:08:05,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258704_1_1.wav
+3258794_1_1,0048222942349,Poland,2019-10-01 00:06:12,2019-10-01 00:06:15,2019-10-01 00:07:51,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258794_1_1.wav
+3258795_1_1,0048800142348,Poland,2019-10-01 00:06:12,2019-10-01 00:06:16,2019-10-01 00:07:52,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258795_1_1.wav
+3258731_1_1,0082808882515,Korea South,2019-10-01 00:06:13,2019-10-01 00:06:14,2019-10-01 00:08:00,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258731_1_1.wav
+3258858_1_1,0048222942346,Poland,2019-10-01 00:06:13,2019-10-01 00:06:16,2019-10-01 00:07:52,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258858_1_1.wav
+3258859_1_1,0048800142347,Poland,2019-10-01 00:06:13,2019-10-01 00:06:16,2019-10-01 00:07:52,4.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258859_1_1.wav
+3258917_1_1,00373800684057,Moldova,2019-10-01 00:06:13,2019-10-01 00:06:16,2019-10-01 00:08:28,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258917_1_1.wav
+3258781_1_1,0039230442024,Italy,2019-10-01 00:06:14,2019-10-01 00:06:16,2019-10-01 00:08:07,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258781_1_1.wav
+3258845_1_1,0039230442021,Italy,2019-10-01 00:06:14,2019-10-01 00:06:17,2019-10-01 00:08:02,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258845_1_1.wav
+3258846_1_1,0039800842022,Italy,2019-10-01 00:06:15,2019-10-01 00:06:22,2019-10-01 00:08:03,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258846_1_1.wav
+3258774_1_1,0091116482582,India,2019-10-01 00:06:16,2019-10-01 00:06:17,2019-10-01 00:08:11,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258774_1_1.wav
+3258775_1_1,0091226482529,India,2019-10-01 00:06:16,2019-10-01 00:06:18,2019-10-01 00:08:08,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258775_1_1.wav
+3258827_1_1,0049692541777,Germany,2019-10-01 00:06:16,2019-10-01 00:06:22,2019-10-01 00:08:13,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258827_1_1.wav
+3258856_1_1,0051170984019,Peru,2019-10-01 00:06:16,2019-10-01 00:06:18,2019-10-01 00:08:15,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258856_1_1.wav
+3258913_1_1,0039683477567,Italy,2019-10-01 00:06:16,2019-10-01 00:06:19,2019-10-01 00:08:05,3.45,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258913_1_1.wav
+3258828_1_1,0049800141776,Germany,2019-10-01 00:06:17,2019-10-01 00:06:21,2019-10-01 00:08:07,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258828_1_1.wav
+3258924_1_1,0051170984023,Peru,2019-10-01 00:06:17,2019-10-01 00:06:20,2019-10-01 00:08:12,3.42,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258924_1_1.wav
+3258895_1_1,0049692577561,Germany,2019-10-01 00:06:18,2019-10-01 00:06:24,2019-10-01 00:08:30,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258895_1_1.wav
+3258896_1_1,0049800077562,Germany,2019-10-01 00:06:18,2019-10-01 00:06:22,2019-10-01 00:08:12,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258896_1_1.wav
+3258777_1_1,0091800841920,India,2019-10-01 00:06:19,2019-10-01 00:06:22,2019-10-01 00:08:14,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258777_1_1.wav
+3258786_1_1,0052180042207,Mexico,2019-10-01 00:06:19,2019-10-01 00:06:25,2019-10-01 00:08:17,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258786_1_1.wav
+3258843_1_1,00353152641965,Ireland,2019-10-01 00:06:19,2019-10-01 00:06:22,2019-10-01 00:08:11,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258843_1_1.wav
+3258844_1_1,00353180041964,Ireland,2019-10-01 00:06:20,2019-10-01 00:06:22,2019-10-01 00:08:12,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258844_1_1.wav
+3258722_1_1,0065800176636,Singapore,2019-10-01 00:06:23,2019-10-01 00:06:28,2019-10-01 00:08:12,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258722_1_1.wav
+3258598_2_1,006032784146,Malaysia,2019-10-01 00:06:24,2019-10-01 00:06:26,2019-10-01 00:08:07,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258598_2_1.wav
+3258758_1_1,0056442076664,Chile,2019-10-01 00:06:24,2019-10-01 00:06:27,2019-10-01 00:08:14,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258758_1_1.wav
+3258783_1_1,0081350542063,Japan,2019-10-01 00:06:38,2019-10-01 00:06:41,2019-10-01 00:08:22,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258783_1_1.wav
+3258803_1_1,00886255984011,Taiwan,2019-10-01 00:06:39,2019-10-01 00:06:53,2019-10-01 00:08:32,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258803_1_1.wav
+3258935_1_1,00886255984012,Taiwan,2019-10-01 00:06:45,2019-10-01 00:07:00,2019-10-01 00:08:42,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258935_1_1.wav
+3258905_1_1,0062215084037,Indonesia,2019-10-01 00:06:50,2019-10-01 00:06:57,2019-10-01 00:08:32,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258905_1_1.wav
+3258605_1_1,004480003895,United Kingdom,2019-10-01 00:07:07,2019-10-01 00:07:09,2019-10-01 00:08:56,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258605_1_1.wav
+3258627_1_1,00852800975346,Hong Kong,2019-10-01 00:07:07,2019-10-01 00:07:11,2019-10-01 00:08:26,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258627_1_1.wav
+3258611_1_1,003180004156,Netherlands,2019-10-01 00:07:09,2019-10-01 00:07:10,2019-10-01 00:08:57,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258611_1_1.wav
+3258793_1_1,0051800784022,Peru,2019-10-01 00:07:09,2019-10-01 00:07:14,2019-10-01 00:08:48,3.42,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258793_1_1.wav
+3258854_1_1,0031207942233,Netherlands,2019-10-01 00:07:09,2019-10-01 00:07:12,2019-10-01 00:08:52,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258854_1_1.wav
+3258861_1_1,0040215884030,Romania,2019-10-01 00:07:10,2019-10-01 00:07:11,2019-10-01 00:09:01,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258861_1_1.wav
+3258668_2_1,0091227183352,India,2019-10-01 00:07:11,2019-10-01 00:07:13,2019-10-01 00:08:54,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258668_2_1.wav
+3258693_1_1,0086400633828,China,2019-10-01 00:07:12,2019-10-01 00:07:20,2019-10-01 00:08:56,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258693_1_1.wav
+3258708_1_1,0060320546038,Malaysia,2019-10-01 00:07:15,2019-10-01 00:07:19,2019-10-01 00:09:02,3.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258708_1_1.wav
+3258667_2_1,0084284482623,Vietnam,2019-10-01 00:07:22,2019-10-01 00:07:30,2019-10-01 00:09:08,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258667_2_1.wav
+3258857_1_1,0051800784020,Peru,2019-10-01 00:08:08,2019-10-01 00:08:11,2019-10-01 00:09:51,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258857_1_1.wav
+3258776_1_1,0091406482583,India,2019-10-01 00:08:09,2019-10-01 00:08:11,2019-10-01 00:09:58,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258776_1_1.wav
+3258782_1_1,0039800842023,Italy,2019-10-01 00:08:09,2019-10-01 00:08:18,2019-10-01 00:09:53,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258782_1_1.wav
+3258785_1_1,00373800684056,Moldova,2019-10-01 00:08:09,2019-10-01 00:08:11,2019-10-01 00:09:47,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258785_1_1.wav
+3258850_1_1,0052180042206,Mexico,2019-10-01 00:08:10,2019-10-01 00:08:17,2019-10-01 00:10:02,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258850_1_1.wav
+3258755_1_1,0041435042635,Switzerland,2019-10-01 00:08:11,2019-10-01 00:08:14,2019-10-01 00:09:54,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258755_1_1.wav
+3258756_1_1,0041800542636,Switzerland,2019-10-01 00:08:11,2019-10-01 00:08:15,2019-10-01 00:09:50,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258756_1_1.wav
+3258767_1_1,0034900842559,Spain,2019-10-01 00:08:11,2019-10-01 00:08:12,2019-10-01 00:09:52,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258767_1_1.wav
+3258768_1_1,0034917642560,Spain,2019-10-01 00:08:11,2019-10-01 00:08:14,2019-10-01 00:09:48,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258768_1_1.wav
+3258800_1_1,0046200142598,Sweden,2019-10-01 00:08:11,2019-10-01 00:08:18,2019-10-01 00:09:58,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258800_1_1.wav
+3258801_1_1,0046850542597,Sweden,2019-10-01 00:08:11,2019-10-01 00:08:15,2019-10-01 00:09:51,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258801_1_1.wav
+3258819_1_1,0041434542634,Switzerland,2019-10-01 00:08:11,2019-10-01 00:08:14,2019-10-01 00:09:49,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258819_1_1.wav
+3258820_1_1,0041800842633,Switzerland,2019-10-01 00:08:11,2019-10-01 00:08:15,2019-10-01 00:09:50,4.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258820_1_1.wav
+3258831_1_1,0034900942558,Spain,2019-10-01 00:08:11,2019-10-01 00:08:12,2019-10-01 00:09:52,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258831_1_1.wav
+3258832_1_1,0034917942557,Spain,2019-10-01 00:08:11,2019-10-01 00:08:13,2019-10-01 00:09:53,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258832_1_1.wav
+3258851_1_1,0052558876675,Mexico,2019-10-01 00:08:11,2019-10-01 00:08:17,2019-10-01 00:09:57,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258851_1_1.wav
+3258855_1_1,0031800042232,Netherlands,2019-10-01 00:08:11,2019-10-01 00:08:13,2019-10-01 00:09:53,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258855_1_1.wav
+3258838_1_1,0091116482584,India,2019-10-01 00:08:12,2019-10-01 00:08:13,2019-10-01 00:09:57,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258838_1_1.wav
+3258864_1_1,0046207942595,Sweden,2019-10-01 00:08:12,2019-10-01 00:08:18,2019-10-01 00:09:58,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258864_1_1.wav
+3258865_1_1,0046850542596,Sweden,2019-10-01 00:08:12,2019-10-01 00:08:15,2019-10-01 00:09:50,4.13,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258865_1_1.wav
+3258816_1_1,00359249084026,Bulgaria,2019-10-01 00:08:13,2019-10-01 00:08:14,2019-10-01 00:10:00,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258816_1_1.wav
+3258823_1_1,0086105682487,China,2019-10-01 00:08:13,2019-10-01 00:08:16,2019-10-01 00:10:01,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258823_1_1.wav
+3258919_1_1,0052800077572,Mexico,2019-10-01 00:08:13,2019-10-01 00:08:18,2019-10-01 00:09:58,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258919_1_1.wav
+3258840_1_1,0091406482585,India,2019-10-01 00:08:14,2019-10-01 00:08:15,2019-10-01 00:10:00,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258840_1_1.wav
+3258884_1_1,00359249084028,Bulgaria,2019-10-01 00:08:14,2019-10-01 00:08:16,2019-10-01 00:09:57,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258884_1_1.wav
+3258713_1_1,0057150855502,Colombia,2019-10-01 00:08:15,2019-10-01 00:08:16,2019-10-01 00:09:45,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258713_1_1.wav
+3258788_1_1,0060180042188,Malaysia,2019-10-01 00:08:15,2019-10-01 00:08:18,2019-10-01 00:10:01,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258788_1_1.wav
+3258789_1_1,0060392176667,Malaysia,2019-10-01 00:08:16,2019-10-01 00:08:19,2019-10-01 00:10:06,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258789_1_1.wav
+3258841_1_1,0091800141919,India,2019-10-01 00:08:16,2019-10-01 00:08:18,2019-10-01 00:10:02,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258841_1_1.wav
+3258822_1_1,0056442076671,Chile,2019-10-01 00:08:17,2019-10-01 00:08:19,2019-10-01 00:10:06,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258822_1_1.wav
+3258842_1_1,0091806476673,India,2019-10-01 00:08:17,2019-10-01 00:08:18,2019-10-01 00:10:08,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258842_1_1.wav
+3258889_1_1,0056123077553,Chile,2019-10-01 00:08:18,2019-10-01 00:08:21,2019-10-01 00:10:08,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258889_1_1.wav
+3258921_1_1,0060330977571,Malaysia,2019-10-01 00:08:18,2019-10-01 00:08:20,2019-10-01 00:10:07,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258921_1_1.wav
+3258908_1_1,0091406482588,India,2019-10-01 00:08:19,2019-10-01 00:08:20,2019-10-01 00:10:14,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258908_1_1.wav
+3258847_1_1,0081345842060,Japan,2019-10-01 00:08:33,2019-10-01 00:08:35,2019-10-01 00:10:26,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258847_1_1.wav
+3258848_1_1,0081531142059,Japan,2019-10-01 00:08:35,2019-10-01 00:08:38,2019-10-01 00:10:24,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258848_1_1.wav
+3258773_1_1,0062215084036,Indonesia,2019-10-01 00:08:40,2019-10-01 00:08:46,2019-10-01 00:10:21,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258773_1_1.wav
+3258936_1_1,00886801177587,Taiwan,2019-10-01 00:08:40,2019-10-01 00:08:56,2019-10-01 00:10:53,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258936_1_1.wav
+3258942_1_1,0027800977580,South Africa,2019-10-01 00:09:03,2019-10-01 00:09:07,2019-10-01 00:10:46,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258942_1_1.wav
+3258686_1_1,0061180029324,Australia,2019-10-01 00:09:04,2019-10-01 00:09:06,2019-10-01 00:11:15,4.24,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258686_1_1.wav
+3258925_1_1,0051800784024,Peru,2019-10-01 00:09:08,2019-10-01 00:09:11,2019-10-01 00:11:20,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258925_1_1.wav
+3258883_1_1,0032800177547,Belgium,2019-10-01 00:09:09,2019-10-01 00:09:12,2019-10-01 00:11:27,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258883_1_1.wav
+3258899_1_1,0034800677581,Spain,2019-10-01 00:09:09,2019-10-01 00:09:11,2019-10-01 00:11:21,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258899_1_1.wav
+3258911_1_1,00353157177565,Ireland,2019-10-01 00:09:10,2019-10-01 00:09:14,2019-10-01 00:11:24,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258911_1_1.wav
+3258923_1_1,0031800077575,Netherlands,2019-10-01 00:09:10,2019-10-01 00:09:13,2019-10-01 00:11:27,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258923_1_1.wav
+3258887_1_1,0041445877585,Switzerland,2019-10-01 00:09:11,2019-10-01 00:09:14,2019-10-01 00:11:30,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258887_1_1.wav
+3258932_1_1,0046200377584,Sweden,2019-10-01 00:09:11,2019-10-01 00:09:13,2019-10-01 00:11:28,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258932_1_1.wav
+3258907_1_1,0091226482589,India,2019-10-01 00:09:12,2019-10-01 00:09:17,2019-10-01 00:11:32,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258907_1_1.wav
+3258599_1_1,008640013747,China,2019-10-01 00:09:13,2019-10-01 00:09:17,2019-10-01 00:11:03,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258599_1_1.wav
+3258601_1_1,008640083755,China,2019-10-01 00:09:14,2019-10-01 00:09:18,2019-10-01 00:11:04,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258601_1_1.wav
+3258681_1_1,0086800886217,China,2019-10-01 00:09:15,2019-10-01 00:09:20,2019-10-01 00:11:07,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258681_1_1.wav
+3258733_1_1,0086400183629,China,2019-10-01 00:09:16,2019-10-01 00:09:21,2019-10-01 00:10:57,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258733_1_1.wav
+3258910_1_1,0091806476942,India,2019-10-01 00:09:16,2019-10-01 00:09:18,2019-10-01 00:11:28,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258910_1_1.wav
+3258798_1_1,0065315742464,Singapore,2019-10-01 00:09:17,2019-10-01 00:09:19,2019-10-01 00:10:56,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258798_1_1.wav
+3258799_1_1,0065800142463,Singapore,2019-10-01 00:09:17,2019-10-01 00:09:24,2019-10-01 00:11:02,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258799_1_1.wav
+3258852_1_1,0060180042187,Malaysia,2019-10-01 00:09:18,2019-10-01 00:09:22,2019-10-01 00:10:59,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258852_1_1.wav
+3258853_1_1,0060392176674,Malaysia,2019-10-01 00:09:19,2019-10-01 00:09:21,2019-10-01 00:11:04,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258853_1_1.wav
+3258744_1_1,0061180041345,Australia,2019-10-01 00:10:05,2019-10-01 00:10:08,2019-10-01 00:11:50,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258744_1_1.wav
+3258792_1_1,0051170984021,Peru,2019-10-01 00:10:08,2019-10-01 00:10:10,2019-10-01 00:11:53,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258792_1_1.wav
+3258886_1_1,001833677550,Canada,2019-10-01 00:10:10,2019-10-01 00:10:14,2019-10-01 00:12:07,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258886_1_1.wav
+3258821_1_1,0056123076672,Chile,2019-10-01 00:10:12,2019-10-01 00:10:17,2019-10-01 00:12:05,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258821_1_1.wav
+3258849_1_1,00373800684055,Moldova,2019-10-01 00:10:12,2019-10-01 00:10:14,2019-10-01 00:11:50,4.17,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258849_1_1.wav
+3258906_1_1,0091116482587,India,2019-10-01 00:10:12,2019-10-01 00:10:14,2019-10-01 00:12:02,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258906_1_1.wav
+3258862_1_1,0065315842461,Singapore,2019-10-01 00:10:14,2019-10-01 00:10:17,2019-10-01 00:11:53,3.4,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258862_1_1.wav
+3258863_1_1,0065800142462,Singapore,2019-10-01 00:10:14,2019-10-01 00:10:18,2019-10-01 00:11:56,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258863_1_1.wav
+3258940_1_1,0084244483976,Vietnam,2019-10-01 00:10:17,2019-10-01 00:10:20,2019-10-01 00:12:07,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258940_1_1.wav
+3258804_1_1,00886801142665,Taiwan,2019-10-01 00:10:25,2019-10-01 00:10:42,2019-10-01 00:12:19,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258804_1_1.wav
+3258868_1_1,00886801142664,Taiwan,2019-10-01 00:10:27,2019-10-01 00:10:44,2019-10-01 00:12:22,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258868_1_1.wav
+3258837_1_1,0062215084035,Indonesia,2019-10-01 00:10:30,2019-10-01 00:10:36,2019-10-01 00:12:17,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258837_1_1.wav
+3258701_1_1,001647246025,Canada,2019-10-01 00:11:05,2019-10-01 00:11:07,2019-10-01 00:12:52,4.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258701_1_1.wav
+3258745_1_1,0061290341346,Australia,2019-10-01 00:11:06,2019-10-01 00:11:11,2019-10-01 00:12:55,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258745_1_1.wav
+3258879_1_1,0061730677543,Australia,2019-10-01 00:11:08,2019-10-01 00:11:13,2019-10-01 00:13:17,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258879_1_1.wav
+3258784_1_1,0081531142062,Japan,2019-10-01 00:11:19,2019-10-01 00:11:35,2019-10-01 00:13:17,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258784_1_1.wav
+3258746_1_1,0061390777534,Australia,2019-10-01 00:12:05,2019-10-01 00:12:09,2019-10-01 00:13:52,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258746_1_1.wav
+3258699_1_1,0061283246022,Australia,2019-10-01 00:12:06,2019-10-01 00:12:10,2019-10-01 00:13:54,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258699_1_1.wav
+3258918_1_1,0052558877573,Mexico,2019-10-01 00:12:06,2019-10-01 00:12:11,2019-10-01 00:13:57,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258918_1_1.wav
+3258702_1_1,001844346026,Canada,2019-10-01 00:12:07,2019-10-01 00:12:12,2019-10-01 00:13:52,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258702_1_1.wav
+3258754_1_1,001855441497,Canada,2019-10-01 00:12:07,2019-10-01 00:12:12,2019-10-01 00:13:54,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258754_1_1.wav
+3258839_1_1,0091226482586,India,2019-10-01 00:12:10,2019-10-01 00:12:11,2019-10-01 00:13:59,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258839_1_1.wav
+3258680_1_1,0086400686210,China,2019-10-01 00:12:11,2019-10-01 00:12:19,2019-10-01 00:14:04,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258680_1_1.wav
+3258909_1_1,0091800077563,India,2019-10-01 00:12:11,2019-10-01 00:12:14,2019-10-01 00:14:01,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258909_1_1.wav
+3258726_1_1,0086218077303,China,2019-10-01 00:12:12,2019-10-01 00:12:18,2019-10-01 00:14:03,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258726_1_1.wav
+3258709_1_1,0060180046039,Malaysia,2019-10-01 00:12:14,2019-10-01 00:12:17,2019-10-01 00:14:02,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258709_1_1.wav
+3258920_1_1,0060180077570,Malaysia,2019-10-01 00:12:16,2019-10-01 00:12:19,2019-10-01 00:14:28,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258920_1_1.wav
+3258930_1_1,0065315776943,Singapore,2019-10-01 00:12:16,2019-10-01 00:12:19,2019-10-01 00:14:03,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258930_1_1.wav
+3258715_1_1,00886277365750,Taiwan,2019-10-01 00:12:20,2019-10-01 00:12:35,2019-10-01 00:14:14,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258715_1_1.wav
+3258916_1_1,0081663377568,Japan,2019-10-01 00:12:22,2019-10-01 00:12:26,2019-10-01 00:14:02,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258916_1_1.wav
+3258747_1_1,0061730677533,Australia,2019-10-01 00:13:04,2019-10-01 00:13:06,2019-10-01 00:14:50,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258747_1_1.wav
+3258757_1_1,0056123076665,Chile,2019-10-01 00:13:07,2019-10-01 00:13:10,2019-10-01 00:14:52,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258757_1_1.wav
+3258703_1_1,0082808546027,Korea South,2019-10-01 00:13:08,2019-10-01 00:13:10,2019-10-01 00:14:57,3.46,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258703_1_1.wav
+3258695_1_1,0061180038474,Australia,2019-10-01 00:14:03,2019-10-01 00:14:08,2019-10-01 00:16:16,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258695_1_1.wav
+3258735_1_1,0061180085853,Australia,2019-10-01 00:14:04,2019-10-01 00:14:09,2019-10-01 00:15:55,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258735_1_1.wav
+3258748_1_1,0061863877535,Australia,2019-10-01 00:14:04,2019-10-01 00:14:07,2019-10-01 00:15:51,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258748_1_1.wav
+3258890_1_1,0056442077552,Chile,2019-10-01 00:14:07,2019-10-01 00:14:09,2019-10-01 00:15:50,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258890_1_1.wav
+3258778_1_1,0091806476666,India,2019-10-01 00:14:09,2019-10-01 00:14:11,2019-10-01 00:15:59,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258778_1_1.wav
+3258796_1_1,001787483987,Puerto Rico,2019-10-01 00:14:09,2019-10-01 00:14:11,2019-10-01 00:15:58,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258796_1_1.wav
+3258817_1_1,001416941495,Canada,2019-10-01 00:14:10,2019-10-01 00:14:12,2019-10-01 00:15:57,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258817_1_1.wav
+3258729_1_1,0082264177314,Korea South,2019-10-01 00:14:12,2019-10-01 00:14:14,2019-10-01 00:15:59,4.21,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258729_1_1.wav
+3258711_1_1,0081345046045,Japan,2019-10-01 00:14:18,2019-10-01 00:14:20,2019-10-01 00:16:05,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258711_1_1.wav
+3258915_1_1,0081345677569,Japan,2019-10-01 00:14:19,2019-10-01 00:14:22,2019-10-01 00:16:04,4.13,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258915_1_1.wav
+3258749_1_1,0061870777532,Australia,2019-10-01 00:15:04,2019-10-01 00:15:08,2019-10-01 00:16:50,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258749_1_1.wav
+3258812_1_1,0061180041343,Australia,2019-10-01 00:15:05,2019-10-01 00:15:09,2019-10-01 00:16:54,3.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258812_1_1.wav
+3258597_1_1,006518004230,Singapore,2019-10-01 00:15:09,2019-10-01 00:15:13,2019-10-01 00:16:56,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258597_1_1.wav
+3258602_1_1,008680083758,China,2019-10-01 00:15:09,2019-10-01 00:15:13,2019-10-01 00:17:01,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258602_1_1.wav
+3258720_1_1,0065800872241,Singapore,2019-10-01 00:15:10,2019-10-01 00:15:15,2019-10-01 00:16:50,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258720_1_1.wav
+3258813_1_1,0061290341344,Australia,2019-10-01 00:16:04,2019-10-01 00:16:14,2019-10-01 00:17:54,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258813_1_1.wav
+3258625_1_1,0091180075291,India,2019-10-01 00:16:06,2019-10-01 00:16:07,2019-10-01 00:18:05,3.34,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258625_1_1.wav
+3258876_1_1,0061180077542,Australia,2019-10-01 00:16:06,2019-10-01 00:16:14,2019-10-01 00:18:04,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258876_1_1.wav
+3258877_1_1,0061290576940,Australia,2019-10-01 00:16:07,2019-10-01 00:16:13,2019-10-01 00:18:08,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258877_1_1.wav
+3258947_1_1,0061180046023,Australia,2019-10-01 00:16:09,2019-10-01 00:16:15,2019-10-01 00:17:57,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258947_1_1.wav
+3258818_1_1,001855841496,Canada,2019-10-01 00:16:10,2019-10-01 00:16:15,2019-10-01 00:18:08,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258818_1_1.wav
+3258952_1_1,0086400646033,China,2019-10-01 00:16:14,2019-10-01 00:16:21,2019-10-01 00:18:05,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258952_1_1.wav
+3258878_1_1,0061390777544,Australia,2019-10-01 00:17:03,2019-10-01 00:17:07,2019-10-01 00:18:49,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258878_1_1.wav
+3258860_1_1,001787483986,Puerto Rico,2019-10-01 00:17:05,2019-10-01 00:17:06,2019-10-01 00:19:04,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258860_1_1.wav
+3258880_1_1,0061863877545,Australia,2019-10-01 00:17:05,2019-10-01 00:17:10,2019-10-01 00:18:52,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258880_1_1.wav
+3258609_1_1,006018004128,Malaysia,2019-10-01 00:17:09,2019-10-01 00:17:11,2019-10-01 00:18:52,4.2,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258609_1_1.wav
+3258714_1_1,0063180065440,Philippines,2019-10-01 00:17:10,2019-10-01 00:17:13,2019-10-01 00:18:50,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258714_1_1.wav
+3258881_1_1,0061870776941,Australia,2019-10-01 00:18:06,2019-10-01 00:18:08,2019-10-01 00:19:47,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258881_1_1.wav
+3258808_1_1,0084244483975,Vietnam,2019-10-01 00:18:08,2019-10-01 00:18:10,2019-10-01 00:19:53,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258808_1_1.wav
+3258872_1_1,0084244483974,Vietnam,2019-10-01 00:18:09,2019-10-01 00:18:12,2019-10-01 00:19:54,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258872_1_1.wav
+3258928_1_1,001787483988,Puerto Rico,2019-10-01 00:18:09,2019-10-01 00:18:11,2019-10-01 00:19:52,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258928_1_1.wav
+3258805_1_1,00380893284015,Ukraine,2019-10-01 00:18:10,2019-10-01 00:18:12,2019-10-01 00:19:59,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258805_1_1.wav
+3258937_1_1,00380893284016,Ukraine,2019-10-01 00:18:11,2019-10-01 00:18:14,2019-10-01 00:20:00,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258937_1_1.wav
+3258762_1_1,00357240283995,Cyprus,2019-10-01 00:18:12,2019-10-01 00:18:15,2019-10-01 00:20:01,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258762_1_1.wav
+3258826_1_1,00357240383994,Cyprus,2019-10-01 00:18:12,2019-10-01 00:18:15,2019-10-01 00:20:02,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258826_1_1.wav
+3258945_1_1,0082264144482,Korea South,2019-10-01 00:18:14,2019-10-01 00:18:16,2019-10-01 00:20:01,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258945_1_1.wav
+3258894_1_1,00357240383996,Cyprus,2019-10-01 00:19:07,2019-10-01 00:19:11,2019-10-01 00:20:52,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258894_1_1.wav
+3258926_1_1,0048224877577,Poland,2019-10-01 00:19:09,2019-10-01 00:19:11,2019-10-01 00:20:52,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258926_1_1.wav
+3258927_1_1,0048800177576,Poland,2019-10-01 00:19:09,2019-10-01 00:19:13,2019-10-01 00:20:54,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258927_1_1.wav
+3258914_1_1,0039800777566,Italy,2019-10-01 00:19:11,2019-10-01 00:19:20,2019-10-01 00:20:55,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258914_1_1.wav
+3258763_1_1,0049692541778,Germany,2019-10-01 00:19:12,2019-10-01 00:19:18,2019-10-01 00:20:58,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258763_1_1.wav
+3258958_1_1,0081120946046,Japan,2019-10-01 00:19:12,2019-10-01 00:19:14,2019-10-01 00:20:59,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258958_1_1.wav
+3258721_2_1,0060180073476,Malaysia,2019-10-01 00:19:15,2019-10-01 00:19:19,2019-10-01 00:20:55,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258721_2_1.wav
+3258764_1_1,0049800141779,Germany,2019-10-01 00:20:09,2019-10-01 00:20:14,2019-10-01 00:21:54,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258764_1_1.wav
+3258769_1_1,0033170941741,France,2019-10-01 00:20:10,2019-10-01 00:20:14,2019-10-01 00:21:59,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258769_1_1.wav
+3258770_1_1,0033800941740,France,2019-10-01 00:20:11,2019-10-01 00:20:17,2019-10-01 00:22:02,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258770_1_1.wav
+3258833_1_1,0033170941739,France,2019-10-01 00:20:12,2019-10-01 00:20:14,2019-10-01 00:22:04,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258833_1_1.wav
+3258834_1_1,0033800941738,France,2019-10-01 00:20:12,2019-10-01 00:20:18,2019-10-01 00:22:08,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258834_1_1.wav
+3258901_1_1,0033187477560,France,2019-10-01 00:20:13,2019-10-01 00:20:17,2019-10-01 00:22:07,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258901_1_1.wav
+3258902_1_1,0033800977559,France,2019-10-01 00:20:14,2019-10-01 00:20:20,2019-10-01 00:22:10,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258902_1_1.wav
+3258900_1_1,0034910377582,Spain,2019-10-01 00:20:15,2019-10-01 00:20:18,2019-10-01 00:22:13,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258900_1_1.wav
+3258750_1_1,0032289441421,Belgium,2019-10-01 00:20:16,2019-10-01 00:20:19,2019-10-01 00:22:13,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258750_1_1.wav
+3258951_1_1,0086800846032,China,2019-10-01 00:20:18,2019-10-01 00:20:24,2019-10-01 00:22:06,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258951_1_1.wav
+3258950_1_1,0082273946028,Korea South,2019-10-01 00:21:05,2019-10-01 00:21:08,2019-10-01 00:22:54,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258950_1_1.wav
+3258751_1_1,0032800741422,Belgium,2019-10-01 00:21:06,2019-10-01 00:21:08,2019-10-01 00:22:58,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258751_1_1.wav
+3258956_1_1,00852301846042,Hong Kong,2019-10-01 00:21:06,2019-10-01 00:21:09,2019-10-01 00:22:58,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258956_1_1.wav
+3258961_1_1,0082808882515,Korea South,2019-10-01 00:21:06,2019-10-01 00:21:07,2019-10-01 00:22:53,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258961_1_1.wav
+3258779_1_1,00353152641967,Ireland,2019-10-01 00:21:07,2019-10-01 00:21:10,2019-10-01 00:22:59,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258779_1_1.wav
+3258780_1_1,00353180041966,Ireland,2019-10-01 00:21:07,2019-10-01 00:21:10,2019-10-01 00:23:10,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258780_1_1.wav
+3258790_1_1,0031207942234,Netherlands,2019-10-01 00:21:08,2019-10-01 00:21:11,2019-10-01 00:23:11,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258790_1_1.wav
+3258707_2_1,0065180046036,Singapore,2019-10-01 00:21:11,2019-10-01 00:21:14,2019-10-01 00:23:02,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258707_2_1.wav
+3258960_1_1,0065800176636,Singapore,2019-10-01 00:21:11,2019-10-01 00:21:16,2019-10-01 00:23:03,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258960_1_1.wav
+3258719_2_1,0064428072240,New Zealand,2019-10-01 00:22:07,2019-10-01 00:22:10,2019-10-01 00:23:54,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258719_2_1.wav
+3258797_1_1,0040215884031,Romania,2019-10-01 00:22:07,2019-10-01 00:22:09,2019-10-01 00:23:59,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258797_1_1.wav
+3258814_1_1,0032289441420,Belgium,2019-10-01 00:22:08,2019-10-01 00:22:13,2019-10-01 00:23:58,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258814_1_1.wav
+3258815_1_1,0032800741419,Belgium,2019-10-01 00:22:09,2019-10-01 00:22:11,2019-10-01 00:24:00,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258815_1_1.wav
+3258882_1_1,0032289677546,Belgium,2019-10-01 00:22:10,2019-10-01 00:22:14,2019-10-01 00:24:03,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258882_1_1.wav
+3258912_1_1,00353180077564,Ireland,2019-10-01 00:22:10,2019-10-01 00:22:14,2019-10-01 00:24:04,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258912_1_1.wav
+3258922_1_1,0031207977574,Netherlands,2019-10-01 00:22:11,2019-10-01 00:22:15,2019-10-01 00:24:04,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258922_1_1.wav
+3258688_2_1,00886800829360,Taiwan,2019-10-01 00:22:12,2019-10-01 00:22:18,2019-10-01 00:24:18,4.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258688_2_1.wav
+3258954_1_1,0060320546038,Malaysia,2019-10-01 00:22:14,2019-10-01 00:22:17,2019-10-01 00:24:04,3.42,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258954_1_1.wav
+3258630_1_1,0082260275360,Korea South,2019-10-01 00:23:05,2019-10-01 00:23:07,2019-10-01 00:24:18,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258630_1_1.wav
+3258929_1_1,0040215884032,Romania,2019-10-01 00:23:05,2019-10-01 00:23:07,2019-10-01 00:24:52,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258929_1_1.wav
+3258765_1_1,0045327241646,Denmark,2019-10-01 00:23:06,2019-10-01 00:23:10,2019-10-01 00:24:55,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258765_1_1.wav
+3258766_1_1,0045802541645,Denmark,2019-10-01 00:23:07,2019-10-01 00:23:10,2019-10-01 00:24:55,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258766_1_1.wav
+3258829_1_1,0045327241643,Denmark,2019-10-01 00:24:10,2019-10-01 00:24:12,2019-10-01 00:25:53,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258829_1_1.wav
+3258830_1_1,0045808841644,Denmark,2019-10-01 00:24:10,2019-10-01 00:24:12,2019-10-01 00:25:57,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258830_1_1.wav
+3258888_1_1,0041800877586,Switzerland,2019-10-01 00:24:11,2019-10-01 00:24:15,2019-10-01 00:25:56,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258888_1_1.wav
+3258933_1_1,0046853577583,Sweden,2019-10-01 00:24:12,2019-10-01 00:24:16,2019-10-01 00:25:57,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258933_1_1.wav
+3258691_1_1,0086108732482,China,2019-10-01 00:24:14,2019-10-01 00:24:17,2019-10-01 00:26:19,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258691_1_1.wav
+3258759_1_1,0086105682488,China,2019-10-01 00:24:15,2019-10-01 00:24:19,2019-10-01 00:26:05,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258759_1_1.wav
+3258760_1_1,0086108041544,China,2019-10-01 00:24:16,2019-10-01 00:24:21,2019-10-01 00:26:07,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258760_1_1.wav
+3258761_1_1,0086400841542,China,2019-10-01 00:24:16,2019-10-01 00:24:20,2019-10-01 00:26:10,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258761_1_1.wav
+3258824_1_1,0086108041541,China,2019-10-01 00:24:18,2019-10-01 00:24:24,2019-10-01 00:26:14,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258824_1_1.wav
+3258953_1_1,0065180046036,Singapore,2019-10-01 00:24:19,2019-10-01 00:24:22,2019-10-01 00:26:12,3.36,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258953_1_1.wav
+3258964_1_1,0086800886217,China,2019-10-01 00:24:20,2019-10-01 00:24:24,2019-10-01 00:26:17,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258964_1_1.wav
+3258897_1_1,0045327277558,Denmark,2019-10-01 00:25:08,2019-10-01 00:25:11,2019-10-01 00:26:51,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258897_1_1.wav
+3258898_1_1,0045802577557,Denmark,2019-10-01 00:25:08,2019-10-01 00:25:11,2019-10-01 00:26:56,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258898_1_1.wav
+3258825_1_1,0086400841539,China,2019-10-01 00:25:11,2019-10-01 00:25:17,2019-10-01 00:26:57,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258825_1_1.wav
+3258891_1_1,0086105682489,China,2019-10-01 00:25:13,2019-10-01 00:25:18,2019-10-01 00:26:59,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258891_1_1.wav
+3258892_1_1,0086108077555,China,2019-10-01 00:25:15,2019-10-01 00:25:21,2019-10-01 00:27:02,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258892_1_1.wav
+3258752_1_1,00359249084027,Bulgaria,2019-10-01 00:26:11,2019-10-01 00:26:13,2019-10-01 00:27:59,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258752_1_1.wav
+3258893_1_1,0086400877554,China,2019-10-01 00:26:13,2019-10-01 00:26:21,2019-10-01 00:28:00,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258893_1_1.wav
+3258931_1_1,0065800177578,Singapore,2019-10-01 00:26:13,2019-10-01 00:26:17,2019-10-01 00:28:02,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258931_1_1.wav
+3258946_1_1,0061283246022,Australia,2019-10-01 00:27:04,2019-10-01 00:27:07,2019-10-01 00:28:54,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258946_1_1.wav
+3258948_1_1,001844346026,Canada,2019-10-01 00:27:07,2019-10-01 00:27:11,2019-10-01 00:28:51,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258948_1_1.wav
+3258959_1_1,00886277365750,Taiwan,2019-10-01 00:27:09,2019-10-01 00:27:24,2019-10-01 00:28:58,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258959_1_1.wav
+3258963_1_1,0086400686210,China,2019-10-01 00:27:09,2019-10-01 00:27:17,2019-10-01 00:29:01,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258963_1_1.wav
+3258955_1_1,0060180046039,Malaysia,2019-10-01 00:27:10,2019-10-01 00:27:13,2019-10-01 00:29:00,3.36,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258955_1_1.wav
+3258787_2_1,0052558876668,Mexico,2019-10-01 00:28:05,2019-10-01 00:28:10,2019-10-01 00:29:50,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258787_2_1.wav
+3258635_1_1,0063282376087,Philippines,2019-10-01 00:28:06,2019-10-01 00:28:09,2019-10-01 00:29:21,3.35,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258635_1_1.wav
+3258771_2_1,0044203442711,United Kingdom,2019-10-01 00:28:08,2019-10-01 00:28:09,2019-10-01 00:29:49,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258771_2_1.wav
+3258791_2_1,0031800042235,Netherlands,2019-10-01 00:28:09,2019-10-01 00:28:12,2019-10-01 00:29:51,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258791_2_1.wav
+3258949_1_1,0082808546027,Korea South,2019-10-01 00:28:09,2019-10-01 00:28:11,2019-10-01 00:30:02,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258949_1_1.wav
+3258867_2_1,00886255984010,Taiwan,2019-10-01 00:28:10,2019-10-01 00:28:25,2019-10-01 00:30:07,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258867_2_1.wav
+3258962_1_1,0061180085853,Australia,2019-10-01 00:29:03,2019-10-01 00:29:07,2019-10-01 00:30:51,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258962_1_1.wav
+3258957_1_1,0081345046045,Japan,2019-10-01 00:29:09,2019-10-01 00:29:10,2019-10-01 00:30:56,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258957_1_1.wav
+3258967_1_1,006118003658,Australia,2019-10-01 00:31:04,2019-10-01 00:31:07,2019-10-01 00:32:54,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258967_1_1.wav
+3258977_1_1,0061180046023,Australia,2019-10-01 00:31:06,2019-10-01 00:31:09,2019-10-01 00:32:54,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258977_1_1.wav
+3258990_1_1,00852800946043,Hong Kong,2019-10-01 00:31:06,2019-10-01 00:31:08,2019-10-01 00:32:56,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258990_1_1.wav
+3259003_1_1,0063288776794,Philippines,2019-10-01 00:31:07,2019-10-01 00:31:09,2019-10-01 00:32:55,4.28,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259003_1_1.wav
+3258973_1_1,0086108733864,China,2019-10-01 00:31:10,2019-10-01 00:31:13,2019-10-01 00:32:51,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258973_1_1.wav
+3258982_1_1,0086400646033,China,2019-10-01 00:31:11,2019-10-01 00:31:19,2019-10-01 00:33:00,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258982_1_1.wav
+3259007_1_1,0065315877313,Singapore,2019-10-01 00:31:11,2019-10-01 00:31:17,2019-10-01 00:32:59,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259007_1_1.wav
+3258615_1_1,0081120072125,Japan,2019-10-01 00:32:06,2019-10-01 00:32:09,2019-10-01 00:33:19,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258615_1_1.wav
+3258974_1_1,0082264144482,Korea South,2019-10-01 00:33:06,2019-10-01 00:33:08,2019-10-01 00:34:50,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258974_1_1.wav
+3258993_1_1,0063180065440,Philippines,2019-10-01 00:33:06,2019-10-01 00:33:09,2019-10-01 00:34:46,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258993_1_1.wav
+3258975_1_1,0065800844492,Singapore,2019-10-01 00:33:08,2019-10-01 00:33:11,2019-10-01 00:34:54,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258975_1_1.wav
+3258997_1_1,0081645672239,Japan,2019-10-01 00:33:09,2019-10-01 00:33:14,2019-10-01 00:34:58,4.24,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258997_1_1.wav
+3258992_1_1,0081120946046,Japan,2019-10-01 00:34:08,2019-10-01 00:34:10,2019-10-01 00:35:57,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258992_1_1.wav
+3258981_1_1,0086800846032,China,2019-10-01 00:35:06,2019-10-01 00:35:13,2019-10-01 00:36:55,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258981_1_1.wav
+3258995_1_1,0086105368299,China,2019-10-01 00:35:07,2019-10-01 00:35:12,2019-10-01 00:36:46,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258995_1_1.wav
+3258989_1_1,00852301846042,Hong Kong,2019-10-01 00:36:06,2019-10-01 00:36:09,2019-10-01 00:37:52,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258989_1_1.wav
+3258980_1_1,0082273946028,Korea South,2019-10-01 00:36:07,2019-10-01 00:36:09,2019-10-01 00:37:55,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258980_1_1.wav
+3259000_1_1,0063180073926,Philippines,2019-10-01 00:36:07,2019-10-01 00:36:11,2019-10-01 00:37:57,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259000_1_1.wav
+3259009_1_1,0082808882515,Korea South,2019-10-01 00:36:07,2019-10-01 00:36:10,2019-10-01 00:37:55,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259009_1_1.wav
+3259001_1_1,0065800176636,Singapore,2019-10-01 00:36:09,2019-10-01 00:36:12,2019-10-01 00:37:56,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259001_1_1.wav
+3258600_2_1,008640063749,China,2019-10-01 00:37:07,2019-10-01 00:37:11,2019-10-01 00:38:59,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258600_2_1.wav
+3258603_2_1,008680083761,China,2019-10-01 00:37:08,2019-10-01 00:37:10,2019-10-01 00:38:57,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258603_2_1.wav
+3258972_1_1,0086400633828,China,2019-10-01 00:37:08,2019-10-01 00:37:15,2019-10-01 00:38:54,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258972_1_1.wav
+3258983_1_1,0065670846035,Singapore,2019-10-01 00:37:09,2019-10-01 00:37:11,2019-10-01 00:38:56,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258983_1_1.wav
+3258985_1_1,0060320546038,Malaysia,2019-10-01 00:37:12,2019-10-01 00:37:16,2019-10-01 00:39:01,3.39,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258985_1_1.wav
+3259006_2_1,0061283177297,Australia,2019-10-01 00:38:03,2019-10-01 00:38:05,2019-10-01 00:39:45,3.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259006_2_1.wav
+3258639_3_1,0091226477202,India,2019-10-01 00:38:06,2019-10-01 00:38:07,2019-10-01 00:40:11,3.3,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258639_3_1.wav
+3259011_1_1,0086400183629,China,2019-10-01 00:39:06,2019-10-01 00:39:10,2019-10-01 00:40:46,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259011_1_1.wav
+3258984_1_1,0065180046036,Singapore,2019-10-01 00:39:08,2019-10-01 00:39:11,2019-10-01 00:40:54,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258984_1_1.wav
+3259017_1_1,0086800886217,China,2019-10-01 00:39:08,2019-10-01 00:39:14,2019-10-01 00:40:58,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259017_1_1.wav
+3258976_1_1,0061283246022,Australia,2019-10-01 00:43:04,2019-10-01 00:43:06,2019-10-01 00:44:55,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258976_1_1.wav
+3258626_3_1,00852580375345,Hong Kong,2019-10-01 00:43:05,2019-10-01 00:43:08,2019-10-01 00:44:16,3.13,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258626_3_1.wav
+3258988_1_1,00852305146041,Hong Kong,2019-10-01 00:43:07,2019-10-01 00:43:09,2019-10-01 00:44:58,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258988_1_1.wav
+3258978_1_1,001844346026,Canada,2019-10-01 00:43:08,2019-10-01 00:43:12,2019-10-01 00:44:53,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258978_1_1.wav
+3258979_1_1,0082808546027,Korea South,2019-10-01 00:43:09,2019-10-01 00:43:10,2019-10-01 00:45:02,3.65,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258979_1_1.wav
+3258991_1_1,0081345046045,Japan,2019-10-01 00:43:10,2019-10-01 00:43:12,2019-10-01 00:45:04,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258991_1_1.wav
+3259002_1_1,0086400176714,China,2019-10-01 00:43:11,2019-10-01 00:43:16,2019-10-01 00:45:07,3.37,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259002_1_1.wav
+3258998_1_1,0065800872241,Singapore,2019-10-01 00:43:12,2019-10-01 00:43:16,2019-10-01 00:44:52,3.45,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258998_1_1.wav
+3259013_1_1,0061180085853,Australia,2019-10-01 00:45:03,2019-10-01 00:45:08,2019-10-01 00:46:54,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259013_1_1.wav
+3259016_1_1,0086400686210,China,2019-10-01 00:45:07,2019-10-01 00:45:13,2019-10-01 00:46:56,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259016_1_1.wav
+3258986_1_1,0060180046039,Malaysia,2019-10-01 00:45:08,2019-10-01 00:45:12,2019-10-01 00:46:59,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258986_1_1.wav
+3258994_1_1,00886277365750,Taiwan,2019-10-01 00:45:08,2019-10-01 00:45:23,2019-10-01 00:46:57,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258994_1_1.wav
+3258999_1_1,0060180073476,Malaysia,2019-10-01 00:45:11,2019-10-01 00:45:15,2019-10-01 00:46:48,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258999_1_1.wav
+3258270_1_1,001613686172,Canada,2019-10-01 00:46:04,2019-10-01 00:46:09,2019-10-01 00:47:41,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258270_1_1.wav
+3259023_1_1,0061180046023,Australia,2019-10-01 00:46:05,2019-10-01 00:46:06,2019-10-01 00:47:57,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259023_1_1.wav
+3259042_1_1,0063288776794,Philippines,2019-10-01 00:46:07,2019-10-01 00:46:09,2019-10-01 00:47:55,4.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259042_1_1.wav
+3258633_1_1,0064428076079,New Zealand,2019-10-01 00:46:08,2019-10-01 00:46:10,2019-10-01 00:47:21,3.37,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258633_1_1.wav
+3259035_1_1,00852800946043,Hong Kong,2019-10-01 00:47:05,2019-10-01 00:47:07,2019-10-01 00:48:56,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259035_1_1.wav
+3259027_1_1,0086400646033,China,2019-10-01 00:47:06,2019-10-01 00:47:13,2019-10-01 00:48:56,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259027_1_1.wav
+3258987_1_1,0060180046040,Malaysia,2019-10-01 00:47:10,2019-10-01 00:47:14,2019-10-01 00:48:58,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258987_1_1.wav
+3259020_1_1,0082264144482,Korea South,2019-10-01 00:48:06,2019-10-01 00:48:08,2019-10-01 00:49:53,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259020_1_1.wav
+3259021_1_1,0065800844492,Singapore,2019-10-01 00:48:08,2019-10-01 00:48:12,2019-10-01 00:49:53,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259021_1_1.wav
+3259037_1_1,0081120946046,Japan,2019-10-01 00:49:07,2019-10-01 00:49:09,2019-10-01 00:50:59,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259037_1_1.wav
+3259025_1_1,0082273946028,Korea South,2019-10-01 00:51:04,2019-10-01 00:51:06,2019-10-01 00:52:52,3.54,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259025_1_1.wav
+3259043_1_1,0082808882515,Korea South,2019-10-01 00:51:05,2019-10-01 00:51:07,2019-10-01 00:52:52,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259043_1_1.wav
+3259034_1_1,00852301846042,Hong Kong,2019-10-01 00:51:06,2019-10-01 00:51:09,2019-10-01 00:52:52,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259034_1_1.wav
+3259039_1_1,0063180073926,Philippines,2019-10-01 00:51:07,2019-10-01 00:51:11,2019-10-01 00:52:57,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259039_1_1.wav
+3259040_1_1,0065800176636,Singapore,2019-10-01 00:51:07,2019-10-01 00:51:12,2019-10-01 00:52:51,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259040_1_1.wav
+3258620_1_1,0081345272636,Japan,2019-10-01 00:52:06,2019-10-01 00:52:09,2019-10-01 00:53:18,3.33,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258620_1_1.wav
+3259028_1_1,0065670846035,Singapore,2019-10-01 00:52:07,2019-10-01 00:52:10,2019-10-01 00:53:54,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259028_1_1.wav
+3258634_1_1,0064800476080,New Zealand,2019-10-01 00:54:05,2019-10-01 00:54:12,2019-10-01 00:55:22,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258634_1_1.wav
+3259046_1_1,0086800886217,China,2019-10-01 00:54:06,2019-10-01 00:54:11,2019-10-01 00:56:00,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259046_1_1.wav
+3259029_1_1,0065180046036,Singapore,2019-10-01 00:54:07,2019-10-01 00:54:11,2019-10-01 00:55:57,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259029_1_1.wav
+3259030_2_1,0060320546038,Malaysia,2019-10-01 00:54:08,2019-10-01 00:54:11,2019-10-01 00:56:00,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259030_2_1.wav
+3259033_1_1,00852305146041,Hong Kong,2019-10-01 00:55:05,2019-10-01 00:55:07,2019-10-01 00:56:56,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259033_1_1.wav
+3259032_1_1,0060180046040,Malaysia,2019-10-01 00:55:09,2019-10-01 00:55:14,2019-10-01 00:56:58,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259032_1_1.wav
+3258614_3_1,00886800272124,Taiwan,2019-10-01 00:56:06,2019-10-01 00:56:15,2019-10-01 00:57:30,3.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258614_3_1.wav
+3259022_1_1,0061283246022,Australia,2019-10-01 00:57:03,2019-10-01 00:57:05,2019-10-01 00:58:50,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259022_1_1.wav
+3259038_1_1,00886277365750,Taiwan,2019-10-01 00:57:06,2019-10-01 00:57:21,2019-10-01 00:58:56,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259038_1_1.wav
+3259045_1_1,0086400686210,China,2019-10-01 00:57:06,2019-10-01 00:57:13,2019-10-01 00:58:56,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259045_1_1.wav
+3259031_1_1,0060180046039,Malaysia,2019-10-01 00:57:07,2019-10-01 00:57:09,2019-10-01 00:58:54,3.5,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259031_1_1.wav
+3258619_3_1,00886287272635,Taiwan,2019-10-01 00:58:06,2019-10-01 00:58:24,2019-10-01 00:59:33,3.28,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258619_3_1.wav
+3259024_1_1,0082808546027,Korea South,2019-10-01 00:58:07,2019-10-01 00:58:09,2019-10-01 00:59:54,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259024_1_1.wav
+3259044_1_1,0061180085853,Australia,2019-10-01 00:59:03,2019-10-01 00:59:07,2019-10-01 01:00:52,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259044_1_1.wav
+3259041_1_1,0086400176714,China,2019-10-01 00:59:05,2019-10-01 00:59:10,2019-10-01 01:00:55,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259041_1_1.wav
+3259036_1_1,0081345046045,Japan,2019-10-01 00:59:07,2019-10-01 00:59:09,2019-10-01 01:00:54,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259036_1_1.wav
+3259056_1_1,0064448812259,New Zealand,2019-10-01 01:01:04,2019-10-01 01:01:10,2019-10-01 01:03:10,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259056_1_1.wav
+3259141_1_1,0027110342533,South Africa,2019-10-01 01:01:04,2019-10-01 01:01:06,2019-10-01 01:02:45,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259141_1_1.wav
+3259142_1_1,0027800942534,South Africa,2019-10-01 01:01:04,2019-10-01 01:01:08,2019-10-01 01:02:47,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259142_1_1.wav
+3259059_1_1,0061180041357,Australia,2019-10-01 01:01:05,2019-10-01 01:01:11,2019-10-01 01:02:49,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259059_1_1.wav
+3259058_1_1,00971800076516,United Arab Emirates,2019-10-01 01:01:06,2019-10-01 01:01:08,2019-10-01 01:02:51,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259058_1_1.wav
+3259060_1_1,0061283141358,Australia,2019-10-01 01:01:06,2019-10-01 01:01:10,2019-10-01 01:02:47,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259060_1_1.wav
+3259149_1_1,0061383782014,Australia,2019-10-01 01:01:07,2019-10-01 01:01:14,2019-10-01 01:03:14,4.14,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259149_1_1.wav
+3259070_1_1,001647441509,Canada,2019-10-01 01:01:08,2019-10-01 01:01:13,2019-10-01 01:02:50,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259070_1_1.wav
+3259071_1_1,001844441510,Canada,2019-10-01 01:01:08,2019-10-01 01:01:13,2019-10-01 01:02:49,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259071_1_1.wav
+3259120_1_1,00380893284013,Ukraine,2019-10-01 01:01:08,2019-10-01 01:01:13,2019-10-01 01:02:49,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259120_1_1.wav
+3259148_1_1,001855282152,Canada,2019-10-01 01:01:08,2019-10-01 01:01:11,2019-10-01 01:03:09,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259148_1_1.wav
+3259151_1_1,0044203982017,United Kingdom,2019-10-01 01:01:08,2019-10-01 01:01:12,2019-10-01 01:03:08,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259151_1_1.wav
+3259155_1_1,00852300882731,Hong Kong,2019-10-01 01:01:08,2019-10-01 01:01:15,2019-10-01 01:03:10,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259155_1_1.wav
+3259184_1_1,0061180046023,Australia,2019-10-01 01:01:08,2019-10-01 01:01:11,2019-10-01 01:02:56,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259184_1_1.wav
+3259117_1_1,0090212984078,Turkey,2019-10-01 01:01:09,2019-10-01 01:01:13,2019-10-01 01:02:49,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259117_1_1.wav
+3259216_1_1,00852580377307,Hong Kong,2019-10-01 01:01:09,2019-10-01 01:01:14,2019-10-01 01:02:56,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259216_1_1.wav
+3259089_1_1,0091116476512,India,2019-10-01 01:01:10,2019-10-01 01:01:12,2019-10-01 01:03:00,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259089_1_1.wav
+3259107_1_1,0051170784017,Peru,2019-10-01 01:01:10,2019-10-01 01:01:13,2019-10-01 01:02:52,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259107_1_1.wav
+3259109_1_1,0048222942360,Poland,2019-10-01 01:01:10,2019-10-01 01:01:13,2019-10-01 01:02:49,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259109_1_1.wav
+3259110_1_1,0048800142361,Poland,2019-10-01 01:01:10,2019-10-01 01:01:13,2019-10-01 01:02:49,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259110_1_1.wav
+3259153_1_1,0082704782539,Korea South,2019-10-01 01:01:10,2019-10-01 01:01:14,2019-10-01 01:03:12,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259153_1_1.wav
+3259108_1_1,0051800784018,Peru,2019-10-01 01:01:11,2019-10-01 01:01:14,2019-10-01 01:02:53,3.37,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259108_1_1.wav
+3259143_1_1,0064980177731,New Zealand,2019-10-01 01:01:11,2019-10-01 01:01:17,2019-10-01 01:03:23,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259143_1_1.wav
+3259090_1_1,0091226482528,India,2019-10-01 01:01:12,2019-10-01 01:01:13,2019-10-01 01:03:01,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259090_1_1.wav
+3259101_1_1,0052180042213,Mexico,2019-10-01 01:01:12,2019-10-01 01:01:17,2019-10-01 01:02:52,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259101_1_1.wav
+3259144_1_1,0064800081845,New Zealand,2019-10-01 01:01:12,2019-10-01 01:01:20,2019-10-01 01:03:22,4.14,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259144_1_1.wav
+3259079_1_1,0049692541790,Germany,2019-10-01 01:01:13,2019-10-01 01:01:19,2019-10-01 01:02:54,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259079_1_1.wav
+3259091_1_1,0091406482593,India,2019-10-01 01:01:13,2019-10-01 01:01:14,2019-10-01 01:03:02,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259091_1_1.wav
+3259097_1_1,0039800742035,Italy,2019-10-01 01:01:13,2019-10-01 01:01:21,2019-10-01 01:02:56,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259097_1_1.wav
+3259100_1_1,00373800684054,Moldova,2019-10-01 01:01:13,2019-10-01 01:01:15,2019-10-01 01:02:52,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259100_1_1.wav
+3259102_1_1,0052558876514,Mexico,2019-10-01 01:01:13,2019-10-01 01:01:17,2019-10-01 01:02:54,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259102_1_1.wav
+3259061_1_1,0032289541433,Belgium,2019-10-01 01:01:14,2019-10-01 01:01:17,2019-10-01 01:02:57,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259061_1_1.wav
+3259074_1_1,0056123076515,Chile,2019-10-01 01:01:14,2019-10-01 01:01:18,2019-10-01 01:02:58,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259074_1_1.wav
+3259080_1_1,0049800141791,Germany,2019-10-01 01:01:14,2019-10-01 01:01:18,2019-10-01 01:02:54,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259080_1_1.wav
+3259084_1_1,0034935442572,Spain,2019-10-01 01:01:14,2019-10-01 01:01:18,2019-10-01 01:02:57,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259084_1_1.wav
+3259085_1_1,0033173441752,France,2019-10-01 01:01:14,2019-10-01 01:01:17,2019-10-01 01:02:57,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259085_1_1.wav
+3259086_1_1,0033800941753,France,2019-10-01 01:01:14,2019-10-01 01:01:20,2019-10-01 01:02:55,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259086_1_1.wav
+3259105_1_1,0031207942246,Netherlands,2019-10-01 01:01:14,2019-10-01 01:01:17,2019-10-01 01:02:57,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259105_1_1.wav
+3259145_1_1,0064980182016,New Zealand,2019-10-01 01:01:14,2019-10-01 01:01:23,2019-10-01 01:03:21,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259145_1_1.wav
+3259160_1_1,0034919082860,Spain,2019-10-01 01:01:14,2019-10-01 01:01:19,2019-10-01 01:03:20,3.49,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259160_1_1.wav
+3259093_1_1,0091806482592,India,2019-10-01 01:01:15,2019-10-01 01:01:16,2019-10-01 01:03:04,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259093_1_1.wav
+3259154_1_1,0065315782540,Singapore,2019-10-01 01:01:17,2019-10-01 01:01:21,2019-10-01 01:03:24,3.13,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259154_1_1.wav
+3259211_1_1,0063288776794,Philippines,2019-10-01 01:01:17,2019-10-01 01:01:19,2019-10-01 01:03:06,4.14,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259211_1_1.wav
+3259157_1_1,0065316382856,Singapore,2019-10-01 01:01:18,2019-10-01 01:01:22,2019-10-01 01:03:24,2.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259157_1_1.wav
+3259217_1_1,0065315877313,Singapore,2019-10-01 01:01:18,2019-10-01 01:01:25,2019-10-01 01:03:07,3.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259217_1_1.wav
+3259152_1_1,0054115982143,Argentina,2019-10-01 01:01:19,2019-10-01 01:01:21,2019-10-01 01:03:18,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259152_1_1.wav
+3259118_1_1,00886255984009,Taiwan,2019-10-01 01:01:20,2019-10-01 01:01:35,2019-10-01 01:03:12,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259118_1_1.wav
+3259158_1_1,0081345482857,Japan,2019-10-01 01:01:24,2019-10-01 01:01:27,2019-10-01 01:03:26,4.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259158_1_1.wav
+3259159_1_1,0062180382858,Indonesia,2019-10-01 01:01:25,2019-10-01 01:01:30,2019-10-01 01:03:27,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259159_1_1.wav
+3259229_1_1,0061180082989,Australia,2019-10-01 01:02:03,2019-10-01 01:02:07,2019-10-01 01:03:26,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259229_1_1.wav
+3259230_1_1,0034900983171,Spain,2019-10-01 01:02:06,2019-10-01 01:02:08,2019-10-01 01:03:24,3.42,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259230_1_1.wav
+3259232_1_1,00358800983169,Finland,2019-10-01 01:02:07,2019-10-01 01:02:10,2019-10-01 01:03:26,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259232_1_1.wav
+3259175_1_1,0052180029347,Mexico,2019-10-01 01:02:09,2019-10-01 01:02:13,2019-10-01 01:04:13,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259175_1_1.wav
+3259233_1_1,0065800183170,Singapore,2019-10-01 01:02:09,2019-10-01 01:02:13,2019-10-01 01:03:33,2.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259233_1_1.wav
+3259092_1_1,0091800041926,India,2019-10-01 01:03:05,2019-10-01 01:03:07,2019-10-01 01:04:46,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259092_1_1.wav
+3259181_1_1,0082264144482,Korea South,2019-10-01 01:03:06,2019-10-01 01:03:08,2019-10-01 01:04:53,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259181_1_1.wav
+3259062_1_1,0032800741434,Belgium,2019-10-01 01:03:07,2019-10-01 01:03:09,2019-10-01 01:04:49,3.5,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259062_1_1.wav
+3259072_1_1,0041445742647,Switzerland,2019-10-01 01:03:07,2019-10-01 01:03:11,2019-10-01 01:04:51,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259072_1_1.wav
+3259083_1_1,0034900842571,Spain,2019-10-01 01:03:07,2019-10-01 01:03:09,2019-10-01 01:04:49,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259083_1_1.wav
+3259094_1_1,00353152641979,Ireland,2019-10-01 01:03:07,2019-10-01 01:03:11,2019-10-01 01:04:50,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259094_1_1.wav
+3259095_1_1,00353180041978,Ireland,2019-10-01 01:03:07,2019-10-01 01:03:10,2019-10-01 01:04:50,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259095_1_1.wav
+3259096_1_1,0039230542036,Italy,2019-10-01 01:03:07,2019-10-01 01:03:10,2019-10-01 01:04:45,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259096_1_1.wav
+3259112_1_1,0040215884029,Romania,2019-10-01 01:03:07,2019-10-01 01:03:09,2019-10-01 01:04:49,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259112_1_1.wav
+3259176_1_1,0064800029349,New Zealand,2019-10-01 01:03:07,2019-10-01 01:03:09,2019-10-01 01:05:06,4.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259176_1_1.wav
+3259199_1_1,0063180065440,Philippines,2019-10-01 01:03:07,2019-10-01 01:03:10,2019-10-01 01:04:45,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259199_1_1.wav
+3259073_1_1,0041800842648,Switzerland,2019-10-01 01:03:08,2019-10-01 01:03:11,2019-10-01 01:04:52,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259073_1_1.wav
+3259098_1_1,0081345142074,Japan,2019-10-01 01:03:08,2019-10-01 01:03:10,2019-10-01 01:04:47,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259098_1_1.wav
+3259115_1_1,0046200342610,Sweden,2019-10-01 01:03:08,2019-10-01 01:03:10,2019-10-01 01:04:50,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259115_1_1.wav
+3259099_1_1,0081663342075,Japan,2019-10-01 01:03:10,2019-10-01 01:03:14,2019-10-01 01:04:50,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259099_1_1.wav
+3259103_1_1,0060180042194,Malaysia,2019-10-01 01:03:11,2019-10-01 01:03:15,2019-10-01 01:04:56,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259103_1_1.wav
+3259104_1_1,0060392176513,Malaysia,2019-10-01 01:03:11,2019-10-01 01:03:14,2019-10-01 01:04:52,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259104_1_1.wav
+3259113_1_1,0065315742475,Singapore,2019-10-01 01:03:11,2019-10-01 01:03:15,2019-10-01 01:04:50,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259113_1_1.wav
+3259114_1_1,0065800142476,Singapore,2019-10-01 01:03:12,2019-10-01 01:03:17,2019-10-01 01:04:56,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259114_1_1.wav
+3259026_2_1,0086800846032,China,2019-10-01 01:03:13,2019-10-01 01:03:20,2019-10-01 01:05:00,3.37,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259026_2_1.wav
+3259182_1_1,0065800844492,Singapore,2019-10-01 01:03:13,2019-10-01 01:03:16,2019-10-01 01:05:01,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259182_1_1.wav
+3259203_1_1,0081645672239,Japan,2019-10-01 01:03:13,2019-10-01 01:03:18,2019-10-01 01:04:57,4.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259203_1_1.wav
+3259053_1_1,0061388212072,Australia,2019-10-01 01:04:04,2019-10-01 01:04:06,2019-10-01 01:06:06,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259053_1_1.wav
+3259214_1_1,0061283177297,Australia,2019-10-01 01:04:05,2019-10-01 01:04:08,2019-10-01 01:05:47,3.14,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259214_1_1.wav
+3259198_1_1,0081120946046,Japan,2019-10-01 01:04:06,2019-10-01 01:04:08,2019-10-01 01:06:01,3.21,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259198_1_1.wav
+3259150_1_1,0064980182016,New Zealand,2019-10-01 01:04:09,2019-10-01 01:04:16,2019-10-01 01:06:13,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259150_1_1.wav
+3259075_1_1,0056442076511,Chile,2019-10-01 01:04:10,2019-10-01 01:04:12,2019-10-01 01:05:54,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259075_1_1.wav
+3259106_2_1,0031800042247,Netherlands,2019-10-01 01:05:04,2019-10-01 01:05:06,2019-10-01 01:06:45,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259106_2_1.wav
+3259196_2_1,00852800946043,Hong Kong,2019-10-01 01:05:06,2019-10-01 01:05:08,2019-10-01 01:06:53,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259196_2_1.wav
+3259076_1_1,0086108041562,China,2019-10-01 01:05:07,2019-10-01 01:05:15,2019-10-01 01:07:00,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259076_1_1.wav
+3259156_2_1,00886801182855,Taiwan,2019-10-01 01:05:07,2019-10-01 01:05:25,2019-10-01 01:07:23,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259156_2_1.wav
+3259063_1_1,00359249084025,Bulgaria,2019-10-01 01:05:08,2019-10-01 01:05:11,2019-10-01 01:06:52,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259063_1_1.wav
+3259173_1_1,0057180029329,Colombia,2019-10-01 01:05:08,2019-10-01 01:05:10,2019-10-01 01:07:03,3.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259173_1_1.wav
+3259077_1_1,0086400841560,China,2019-10-01 01:05:09,2019-10-01 01:05:14,2019-10-01 01:06:58,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259077_1_1.wav
+3259179_1_1,0086108733864,China,2019-10-01 01:05:10,2019-10-01 01:05:13,2019-10-01 01:07:00,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259179_1_1.wav
+3259195_1_1,00852301846042,Hong Kong,2019-10-01 01:06:06,2019-10-01 01:06:08,2019-10-01 01:08:03,3.3,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259195_1_1.wav
+3259208_1_1,0063180073926,Philippines,2019-10-01 01:06:07,2019-10-01 01:06:11,2019-10-01 01:07:57,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259208_1_1.wav
+3259220_1_1,0082808882515,Korea South,2019-10-01 01:06:07,2019-10-01 01:06:08,2019-10-01 01:07:55,4.04,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259220_1_1.wav
+3259209_1_1,0065800176636,Singapore,2019-10-01 01:06:09,2019-10-01 01:06:12,2019-10-01 01:07:52,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259209_1_1.wav
+3259054_1_1,0061731512073,Australia,2019-10-01 01:07:05,2019-10-01 01:07:08,2019-10-01 01:09:09,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259054_1_1.wav
+3259064_1_1,001204584906,Canada,2019-10-01 01:07:07,2019-10-01 01:07:08,2019-10-01 01:08:50,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259064_1_1.wav
+3259186_1_1,0082273946028,Korea South,2019-10-01 01:07:08,2019-10-01 01:07:10,2019-10-01 01:08:58,3.41,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259186_1_1.wav
+3259178_1_1,0086400633828,China,2019-10-01 01:07:10,2019-10-01 01:07:17,2019-10-01 01:08:49,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259178_1_1.wav
+3259189_1_1,0065670846035,Singapore,2019-10-01 01:07:12,2019-10-01 01:07:14,2019-10-01 01:09:01,3.45,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259189_1_1.wav
+3259191_1_1,0060320546038,Malaysia,2019-10-01 01:07:13,2019-10-01 01:07:17,2019-10-01 01:09:04,3.2,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259191_1_1.wav
+3258617_1_1,0086400872633,China,2019-10-01 01:08:07,2019-10-01 01:08:10,2019-10-01 01:09:20,3.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258617_1_1.wav
+3259201_1_1,0086105368299,China,2019-10-01 01:09:07,2019-10-01 01:09:11,2019-10-01 01:10:49,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259201_1_1.wav
+3259190_1_1,0065180046036,Singapore,2019-10-01 01:09:09,2019-10-01 01:09:12,2019-10-01 01:11:02,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259190_1_1.wav
+3259228_1_1,0086800886217,China,2019-10-01 01:09:10,2019-10-01 01:09:16,2019-10-01 01:10:57,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259228_1_1.wav
+3259055_1_1,0061872812074,Australia,2019-10-01 01:10:03,2019-10-01 01:10:06,2019-10-01 01:12:05,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259055_1_1.wav
+3259065_1_1,001306284905,Canada,2019-10-01 01:10:06,2019-10-01 01:10:07,2019-10-01 01:11:54,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259065_1_1.wav
+3259078_1_1,00357240283993,Cyprus,2019-10-01 01:10:06,2019-10-01 01:10:10,2019-10-01 01:11:51,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259078_1_1.wav
+3259194_1_1,00852305146041,Hong Kong,2019-10-01 01:10:06,2019-10-01 01:10:08,2019-10-01 01:11:57,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259194_1_1.wav
+3259193_1_1,0060180046040,Malaysia,2019-10-01 01:10:09,2019-10-01 01:10:13,2019-10-01 01:11:57,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259193_1_1.wav
+3259066_1_1,001306884904,Canada,2019-10-01 01:11:03,2019-10-01 01:11:05,2019-10-01 01:12:47,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259066_1_1.wav
+3259215_1_1,0086218077303,China,2019-10-01 01:11:08,2019-10-01 01:11:14,2019-10-01 01:12:53,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259215_1_1.wav
+3259222_1_1,0086400183629,China,2019-10-01 01:11:09,2019-10-01 01:11:15,2019-10-01 01:12:48,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259222_1_1.wav
+3259183_1_1,0061283246022,Australia,2019-10-01 01:12:04,2019-10-01 01:12:06,2019-10-01 01:13:54,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259183_1_1.wav
+3259200_1_1,00886277365750,Taiwan,2019-10-01 01:12:06,2019-10-01 01:12:21,2019-10-01 01:14:02,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259200_1_1.wav
+3259116_1_1,0046850542609,Sweden,2019-10-01 01:12:07,2019-10-01 01:12:11,2019-10-01 01:13:56,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259116_1_1.wav
+3259204_1_1,0064428072240,New Zealand,2019-10-01 01:12:07,2019-10-01 01:12:10,2019-10-01 01:13:48,4.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259204_1_1.wav
+3259227_1_1,0086400686210,China,2019-10-01 01:12:09,2019-10-01 01:12:15,2019-10-01 01:13:59,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259227_1_1.wav
+3259192_1_1,0060180046039,Malaysia,2019-10-01 01:12:10,2019-10-01 01:12:13,2019-10-01 01:13:58,3.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259192_1_1.wav
+3259087_1_1,0044203142723,United Kingdom,2019-10-01 01:13:04,2019-10-01 01:13:06,2019-10-01 01:14:46,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259087_1_1.wav
+3259180_1_1,0052180038482,Mexico,2019-10-01 01:13:06,2019-10-01 01:13:12,2019-10-01 01:15:11,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259180_1_1.wav
+3259197_1_1,0081345046045,Japan,2019-10-01 01:13:06,2019-10-01 01:13:07,2019-10-01 01:14:55,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259197_1_1.wav
+3259205_1_1,0065800872241,Singapore,2019-10-01 01:13:07,2019-10-01 01:13:11,2019-10-01 01:14:50,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259205_1_1.wav
+3259206_1_1,0062800172639,Indonesia,2019-10-01 01:13:07,2019-10-01 01:13:09,2019-10-01 01:14:52,4.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259206_1_1.wav
+3259224_1_1,0061180085853,Australia,2019-10-01 01:14:02,2019-10-01 01:14:11,2019-10-01 01:15:51,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259224_1_1.wav
+3259185_1_1,0082808546027,Korea South,2019-10-01 01:14:06,2019-10-01 01:14:08,2019-10-01 01:15:54,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259185_1_1.wav
+3259210_1_1,0086400176714,China,2019-10-01 01:14:10,2019-10-01 01:14:15,2019-10-01 01:15:56,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259210_1_1.wav
+3259067_1_1,001365284903,Canada,2019-10-01 01:15:04,2019-10-01 01:15:08,2019-10-01 01:16:45,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259067_1_1.wav
+3259057_1_1,0064995112261,New Zealand,2019-10-01 01:15:05,2019-10-01 01:15:08,2019-10-01 01:17:07,4.27,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259057_1_1.wav
+3259174_1_1,0062780329338,Indonesia,2019-10-01 01:15:05,2019-10-01 01:15:11,2019-10-01 01:17:11,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259174_1_1.wav
+3259207_1_1,0060180073476,Malaysia,2019-10-01 01:15:06,2019-10-01 01:15:11,2019-10-01 01:16:45,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259207_1_1.wav
+3258737_1_1,001613686172,Canada,2019-10-01 01:16:04,2019-10-01 01:16:09,2019-10-01 01:17:40,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258737_1_1.wav
+3259239_1_1,0061180046023,Australia,2019-10-01 01:16:04,2019-10-01 01:16:06,2019-10-01 01:17:51,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259239_1_1.wav
+3259251_1_1,00852800946043,Hong Kong,2019-10-01 01:16:06,2019-10-01 01:16:08,2019-10-01 01:17:56,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259251_1_1.wav
+3259068_1_1,001581384901,Canada,2019-10-01 01:16:07,2019-10-01 01:16:10,2019-10-01 01:17:52,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259068_1_1.wav
+3259069_1_1,001613784902,Canada,2019-10-01 01:16:07,2019-10-01 01:16:10,2019-10-01 01:17:52,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259069_1_1.wav
+3259111_1_1,001787483985,Puerto Rico,2019-10-01 01:16:07,2019-10-01 01:16:08,2019-10-01 01:17:50,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259111_1_1.wav
+3259259_1_1,0063288776794,Philippines,2019-10-01 01:16:07,2019-10-01 01:16:09,2019-10-01 01:17:55,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259259_1_1.wav
+3259264_1_1,0061180082989,Australia,2019-10-01 01:18:03,2019-10-01 01:18:06,2019-10-01 01:19:23,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259264_1_1.wav
+3259236_1_1,0082264144482,Korea South,2019-10-01 01:18:08,2019-10-01 01:18:10,2019-10-01 01:19:55,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259236_1_1.wav
+3259265_1_1,0034900983171,Spain,2019-10-01 01:18:09,2019-10-01 01:18:11,2019-10-01 01:19:32,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259265_1_1.wav
+3259266_1_1,00358800983169,Finland,2019-10-01 01:18:09,2019-10-01 01:18:12,2019-10-01 01:19:29,3.42,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259266_1_1.wav
+3259268_1_1,0064800883168,New Zealand,2019-10-01 01:18:09,2019-10-01 01:18:13,2019-10-01 01:19:30,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259268_1_1.wav
+3259237_1_1,0065800844492,Singapore,2019-10-01 01:18:10,2019-10-01 01:18:12,2019-10-01 01:19:55,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259237_1_1.wav
+3259267_1_1,0065800183170,Singapore,2019-10-01 01:18:10,2019-10-01 01:18:14,2019-10-01 01:19:35,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259267_1_1.wav
+3259088_1_1,0044800042724,United Kingdom,2019-10-01 01:19:04,2019-10-01 01:19:05,2019-10-01 01:20:45,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259088_1_1.wav
+3258624_3_1,0060180075170,Malaysia,2019-10-01 01:19:05,2019-10-01 01:19:10,2019-10-01 01:20:24,3.19,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258624_3_1.wav
+3259253_1_1,0081120946046,Japan,2019-10-01 01:19:06,2019-10-01 01:19:08,2019-10-01 01:20:54,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259253_1_1.wav
+3259015_1_1,001613686172,Canada,2019-10-01 01:20:03,2019-10-01 01:20:08,2019-10-01 01:21:40,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259015_1_1.wav
+3259218_2_1,0082264177314,Korea South,2019-10-01 01:20:06,2019-10-01 01:20:09,2019-10-01 01:21:48,4.21,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259218_2_1.wav
+3259187_2_1,0086800846032,China,2019-10-01 01:20:08,2019-10-01 01:20:14,2019-10-01 01:22:00,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259187_2_1.wav
+3259188_2_1,0086400646033,China,2019-10-01 01:20:08,2019-10-01 01:20:15,2019-10-01 01:21:58,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259188_2_1.wav
+3259242_1_1,0086800846032,China,2019-10-01 01:20:09,2019-10-01 01:20:17,2019-10-01 01:22:06,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259242_1_1.wav
+3259241_1_1,0082273946028,Korea South,2019-10-01 01:21:05,2019-10-01 01:21:07,2019-10-01 01:22:58,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259241_1_1.wav
+3259250_1_1,00852301846042,Hong Kong,2019-10-01 01:21:05,2019-10-01 01:21:08,2019-10-01 01:22:57,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259250_1_1.wav
+3259260_1_1,0082808882515,Korea South,2019-10-01 01:21:06,2019-10-01 01:21:08,2019-10-01 01:22:49,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259260_1_1.wav
+3259257_1_1,0065800176636,Singapore,2019-10-01 01:21:09,2019-10-01 01:21:13,2019-10-01 01:22:51,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259257_1_1.wav
+3259081_2_1,0045327241658,Denmark,2019-10-01 01:22:04,2019-10-01 01:22:07,2019-10-01 01:23:48,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259081_2_1.wav
+3259082_2_1,0045802541657,Denmark,2019-10-01 01:22:04,2019-10-01 01:22:07,2019-10-01 01:23:47,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259082_2_1.wav
+3259244_1_1,0065670846035,Singapore,2019-10-01 01:22:08,2019-10-01 01:22:12,2019-10-01 01:23:55,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259244_1_1.wav
+3259246_1_1,0060320546038,Malaysia,2019-10-01 01:22:08,2019-10-01 01:22:14,2019-10-01 01:23:58,3.45,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259246_1_1.wav
+3258631_2_1,0060392175366,Malaysia,2019-10-01 01:23:04,2019-10-01 01:23:05,2019-10-01 01:24:19,3.34,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258631_2_1.wav
+3259256_1_1,0063180073926,Philippines,2019-10-01 01:23:06,2019-10-01 01:23:10,2019-10-01 01:24:56,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259256_1_1.wav
+3259119_2_1,00886801142671,Taiwan,2019-10-01 01:23:07,2019-10-01 01:23:23,2019-10-01 01:24:59,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259119_2_1.wav
+3259245_1_1,0065180046036,Singapore,2019-10-01 01:24:07,2019-10-01 01:24:12,2019-10-01 01:26:00,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259245_1_1.wav
+3259263_1_1,0086800886217,China,2019-10-01 01:24:07,2019-10-01 01:24:12,2019-10-01 01:26:01,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259263_1_1.wav
+3259248_1_1,0060180046040,Malaysia,2019-10-01 01:25:05,2019-10-01 01:25:09,2019-10-01 01:27:00,3.35,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259248_1_1.wav
+3259249_1_1,00852305146041,Hong Kong,2019-10-01 01:25:05,2019-10-01 01:25:07,2019-10-01 01:27:01,3.27,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259249_1_1.wav
+3259226_1_1,001613686172,Canada,2019-10-01 01:26:04,2019-10-01 01:26:09,2019-10-01 01:27:40,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259226_1_1.wav
+3259238_1_1,0061283246022,Australia,2019-10-01 01:27:04,2019-10-01 01:27:06,2019-10-01 01:28:56,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259238_1_1.wav
+3259254_1_1,00886277365750,Taiwan,2019-10-01 01:27:05,2019-10-01 01:27:20,2019-10-01 01:28:54,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259254_1_1.wav
+3259262_1_1,0086400686210,China,2019-10-01 01:27:06,2019-10-01 01:27:12,2019-10-01 01:28:54,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259262_1_1.wav
+3259247_1_1,0060180046039,Malaysia,2019-10-01 01:27:07,2019-10-01 01:27:10,2019-10-01 01:28:57,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259247_1_1.wav
+3259240_1_1,0082808546027,Korea South,2019-10-01 01:28:04,2019-10-01 01:28:06,2019-10-01 01:29:57,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259240_1_1.wav
+3259255_1_1,0062800172639,Indonesia,2019-10-01 01:28:07,2019-10-01 01:28:09,2019-10-01 01:29:52,4.3,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259255_1_1.wav
+3259261_1_1,0061180085853,Australia,2019-10-01 01:29:03,2019-10-01 01:29:08,2019-10-01 01:30:58,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259261_1_1.wav
+3258616_3_1,0086400872126,China,2019-10-01 01:29:05,2019-10-01 01:29:10,2019-10-01 01:30:47,3.22,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258616_3_1.wav
+3259252_1_1,0081345046045,Japan,2019-10-01 01:29:06,2019-10-01 01:29:08,2019-10-01 01:30:53,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259252_1_1.wav
+3259258_1_1,0086400176714,China,2019-10-01 01:29:06,2019-10-01 01:29:12,2019-10-01 01:30:55,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259258_1_1.wav
+3259281_1_1,0061180046023,Australia,2019-10-01 01:31:03,2019-10-01 01:31:06,2019-10-01 01:32:51,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259281_1_1.wav
+3259276_1_1,0086108733864,China,2019-10-01 01:31:04,2019-10-01 01:31:08,2019-10-01 01:32:45,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259276_1_1.wav
+3259293_1_1,00852800946043,Hong Kong,2019-10-01 01:31:05,2019-10-01 01:31:07,2019-10-01 01:32:56,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259293_1_1.wav
+3259285_1_1,0086400646033,China,2019-10-01 01:31:06,2019-10-01 01:31:14,2019-10-01 01:32:56,3.2,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259285_1_1.wav
+3259307_1_1,0063288776794,Philippines,2019-10-01 01:31:06,2019-10-01 01:31:08,2019-10-01 01:32:54,4.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259307_1_1.wav
+3259311_1_1,0065315877313,Singapore,2019-10-01 01:31:07,2019-10-01 01:31:12,2019-10-01 01:32:50,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259311_1_1.wav
+3259278_1_1,0082264144482,Korea South,2019-10-01 01:33:05,2019-10-01 01:33:06,2019-10-01 01:34:53,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259278_1_1.wav
+3259296_1_1,0063180065440,Philippines,2019-10-01 01:33:06,2019-10-01 01:33:09,2019-10-01 01:34:46,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259296_1_1.wav
+3259322_1_1,0034900983171,Spain,2019-10-01 01:33:06,2019-10-01 01:33:08,2019-10-01 01:34:24,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259322_1_1.wav
+3259323_1_1,0064800883168,New Zealand,2019-10-01 01:33:06,2019-10-01 01:33:11,2019-10-01 01:34:34,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259323_1_1.wav
+3259325_1_1,00358800983169,Finland,2019-10-01 01:33:06,2019-10-01 01:33:09,2019-10-01 01:34:26,3.39,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259325_1_1.wav
+3258618_3_1,0086800872634,China,2019-10-01 01:33:07,2019-10-01 01:33:12,2019-10-01 01:34:25,3.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3258618_3_1.wav
+3259300_1_1,0081645672239,Japan,2019-10-01 01:33:07,2019-10-01 01:33:14,2019-10-01 01:34:59,4.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259300_1_1.wav
+3259243_2_1,0086400646033,China,2019-10-01 01:33:08,2019-10-01 01:33:16,2019-10-01 01:34:55,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259243_2_1.wav
+3259279_1_1,0065800844492,Singapore,2019-10-01 01:33:08,2019-10-01 01:33:11,2019-10-01 01:34:55,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259279_1_1.wav
+3259324_1_1,0065800183170,Singapore,2019-10-01 01:33:08,2019-10-01 01:33:13,2019-10-01 01:34:28,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259324_1_1.wav
+3259310_1_1,0061283177297,Australia,2019-10-01 01:34:03,2019-10-01 01:34:05,2019-10-01 01:35:44,3.13,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259310_1_1.wav
+3259295_1_1,0081120946046,Japan,2019-10-01 01:34:06,2019-10-01 01:34:08,2019-10-01 01:35:54,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259295_1_1.wav
+3259284_1_1,0086800846032,China,2019-10-01 01:35:06,2019-10-01 01:35:13,2019-10-01 01:36:59,3.34,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259284_1_1.wav
+3259298_1_1,0086105368299,China,2019-10-01 01:35:06,2019-10-01 01:35:11,2019-10-01 01:36:47,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259298_1_1.wav
+3259283_1_1,0082273946028,Korea South,2019-10-01 01:36:04,2019-10-01 01:36:07,2019-10-01 01:37:55,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259283_1_1.wav
+3259313_1_1,0082808882515,Korea South,2019-10-01 01:36:05,2019-10-01 01:36:06,2019-10-01 01:37:50,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259313_1_1.wav
+3259292_1_1,00852301846042,Hong Kong,2019-10-01 01:36:06,2019-10-01 01:36:09,2019-10-01 01:37:53,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259292_1_1.wav
+3259305_1_1,0065800176636,Singapore,2019-10-01 01:36:06,2019-10-01 01:36:10,2019-10-01 01:37:53,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259305_1_1.wav
+3259277_1_1,0091224834104,India,2019-10-01 01:36:07,2019-10-01 01:36:11,2019-10-01 01:37:57,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259277_1_1.wav
+3259304_1_1,0063180073926,Philippines,2019-10-01 01:36:08,2019-10-01 01:36:12,2019-10-01 01:37:59,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259304_1_1.wav
+3259275_1_1,0086400633828,China,2019-10-01 01:37:04,2019-10-01 01:37:10,2019-10-01 01:38:44,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259275_1_1.wav
+3259286_1_1,0065670846035,Singapore,2019-10-01 01:37:06,2019-10-01 01:37:08,2019-10-01 01:38:57,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259286_1_1.wav
+3259288_1_1,0060320546038,Malaysia,2019-10-01 01:37:07,2019-10-01 01:37:10,2019-10-01 01:38:54,3.43,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259288_1_1.wav
+3259326_2_1,0061180082989,Australia,2019-10-01 01:38:03,2019-10-01 01:38:06,2019-10-01 01:39:24,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259326_2_1.wav
+3259319_1_1,001613686172,Canada,2019-10-01 01:39:03,2019-10-01 01:39:08,2019-10-01 01:40:39,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259319_1_1.wav
+3259315_1_1,0086400183629,China,2019-10-01 01:39:04,2019-10-01 01:39:08,2019-10-01 01:40:43,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259315_1_1.wav
+3259321_1_1,0086800886217,China,2019-10-01 01:39:13,2019-10-01 01:39:17,2019-10-01 01:40:55,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259321_1_1.wav
+3259287_1_1,0065180046036,Singapore,2019-10-01 01:40:04,2019-10-01 01:40:08,2019-10-01 01:41:54,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259287_1_1.wav
+3259291_1_1,00852305146041,Hong Kong,2019-10-01 01:40:06,2019-10-01 01:40:08,2019-10-01 01:41:56,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259291_1_1.wav
+3259303_1_1,0060180073476,Malaysia,2019-10-01 01:41:05,2019-10-01 01:41:10,2019-10-01 01:42:43,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259303_1_1.wav
+3259280_1_1,0061283246022,Australia,2019-10-01 01:42:04,2019-10-01 01:42:06,2019-10-01 01:43:57,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259280_1_1.wav
+3259297_1_1,00886277365750,Taiwan,2019-10-01 01:42:06,2019-10-01 01:42:21,2019-10-01 01:44:00,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259297_1_1.wav
+3259320_1_1,0086400686210,China,2019-10-01 01:42:06,2019-10-01 01:42:11,2019-10-01 01:43:55,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259320_1_1.wav
+3259289_1_1,0060180046039,Malaysia,2019-10-01 01:42:07,2019-10-01 01:42:11,2019-10-01 01:44:01,3.46,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259289_1_1.wav
+3259301_1_1,0065800872241,Singapore,2019-10-01 01:43:05,2019-10-01 01:43:09,2019-10-01 01:44:41,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259301_1_1.wav
+3259302_1_1,0062800172639,Indonesia,2019-10-01 01:43:06,2019-10-01 01:43:08,2019-10-01 01:44:52,4.28,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259302_1_1.wav
+3259317_1_1,0061180085853,Australia,2019-10-01 01:44:04,2019-10-01 01:44:09,2019-10-01 01:45:59,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259317_1_1.wav
+3259294_1_1,0081345046045,Japan,2019-10-01 01:44:06,2019-10-01 01:44:08,2019-10-01 01:45:59,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259294_1_1.wav
+3259282_1_1,0082808546027,Korea South,2019-10-01 01:44:07,2019-10-01 01:44:08,2019-10-01 01:45:59,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259282_1_1.wav
+3259306_1_1,0086400176714,China,2019-10-01 01:44:07,2019-10-01 01:44:12,2019-10-01 01:46:09,3.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259306_1_1.wav
+3259290_3_1,0060180046040,Malaysia,2019-10-01 01:44:08,2019-10-01 01:44:14,2019-10-01 01:46:02,3.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259290_3_1.wav
+3259332_1_1,0061180046023,Australia,2019-10-01 01:46:04,2019-10-01 01:46:06,2019-10-01 01:47:58,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259332_1_1.wav
+3259352_1_1,0063288776794,Philippines,2019-10-01 01:46:07,2019-10-01 01:46:08,2019-10-01 01:47:55,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259352_1_1.wav
+3259336_1_1,0086400646033,China,2019-10-01 01:46:08,2019-10-01 01:46:15,2019-10-01 01:47:59,3.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259336_1_1.wav
+3259359_1_1,0061180082989,Australia,2019-10-01 01:47:03,2019-10-01 01:47:06,2019-10-01 01:48:23,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259359_1_1.wav
+3259360_1_1,0064800883168,New Zealand,2019-10-01 01:47:04,2019-10-01 01:47:09,2019-10-01 01:48:30,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259360_1_1.wav
+3259358_1_1,00358800983169,Finland,2019-10-01 01:47:05,2019-10-01 01:47:08,2019-10-01 01:48:24,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259358_1_1.wav
+3259361_1_1,0034900983171,Spain,2019-10-01 01:47:05,2019-10-01 01:47:07,2019-10-01 01:48:28,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259361_1_1.wav
+3259344_1_1,00852800946043,Hong Kong,2019-10-01 01:47:06,2019-10-01 01:47:08,2019-10-01 01:48:57,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259344_1_1.wav
+3259357_1_1,0065800183170,Singapore,2019-10-01 01:47:06,2019-10-01 01:47:10,2019-10-01 01:48:27,3.18,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259357_1_1.wav
+3259329_1_1,0082264144482,Korea South,2019-10-01 01:48:04,2019-10-01 01:48:06,2019-10-01 01:49:51,4.11,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259329_1_1.wav
+3259330_1_1,0065800844492,Singapore,2019-10-01 01:48:05,2019-10-01 01:48:08,2019-10-01 01:49:51,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259330_1_1.wav
+3259346_1_1,0081120946046,Japan,2019-10-01 01:49:06,2019-10-01 01:49:08,2019-10-01 01:50:53,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259346_1_1.wav
+3259335_1_1,0086800846032,China,2019-10-01 01:50:03,2019-10-01 01:50:10,2019-10-01 01:51:54,3.54,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259335_1_1.wav
+3259334_1_1,0082273946028,Korea South,2019-10-01 01:51:04,2019-10-01 01:51:06,2019-10-01 01:52:52,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259334_1_1.wav
+3259343_1_1,00852301846042,Hong Kong,2019-10-01 01:51:05,2019-10-01 01:51:08,2019-10-01 01:52:57,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259343_1_1.wav
+3259350_1_1,0065800176636,Singapore,2019-10-01 01:51:05,2019-10-01 01:51:09,2019-10-01 01:52:49,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259350_1_1.wav
+3259353_1_1,0082808882515,Korea South,2019-10-01 01:51:05,2019-10-01 01:51:07,2019-10-01 01:52:51,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259353_1_1.wav
+3259349_1_1,0063180073926,Philippines,2019-10-01 01:51:06,2019-10-01 01:51:10,2019-10-01 01:52:56,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259349_1_1.wav
+3259339_1_1,0060320546038,Malaysia,2019-10-01 01:52:05,2019-10-01 01:52:09,2019-10-01 01:53:54,3.36,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259339_1_1.wav
+3259337_1_1,0065670846035,Singapore,2019-10-01 01:52:07,2019-10-01 01:52:09,2019-10-01 01:53:58,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259337_1_1.wav
+3259356_1_1,0086800886217,China,2019-10-01 01:54:10,2019-10-01 01:54:15,2019-10-01 01:55:59,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259356_1_1.wav
+3259338_1_1,0065180046036,Singapore,2019-10-01 01:55:04,2019-10-01 01:55:07,2019-10-01 01:56:50,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259338_1_1.wav
+3259342_1_1,00852305146041,Hong Kong,2019-10-01 01:55:05,2019-10-01 01:55:07,2019-10-01 01:56:55,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259342_1_1.wav
+3259331_1_1,0061283246022,Australia,2019-10-01 01:57:03,2019-10-01 01:57:05,2019-10-01 01:58:50,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259331_1_1.wav
+3259355_1_1,0086400686210,China,2019-10-01 01:57:05,2019-10-01 01:57:12,2019-10-01 01:58:59,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259355_1_1.wav
+3259347_1_1,00886277365750,Taiwan,2019-10-01 01:57:06,2019-10-01 01:57:20,2019-10-01 01:59:00,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259347_1_1.wav
+3259340_1_1,0060180046039,Malaysia,2019-10-01 01:57:07,2019-10-01 01:57:09,2019-10-01 01:58:59,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259340_1_1.wav
+3259333_1_1,0082808546027,Korea South,2019-10-01 01:58:03,2019-10-01 01:58:05,2019-10-01 01:59:55,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259333_1_1.wav
+3259348_1_1,0062800172639,Indonesia,2019-10-01 01:58:07,2019-10-01 01:58:09,2019-10-01 01:59:52,4.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259348_1_1.wav
+3259354_1_1,0061180085853,Australia,2019-10-01 01:59:04,2019-10-01 01:59:08,2019-10-01 02:00:53,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259354_1_1.wav
+3259351_1_1,0086400176714,China,2019-10-01 01:59:05,2019-10-01 01:59:10,2019-10-01 02:00:59,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259351_1_1.wav
+3259345_1_1,0081345046045,Japan,2019-10-01 01:59:06,2019-10-01 01:59:08,2019-10-01 02:00:58,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259345_1_1.wav
+3259341_3_1,0060180046040,Malaysia,2019-10-01 02:00:03,2019-10-01 02:00:08,2019-10-01 02:01:49,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259341_3_1.wav
+3259377_1_1,0044800016986,United Kingdom,2019-10-01 02:01:03,2019-10-01 02:01:05,2019-10-01 02:02:57,4.19,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259377_1_1.wav
+3259410_1_1,0061180046023,Australia,2019-10-01 02:01:04,2019-10-01 02:01:06,2019-10-01 02:02:59,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259410_1_1.wav
+3259383_1_1,0086108781830,China,2019-10-01 02:01:05,2019-10-01 02:01:16,2019-10-01 02:03:22,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259383_1_1.wav
+3259385_1_1,00852800982004,Hong Kong,2019-10-01 02:01:06,2019-10-01 02:01:11,2019-10-01 02:03:07,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259385_1_1.wav
+3259422_1_1,00852800946043,Hong Kong,2019-10-01 02:01:06,2019-10-01 02:01:10,2019-10-01 02:02:54,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259422_1_1.wav
+3259389_1_1,0086400882491,China,2019-10-01 02:01:07,2019-10-01 02:01:20,2019-10-01 02:03:29,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259389_1_1.wav
+3259442_1_1,00852580377307,Hong Kong,2019-10-01 02:01:07,2019-10-01 02:01:12,2019-10-01 02:02:55,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259442_1_1.wav
+3259372_1_1,006518004230,Singapore,2019-10-01 02:01:10,2019-10-01 02:01:16,2019-10-01 02:03:03,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259372_1_1.wav
+3259381_1_1,0091807177730,India,2019-10-01 02:01:10,2019-10-01 02:01:12,2019-10-01 02:03:07,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259381_1_1.wav
+3259382_1_1,0065315877732,Singapore,2019-10-01 02:01:10,2019-10-01 02:01:17,2019-10-01 02:03:18,2.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259382_1_1.wav
+3259405_1_1,0086108733864,China,2019-10-01 02:01:10,2019-10-01 02:01:17,2019-10-01 02:03:01,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259405_1_1.wav
+3259384_1_1,0060392182011,Malaysia,2019-10-01 02:01:11,2019-10-01 02:01:17,2019-10-01 02:03:21,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259384_1_1.wav
+3259387_1_1,0084180082168,Vietnam,2019-10-01 02:01:11,2019-10-01 02:01:15,2019-10-01 02:03:13,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259387_1_1.wav
+3259386_1_1,0065800182167,Singapore,2019-10-01 02:01:12,2019-10-01 02:01:19,2019-10-01 02:03:20,3.16,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259386_1_1.wav
+3259437_1_1,0063288776794,Philippines,2019-10-01 02:01:12,2019-10-01 02:01:14,2019-10-01 02:03:00,4.27,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259437_1_1.wav
+3259443_1_1,0065315877313,Singapore,2019-10-01 02:01:12,2019-10-01 02:01:17,2019-10-01 02:03:04,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259443_1_1.wav
+3259388_1_1,0062180382449,Indonesia,2019-10-01 02:01:13,2019-10-01 02:01:18,2019-10-01 02:03:14,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259388_1_1.wav
+3259414_1_1,0086400646033,China,2019-10-01 02:02:05,2019-10-01 02:02:13,2019-10-01 02:03:53,3.23,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259414_1_1.wav
+3259379_1_1,0091446041291,India,2019-10-01 02:03:05,2019-10-01 02:03:09,2019-10-01 02:05:06,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259379_1_1.wav
+3259407_1_1,0082264144482,Korea South,2019-10-01 02:03:05,2019-10-01 02:03:07,2019-10-01 02:04:57,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259407_1_1.wav
+3259456_1_1,0034900983171,Spain,2019-10-01 02:03:05,2019-10-01 02:03:08,2019-10-01 02:04:24,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259456_1_1.wav
+3259459_1_1,00358800983169,Finland,2019-10-01 02:03:05,2019-10-01 02:03:09,2019-10-01 02:04:30,3.25,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259459_1_1.wav
+3259408_1_1,0065800844492,Singapore,2019-10-01 02:03:07,2019-10-01 02:03:10,2019-10-01 02:04:51,4.09,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259408_1_1.wav
+3259455_1_1,0065800183170,Singapore,2019-10-01 02:03:07,2019-10-01 02:03:11,2019-10-01 02:04:35,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259455_1_1.wav
+3259425_1_1,0063180065440,Philippines,2019-10-01 02:03:08,2019-10-01 02:03:10,2019-10-01 02:04:54,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259425_1_1.wav
+3259429_1_1,0081645672239,Japan,2019-10-01 02:03:09,2019-10-01 02:03:14,2019-10-01 02:04:58,4.3,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259429_1_1.wav
+3259458_1_1,0064800883168,New Zealand,2019-10-01 02:04:04,2019-10-01 02:04:09,2019-10-01 02:05:30,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259458_1_1.wav
+3259424_1_1,0081120946046,Japan,2019-10-01 02:04:07,2019-10-01 02:04:09,2019-10-01 02:05:55,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259424_1_1.wav
+3259402_1_1,0082808229343,Korea South,2019-10-01 02:05:06,2019-10-01 02:05:09,2019-10-01 02:07:25,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259402_1_1.wav
+3259427_1_1,0086105368299,China,2019-10-01 02:05:08,2019-10-01 02:05:12,2019-10-01 02:06:50,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259427_1_1.wav
+3259412_1_1,0082273946028,Korea South,2019-10-01 02:06:05,2019-10-01 02:06:07,2019-10-01 02:08:02,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259412_1_1.wav
+3259421_1_1,00852301846042,Hong Kong,2019-10-01 02:06:06,2019-10-01 02:06:08,2019-10-01 02:07:57,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259421_1_1.wav
+3259446_1_1,0082808882515,Korea South,2019-10-01 02:06:06,2019-10-01 02:06:08,2019-10-01 02:07:50,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259446_1_1.wav
+3259406_1_1,0091224834104,India,2019-10-01 02:06:07,2019-10-01 02:06:12,2019-10-01 02:07:58,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259406_1_1.wav
+3259373_1_1,008640063751,China,2019-10-01 02:06:08,2019-10-01 02:06:12,2019-10-01 02:08:14,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259373_1_1.wav
+3259434_1_1,0063180073926,Philippines,2019-10-01 02:06:10,2019-10-01 02:06:14,2019-10-01 02:08:06,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259434_1_1.wav
+3259435_1_1,0065800176636,Singapore,2019-10-01 02:06:10,2019-10-01 02:06:14,2019-10-01 02:07:58,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259435_1_1.wav
+3259404_1_1,0086400633828,China,2019-10-01 02:07:06,2019-10-01 02:07:14,2019-10-01 02:08:48,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259404_1_1.wav
+3259415_1_1,0065670846035,Singapore,2019-10-01 02:07:06,2019-10-01 02:07:11,2019-10-01 02:08:59,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259415_1_1.wav
+3259417_1_1,0060320546038,Malaysia,2019-10-01 02:07:07,2019-10-01 02:07:13,2019-10-01 02:09:02,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259417_1_1.wav
+3259440_1_1,0061283177297,Australia,2019-10-01 02:08:04,2019-10-01 02:08:07,2019-10-01 02:10:10,3.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259440_1_1.wav
+3259401_1_1,0081800929342,Japan,2019-10-01 02:08:07,2019-10-01 02:08:12,2019-10-01 02:10:13,4.27,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259401_1_1.wav
+3259452_1_1,001613686172,Canada,2019-10-01 02:09:03,2019-10-01 02:09:08,2019-10-01 02:10:40,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259452_1_1.wav
+3259374_1_1,008640063751,China,2019-10-01 02:09:05,2019-10-01 02:09:11,2019-10-01 02:11:20,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259374_1_1.wav
+3259448_1_1,0086400183629,China,2019-10-01 02:09:06,2019-10-01 02:09:11,2019-10-01 02:10:47,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259448_1_1.wav
+3259416_1_1,0065180046036,Singapore,2019-10-01 02:09:09,2019-10-01 02:09:12,2019-10-01 02:10:56,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259416_1_1.wav
+3259454_1_1,0086800886217,China,2019-10-01 02:09:09,2019-10-01 02:09:14,2019-10-01 02:10:59,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259454_1_1.wav
+3259419_1_1,0060180046040,Malaysia,2019-10-01 02:10:03,2019-10-01 02:10:08,2019-10-01 02:11:52,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259419_1_1.wav
+3259420_1_1,00852305146041,Hong Kong,2019-10-01 02:10:06,2019-10-01 02:10:08,2019-10-01 02:11:57,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259420_1_1.wav
+3259430_1_1,0064428072240,New Zealand,2019-10-01 02:11:04,2019-10-01 02:11:07,2019-10-01 02:12:53,3.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259430_1_1.wav
+3259441_1_1,0086218077303,China,2019-10-01 02:11:05,2019-10-01 02:11:10,2019-10-01 02:12:51,3.54,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259441_1_1.wav
+3259433_1_1,0060180073476,Malaysia,2019-10-01 02:11:07,2019-10-01 02:11:11,2019-10-01 02:12:46,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259433_1_1.wav
+3259409_1_1,0061283246022,Australia,2019-10-01 02:12:02,2019-10-01 02:12:05,2019-10-01 02:13:57,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259409_1_1.wav
+3259378_1_1,0044800016986,United Kingdom,2019-10-01 02:12:03,2019-10-01 02:12:05,2019-10-01 02:14:27,4.21,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259378_1_1.wav
+3259453_1_1,0086400686210,China,2019-10-01 02:12:05,2019-10-01 02:12:12,2019-10-01 02:13:55,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259453_1_1.wav
+3259418_1_1,0060180046039,Malaysia,2019-10-01 02:12:06,2019-10-01 02:12:09,2019-10-01 02:13:58,3.36,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259418_1_1.wav
+3259426_1_1,00886277365750,Taiwan,2019-10-01 02:12:07,2019-10-01 02:12:22,2019-10-01 02:13:56,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259426_1_1.wav
+3259411_1_1,0082808546027,Korea South,2019-10-01 02:13:04,2019-10-01 02:13:06,2019-10-01 02:14:54,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259411_1_1.wav
+3259431_1_1,0065800872241,Singapore,2019-10-01 02:13:07,2019-10-01 02:13:12,2019-10-01 02:14:42,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259431_1_1.wav
+3259432_1_1,0062800172639,Indonesia,2019-10-01 02:13:08,2019-10-01 02:13:10,2019-10-01 02:14:53,4.33,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259432_1_1.wav
+3259450_1_1,0061180085853,Australia,2019-10-01 02:14:03,2019-10-01 02:14:08,2019-10-01 02:16:00,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259450_1_1.wav
+3259444_1_1,0082264177314,Korea South,2019-10-01 02:14:06,2019-10-01 02:14:08,2019-10-01 02:15:48,4.22,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259444_1_1.wav
+3259423_1_1,0081345046045,Japan,2019-10-01 02:14:07,2019-10-01 02:14:09,2019-10-01 02:15:54,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259423_1_1.wav
+3259436_1_1,0086400176714,China,2019-10-01 02:14:08,2019-10-01 02:14:12,2019-10-01 02:16:01,3.49,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259436_1_1.wav
+3259375_1_1,006480044167,New Zealand,2019-10-01 02:16:05,2019-10-01 02:16:08,2019-10-01 02:18:36,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259375_1_1.wav
+3259465_1_1,0061180046023,Australia,2019-10-01 02:16:06,2019-10-01 02:16:09,2019-10-01 02:18:01,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259465_1_1.wav
+3259477_1_1,00852800946043,Hong Kong,2019-10-01 02:16:06,2019-10-01 02:16:09,2019-10-01 02:17:57,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259477_1_1.wav
+3259469_1_1,0086400646033,China,2019-10-01 02:16:07,2019-10-01 02:16:15,2019-10-01 02:17:56,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259469_1_1.wav
+3259485_1_1,0063288776794,Philippines,2019-10-01 02:16:08,2019-10-01 02:16:10,2019-10-01 02:17:57,4.25,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259485_1_1.wav
+3259457_3_1,0061180082989,Australia,2019-10-01 02:18:03,2019-10-01 02:18:06,2019-10-01 02:19:38,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259457_3_1.wav
+3259462_1_1,0082264144482,Korea South,2019-10-01 02:18:05,2019-10-01 02:18:06,2019-10-01 02:19:52,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259462_1_1.wav
+3259490_1_1,0064800883168,New Zealand,2019-10-01 02:18:05,2019-10-01 02:18:09,2019-10-01 02:19:27,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259490_1_1.wav
+3259491_1_1,00358800983169,Finland,2019-10-01 02:18:06,2019-10-01 02:18:09,2019-10-01 02:19:26,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259491_1_1.wav
+3259493_1_1,0034900983171,Spain,2019-10-01 02:18:06,2019-10-01 02:18:08,2019-10-01 02:19:24,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259493_1_1.wav
+3259413_2_1,0086800846032,China,2019-10-01 02:18:07,2019-10-01 02:18:14,2019-10-01 02:19:58,3.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259413_2_1.wav
+3259463_1_1,0065800844492,Singapore,2019-10-01 02:18:08,2019-10-01 02:18:10,2019-10-01 02:19:55,4.16,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259463_1_1.wav
+3259492_1_1,0065800183170,Singapore,2019-10-01 02:18:08,2019-10-01 02:18:12,2019-10-01 02:19:34,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259492_1_1.wav
+3259479_1_1,0081120946046,Japan,2019-10-01 02:19:06,2019-10-01 02:19:08,2019-10-01 02:20:53,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259479_1_1.wav
+3259494_1_1,0061180082989,Australia,2019-10-01 02:20:03,2019-10-01 02:20:06,2019-10-01 02:21:27,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259494_1_1.wav
+3259468_1_1,0086800846032,China,2019-10-01 02:20:06,2019-10-01 02:20:13,2019-10-01 02:22:02,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259468_1_1.wav
+3259467_1_1,0082273946028,Korea South,2019-10-01 02:21:04,2019-10-01 02:21:06,2019-10-01 02:22:57,3.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259467_1_1.wav
+3259486_1_1,0082808882515,Korea South,2019-10-01 02:21:04,2019-10-01 02:21:06,2019-10-01 02:22:52,4.03,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259486_1_1.wav
+3259476_1_1,00852301846042,Hong Kong,2019-10-01 02:21:05,2019-10-01 02:21:08,2019-10-01 02:22:56,3.33,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259476_1_1.wav
+3259483_1_1,0065800176636,Singapore,2019-10-01 02:21:05,2019-10-01 02:21:10,2019-10-01 02:22:50,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259483_1_1.wav
+3259482_1_1,0063180073926,Philippines,2019-10-01 02:21:07,2019-10-01 02:21:11,2019-10-01 02:23:03,3.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259482_1_1.wav
+3259470_1_1,0065670846035,Singapore,2019-10-01 02:22:02,2019-10-01 02:22:04,2019-10-01 02:23:54,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259470_1_1.wav
+3259472_1_1,0060320546038,Malaysia,2019-10-01 02:23:04,2019-10-01 02:23:08,2019-10-01 02:24:57,3.46,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259472_1_1.wav
+3259380_1_1,0091446041291,India,2019-10-01 02:23:05,2019-10-01 02:23:08,2019-10-01 02:24:54,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259380_1_1.wav
+3259489_1_1,0086800886217,China,2019-10-01 02:24:04,2019-10-01 02:24:09,2019-10-01 02:25:51,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259489_1_1.wav
+3259471_1_1,0065180046036,Singapore,2019-10-01 02:24:05,2019-10-01 02:24:08,2019-10-01 02:25:59,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259471_1_1.wav
+3259474_1_1,0060180046040,Malaysia,2019-10-01 02:25:03,2019-10-01 02:25:08,2019-10-01 02:26:54,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259474_1_1.wav
+3259475_1_1,00852305146041,Hong Kong,2019-10-01 02:25:06,2019-10-01 02:25:07,2019-10-01 02:27:01,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259475_1_1.wav
+3259464_1_1,0061283246022,Australia,2019-10-01 02:27:03,2019-10-01 02:27:04,2019-10-01 02:28:50,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259464_1_1.wav
+3259488_1_1,0086400686210,China,2019-10-01 02:27:04,2019-10-01 02:27:11,2019-10-01 02:28:52,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259488_1_1.wav
+3259473_1_1,0060180046039,Malaysia,2019-10-01 02:27:05,2019-10-01 02:27:09,2019-10-01 02:28:54,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259473_1_1.wav
+3259480_1_1,00886277365750,Taiwan,2019-10-01 02:27:05,2019-10-01 02:27:20,2019-10-01 02:28:59,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259480_1_1.wav
+3259466_1_1,0082808546027,Korea South,2019-10-01 02:28:03,2019-10-01 02:28:05,2019-10-01 02:29:50,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259466_1_1.wav
+3259481_1_1,0062800172639,Indonesia,2019-10-01 02:28:07,2019-10-01 02:28:09,2019-10-01 02:29:52,4.28,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259481_1_1.wav
+3259487_1_1,0061180085853,Australia,2019-10-01 02:29:04,2019-10-01 02:29:09,2019-10-01 02:30:54,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259487_1_1.wav
+3259376_2_1,006480044167,New Zealand,2019-10-01 02:29:06,2019-10-01 02:29:09,2019-10-01 02:30:58,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259376_2_1.wav
+3259478_1_1,0081345046045,Japan,2019-10-01 02:29:06,2019-10-01 02:29:08,2019-10-01 02:30:53,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259478_1_1.wav
+3259484_1_1,0086400176714,China,2019-10-01 02:29:07,2019-10-01 02:29:12,2019-10-01 02:30:53,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259484_1_1.wav
+3259498_1_1,004480003889,United Kingdom,2019-10-01 02:31:04,2019-10-01 02:31:06,2019-10-01 02:32:48,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259498_1_1.wav
+3259512_1_1,0061180046023,Australia,2019-10-01 02:31:05,2019-10-01 02:31:07,2019-10-01 02:32:52,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259512_1_1.wav
+3259524_1_1,00852800946043,Hong Kong,2019-10-01 02:31:05,2019-10-01 02:31:08,2019-10-01 02:32:57,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259524_1_1.wav
+3259500_1_1,008640063750,China,2019-10-01 02:31:06,2019-10-01 02:31:10,2019-10-01 02:32:57,4.0,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259500_1_1.wav
+3259502_1_1,0091800981831,India,2019-10-01 02:31:06,2019-10-01 02:31:11,2019-10-01 02:33:06,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259502_1_1.wav
+3259507_1_1,0086108733864,China,2019-10-01 02:31:06,2019-10-01 02:31:09,2019-10-01 02:32:44,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259507_1_1.wav
+3259505_1_1,0091800132483,India,2019-10-01 02:31:08,2019-10-01 02:31:10,2019-10-01 02:33:03,4.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259505_1_1.wav
+3259516_1_1,0086400646033,China,2019-10-01 02:31:09,2019-10-01 02:31:17,2019-10-01 02:33:01,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259516_1_1.wav
+3259499_1_1,008424444401,Vietnam,2019-10-01 02:31:10,2019-10-01 02:31:11,2019-10-01 02:32:54,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259499_1_1.wav
+3259539_1_1,0065315877313,Singapore,2019-10-01 02:31:10,2019-10-01 02:31:15,2019-10-01 02:32:58,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259539_1_1.wav
+3259503_1_1,0063180082009,Philippines,2019-10-01 02:31:11,2019-10-01 02:31:16,2019-10-01 02:33:15,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259503_1_1.wav
+3259537_1_1,0063288776794,Philippines,2019-10-01 02:31:13,2019-10-01 02:31:14,2019-10-01 02:33:01,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259537_1_1.wav
+3259551_1_1,0061180082989,Australia,2019-10-01 02:33:04,2019-10-01 02:33:07,2019-10-01 02:34:25,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259551_1_1.wav
+3259509_1_1,0082264144482,Korea South,2019-10-01 02:33:05,2019-10-01 02:33:07,2019-10-01 02:34:49,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259509_1_1.wav
+3259527_1_1,0063180065440,Philippines,2019-10-01 02:33:06,2019-10-01 02:33:09,2019-10-01 02:34:40,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259527_1_1.wav
+3259548_1_1,00358800983169,Finland,2019-10-01 02:33:06,2019-10-01 02:33:09,2019-10-01 02:34:26,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259548_1_1.wav
+3259549_1_1,0034900983171,Spain,2019-10-01 02:33:06,2019-10-01 02:33:08,2019-10-01 02:34:24,3.65,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259549_1_1.wav
+3259550_1_1,0064800883168,New Zealand,2019-10-01 02:33:06,2019-10-01 02:33:12,2019-10-01 02:34:31,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259550_1_1.wav
+3259501_1_1,0088680054316,Taiwan,2019-10-01 02:33:07,2019-10-01 02:33:12,2019-10-01 02:34:56,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259501_1_1.wav
+3259510_1_1,0065800844492,Singapore,2019-10-01 02:33:07,2019-10-01 02:33:09,2019-10-01 02:34:53,3.95,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259510_1_1.wav
+3259552_1_1,0065800183170,Singapore,2019-10-01 02:33:07,2019-10-01 02:33:11,2019-10-01 02:34:33,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259552_1_1.wav
+3259530_1_1,0081645672239,Japan,2019-10-01 02:33:08,2019-10-01 02:33:14,2019-10-01 02:34:59,4.36,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259530_1_1.wav
+3259538_1_1,0061283177297,Australia,2019-10-01 02:34:03,2019-10-01 02:34:05,2019-10-01 02:35:49,3.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259538_1_1.wav
+3259526_1_1,0081120946046,Japan,2019-10-01 02:34:07,2019-10-01 02:34:09,2019-10-01 02:35:55,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259526_1_1.wav
+3259515_1_1,0086800846032,China,2019-10-01 02:35:04,2019-10-01 02:35:12,2019-10-01 02:36:53,3.5,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259515_1_1.wav
+3259529_1_1,0086105368299,China,2019-10-01 02:35:05,2019-10-01 02:35:11,2019-10-01 02:36:46,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259529_1_1.wav
+3259514_1_1,0082273946028,Korea South,2019-10-01 02:36:03,2019-10-01 02:36:06,2019-10-01 02:37:52,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259514_1_1.wav
+3259541_1_1,0082808882515,Korea South,2019-10-01 02:36:04,2019-10-01 02:36:05,2019-10-01 02:37:52,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259541_1_1.wav
+3259535_1_1,0065800176636,Singapore,2019-10-01 02:36:05,2019-10-01 02:36:09,2019-10-01 02:37:48,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259535_1_1.wav
+3259523_1_1,00852301846042,Hong Kong,2019-10-01 02:36:06,2019-10-01 02:36:08,2019-10-01 02:37:57,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259523_1_1.wav
+3259508_1_1,0091224834104,India,2019-10-01 02:36:07,2019-10-01 02:36:11,2019-10-01 02:37:58,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259508_1_1.wav
+3259534_1_1,0063180073926,Philippines,2019-10-01 02:36:10,2019-10-01 02:36:14,2019-10-01 02:38:01,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259534_1_1.wav
+3259506_1_1,0086400633828,China,2019-10-01 02:37:03,2019-10-01 02:37:10,2019-10-01 02:38:44,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259506_1_1.wav
+3259517_1_1,0065670846035,Singapore,2019-10-01 02:37:05,2019-10-01 02:37:07,2019-10-01 02:38:56,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259517_1_1.wav
+3259519_1_1,0060320546038,Malaysia,2019-10-01 02:37:06,2019-10-01 02:37:10,2019-10-01 02:38:54,3.35,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259519_1_1.wav
+3259545_1_1,001613686172,Canada,2019-10-01 02:39:02,2019-10-01 02:39:07,2019-10-01 02:40:38,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259545_1_1.wav
+3259542_1_1,0086400183629,China,2019-10-01 02:39:04,2019-10-01 02:39:08,2019-10-01 02:40:44,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259542_1_1.wav
+3259518_1_1,0065180046036,Singapore,2019-10-01 02:39:05,2019-10-01 02:39:12,2019-10-01 02:40:57,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259518_1_1.wav
+3259547_1_1,0086800886217,China,2019-10-01 02:39:05,2019-10-01 02:39:10,2019-10-01 02:40:59,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259547_1_1.wav
+3259521_1_1,0060180046040,Malaysia,2019-10-01 02:40:04,2019-10-01 02:40:08,2019-10-01 02:41:54,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259521_1_1.wav
+3259522_1_1,00852305146041,Hong Kong,2019-10-01 02:40:06,2019-10-01 02:40:08,2019-10-01 02:41:57,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259522_1_1.wav
+3259533_1_1,0060180073476,Malaysia,2019-10-01 02:41:06,2019-10-01 02:41:12,2019-10-01 02:42:44,3.56,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259533_1_1.wav
+3259511_1_1,0061283246022,Australia,2019-10-01 02:42:03,2019-10-01 02:42:05,2019-10-01 02:43:56,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259511_1_1.wav
+3259546_1_1,0086400686210,China,2019-10-01 02:42:05,2019-10-01 02:42:12,2019-10-01 02:43:57,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259546_1_1.wav
+3259520_1_1,0060180046039,Malaysia,2019-10-01 02:42:06,2019-10-01 02:42:12,2019-10-01 02:43:58,3.37,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259520_1_1.wav
+3259528_1_1,00886277365750,Taiwan,2019-10-01 02:42:06,2019-10-01 02:42:21,2019-10-01 02:44:01,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259528_1_1.wav
+3259513_1_1,0082808546027,Korea South,2019-10-01 02:43:03,2019-10-01 02:43:05,2019-10-01 02:44:51,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259513_1_1.wav
+3259531_1_1,0065800872241,Singapore,2019-10-01 02:43:04,2019-10-01 02:43:10,2019-10-01 02:44:45,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259531_1_1.wav
+3259532_1_1,0062800172639,Indonesia,2019-10-01 02:43:07,2019-10-01 02:43:09,2019-10-01 02:44:53,4.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259532_1_1.wav
+3259543_1_1,0061180085853,Australia,2019-10-01 02:44:03,2019-10-01 02:44:08,2019-10-01 02:45:54,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259543_1_1.wav
+3259536_1_1,0086400176714,China,2019-10-01 02:44:05,2019-10-01 02:44:09,2019-10-01 02:45:58,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259536_1_1.wav
+3259525_1_1,0081345046045,Japan,2019-10-01 02:44:06,2019-10-01 02:44:08,2019-10-01 02:45:59,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259525_1_1.wav
+3259558_1_1,0061180046023,Australia,2019-10-01 02:46:04,2019-10-01 02:46:06,2019-10-01 02:47:57,3.41,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259558_1_1.wav
+3259562_1_1,0086400646033,China,2019-10-01 02:46:05,2019-10-01 02:46:13,2019-10-01 02:47:55,3.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259562_1_1.wav
+3259570_1_1,00852800946043,Hong Kong,2019-10-01 02:46:06,2019-10-01 02:46:09,2019-10-01 02:47:57,3.45,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259570_1_1.wav
+3259578_1_1,0063288776794,Philippines,2019-10-01 02:46:08,2019-10-01 02:46:10,2019-10-01 02:47:57,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259578_1_1.wav
+3259587_1_1,0061180082989,Australia,2019-10-01 02:47:03,2019-10-01 02:47:06,2019-10-01 02:48:24,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259587_1_1.wav
+3259583_1_1,0064800883168,New Zealand,2019-10-01 02:47:05,2019-10-01 02:47:10,2019-10-01 02:48:29,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259583_1_1.wav
+3259584_1_1,00358800983169,Finland,2019-10-01 02:47:05,2019-10-01 02:47:08,2019-10-01 02:48:25,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259584_1_1.wav
+3259586_1_1,0034900983171,Spain,2019-10-01 02:47:05,2019-10-01 02:47:07,2019-10-01 02:48:23,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259586_1_1.wav
+3259585_1_1,0065800183170,Singapore,2019-10-01 02:47:06,2019-10-01 02:47:10,2019-10-01 02:48:35,3.26,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259585_1_1.wav
+3259555_1_1,0082264144482,Korea South,2019-10-01 02:48:03,2019-10-01 02:48:05,2019-10-01 02:49:50,4.14,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259555_1_1.wav
+3259556_1_1,0065800844492,Singapore,2019-10-01 02:48:04,2019-10-01 02:48:07,2019-10-01 02:49:50,4.14,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259556_1_1.wav
+3259572_1_1,0081120946046,Japan,2019-10-01 02:49:06,2019-10-01 02:49:08,2019-10-01 02:50:53,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259572_1_1.wav
+3259561_1_1,0086800846032,China,2019-10-01 02:50:03,2019-10-01 02:50:10,2019-10-01 02:51:54,3.27,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259561_1_1.wav
+3259560_1_1,0082273946028,Korea South,2019-10-01 02:51:04,2019-10-01 02:51:06,2019-10-01 02:53:00,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259560_1_1.wav
+3259579_1_1,0082808882515,Korea South,2019-10-01 02:51:04,2019-10-01 02:51:06,2019-10-01 02:52:48,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259579_1_1.wav
+3259576_1_1,0065800176636,Singapore,2019-10-01 02:51:05,2019-10-01 02:51:14,2019-10-01 02:52:53,4.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259576_1_1.wav
+3259569_1_1,00852301846042,Hong Kong,2019-10-01 02:51:06,2019-10-01 02:51:09,2019-10-01 02:52:58,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259569_1_1.wav
+3259575_1_1,0063180073926,Philippines,2019-10-01 02:51:07,2019-10-01 02:51:11,2019-10-01 02:52:57,3.65,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259575_1_1.wav
+3259563_1_1,0065670846035,Singapore,2019-10-01 02:52:03,2019-10-01 02:52:05,2019-10-01 02:53:53,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259563_1_1.wav
+3259565_1_1,0060320546038,Malaysia,2019-10-01 02:52:03,2019-10-01 02:52:06,2019-10-01 02:53:51,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259565_1_1.wav
+3259582_1_1,0086800886217,China,2019-10-01 02:54:04,2019-10-01 02:54:09,2019-10-01 02:55:55,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259582_1_1.wav
+3259564_1_1,0065180046036,Singapore,2019-10-01 02:54:05,2019-10-01 02:54:08,2019-10-01 02:55:52,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259564_1_1.wav
+3259568_1_1,00852305146041,Hong Kong,2019-10-01 02:55:05,2019-10-01 02:55:07,2019-10-01 02:56:56,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259568_1_1.wav
+3259557_1_1,0061283246022,Australia,2019-10-01 02:57:03,2019-10-01 02:57:06,2019-10-01 02:58:51,3.76,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259557_1_1.wav
+3259581_1_1,0086400686210,China,2019-10-01 02:57:04,2019-10-01 02:57:11,2019-10-01 02:58:53,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259581_1_1.wav
+3259566_1_1,0060180046039,Malaysia,2019-10-01 02:57:06,2019-10-01 02:57:09,2019-10-01 02:58:58,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259566_1_1.wav
+3259573_1_1,00886277365750,Taiwan,2019-10-01 02:57:06,2019-10-01 02:57:21,2019-10-01 02:58:55,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259573_1_1.wav
+3259559_1_1,0082808546027,Korea South,2019-10-01 02:58:04,2019-10-01 02:58:06,2019-10-01 02:59:57,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259559_1_1.wav
+3259574_1_1,0062800172639,Indonesia,2019-10-01 02:58:06,2019-10-01 02:58:08,2019-10-01 02:59:51,4.31,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259574_1_1.wav
+3259580_1_1,0061180085853,Australia,2019-10-01 02:59:03,2019-10-01 02:59:07,2019-10-01 03:00:52,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259580_1_1.wav
+3259577_1_1,0086400176714,China,2019-10-01 02:59:04,2019-10-01 02:59:09,2019-10-01 03:00:51,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259577_1_1.wav
+3259571_1_1,0081345046045,Japan,2019-10-01 02:59:07,2019-10-01 02:59:09,2019-10-01 03:00:54,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259571_1_1.wav
+3259599_1_1,0061730677060,Australia,2019-10-01 03:01:04,2019-10-01 03:01:09,2019-10-01 03:02:47,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259599_1_1.wav
+3259596_1_1,0064980177731,New Zealand,2019-10-01 03:01:06,2019-10-01 03:01:13,2019-10-01 03:03:18,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259596_1_1.wav
+3259601_1_1,0061282982625,Australia,2019-10-01 03:01:06,2019-10-01 03:01:11,2019-10-01 03:02:55,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259601_1_1.wav
+3259659_1_1,00852580377307,Hong Kong,2019-10-01 03:01:06,2019-10-01 03:01:10,2019-10-01 03:02:52,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259659_1_1.wav
+3259597_1_1,0064800081845,New Zealand,2019-10-01 03:01:07,2019-10-01 03:01:15,2019-10-01 03:03:17,4.06,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259597_1_1.wav
+3259598_1_1,0064980182016,New Zealand,2019-10-01 03:01:08,2019-10-01 03:01:14,2019-10-01 03:03:16,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259598_1_1.wav
+3259630_1_1,0061180046023,Australia,2019-10-01 03:01:08,2019-10-01 03:01:11,2019-10-01 03:02:55,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259630_1_1.wav
+3259616_1_1,0063180029351,Philippines,2019-10-01 03:01:09,2019-10-01 03:01:12,2019-10-01 03:03:14,4.34,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259616_1_1.wav
+3259656_1_1,0063288776794,Philippines,2019-10-01 03:01:11,2019-10-01 03:01:13,2019-10-01 03:03:00,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259656_1_1.wav
+3259625_1_1,0065180038487,Singapore,2019-10-01 03:01:13,2019-10-01 03:01:17,2019-10-01 03:03:15,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259625_1_1.wav
+3259660_1_1,0065315877313,Singapore,2019-10-01 03:01:13,2019-10-01 03:01:18,2019-10-01 03:03:01,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259660_1_1.wav
+3259622_1_1,0086108733864,China,2019-10-01 03:01:18,2019-10-01 03:01:24,2019-10-01 03:03:01,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259622_1_1.wav
+3259634_1_1,0086400646033,China,2019-10-01 03:01:19,2019-10-01 03:01:28,2019-10-01 03:03:09,3.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259634_1_1.wav
+3259672_1_1,00358800983169,Finland,2019-10-01 03:02:04,2019-10-01 03:02:07,2019-10-01 03:03:24,3.15,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259672_1_1.wav
+3259673_1_1,0034900983171,Spain,2019-10-01 03:02:04,2019-10-01 03:02:06,2019-10-01 03:03:22,3.54,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259673_1_1.wav
+3259567_3_1,0060180046040,Malaysia,2019-10-01 03:02:05,2019-10-01 03:02:10,2019-10-01 03:03:54,3.5,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259567_3_1.wav
+3259670_1_1,0065800183170,Singapore,2019-10-01 03:02:06,2019-10-01 03:02:09,2019-10-01 03:03:32,2.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259670_1_1.wav
+3259602_1_1,0061353182626,Australia,2019-10-01 03:03:03,2019-10-01 03:03:06,2019-10-01 03:04:47,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259602_1_1.wav
+3259603_1_1,0061864082627,Australia,2019-10-01 03:03:04,2019-10-01 03:03:08,2019-10-01 03:04:48,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259603_1_1.wav
+3259595_1_1,0091226077764,India,2019-10-01 03:03:05,2019-10-01 03:03:09,2019-10-01 03:04:55,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259595_1_1.wav
+3259604_1_1,0061180082628,Australia,2019-10-01 03:03:05,2019-10-01 03:03:10,2019-10-01 03:04:47,3.33,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259604_1_1.wav
+3259627_1_1,0082264144482,Korea South,2019-10-01 03:03:06,2019-10-01 03:03:08,2019-10-01 03:04:53,4.07,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259627_1_1.wav
+3259674_1_1,0061180082989,Australia,2019-10-01 03:03:06,2019-10-01 03:03:10,2019-10-01 03:04:29,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259674_1_1.wav
+3259628_1_1,0065800844492,Singapore,2019-10-01 03:03:07,2019-10-01 03:03:11,2019-10-01 03:04:54,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259628_1_1.wav
+3259645_1_1,0063180065440,Philippines,2019-10-01 03:03:08,2019-10-01 03:03:11,2019-10-01 03:04:46,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259645_1_1.wav
+3259648_1_1,0081645672239,Japan,2019-10-01 03:03:09,2019-10-01 03:03:17,2019-10-01 03:04:56,4.22,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259648_1_1.wav
+3259615_1_1,0061180029324,Australia,2019-10-01 03:04:03,2019-10-01 03:04:05,2019-10-01 03:06:02,4.21,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259615_1_1.wav
+3259671_1_1,0064800883168,New Zealand,2019-10-01 03:04:04,2019-10-01 03:04:07,2019-10-01 03:05:26,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259671_1_1.wav
+3259644_1_1,0081120946046,Japan,2019-10-01 03:04:08,2019-10-01 03:04:10,2019-10-01 03:06:02,3.46,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259644_1_1.wav
+3259657_1_1,0061283177297,Australia,2019-10-01 03:05:04,2019-10-01 03:05:06,2019-10-01 03:06:47,3.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259657_1_1.wav
+3259605_1_1,0064991382629,New Zealand,2019-10-01 03:05:05,2019-10-01 03:05:10,2019-10-01 03:06:52,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259605_1_1.wav
+3259606_1_1,0064988782630,New Zealand,2019-10-01 03:05:07,2019-10-01 03:05:10,2019-10-01 03:06:53,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259606_1_1.wav
+3259633_1_1,0086800846032,China,2019-10-01 03:05:08,2019-10-01 03:05:15,2019-10-01 03:06:58,3.54,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259633_1_1.wav
+3259647_1_1,0086105368299,China,2019-10-01 03:05:08,2019-10-01 03:05:12,2019-10-01 03:06:46,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259647_1_1.wav
+3259600_2_1,0061291682624,Australia,2019-10-01 03:06:03,2019-10-01 03:06:09,2019-10-01 03:07:49,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259600_2_1.wav
+3259632_1_1,0082273946028,Korea South,2019-10-01 03:06:04,2019-10-01 03:06:06,2019-10-01 03:07:53,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259632_1_1.wav
+3259663_1_1,0082808882515,Korea South,2019-10-01 03:06:05,2019-10-01 03:06:07,2019-10-01 03:07:48,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259663_1_1.wav
+3259641_1_1,00852301846042,Hong Kong,2019-10-01 03:06:06,2019-10-01 03:06:09,2019-10-01 03:07:58,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259641_1_1.wav
+3259654_1_1,0065800176636,Singapore,2019-10-01 03:06:06,2019-10-01 03:06:12,2019-10-01 03:07:51,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259654_1_1.wav
+3259623_1_1,0091224834104,India,2019-10-01 03:06:07,2019-10-01 03:06:10,2019-10-01 03:07:56,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259623_1_1.wav
+3259653_1_1,0063180073926,Philippines,2019-10-01 03:06:12,2019-10-01 03:06:16,2019-10-01 03:08:04,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259653_1_1.wav
+3259621_1_1,0086400633828,China,2019-10-01 03:07:06,2019-10-01 03:07:12,2019-10-01 03:08:44,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259621_1_1.wav
+3259642_2_1,00852800946043,Hong Kong,2019-10-01 03:07:06,2019-10-01 03:07:08,2019-10-01 03:08:57,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259642_2_1.wav
+3259619_1_1,0086108732482,China,2019-10-01 03:08:03,2019-10-01 03:08:06,2019-10-01 03:10:05,4.01,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259619_1_1.wav
+3259590_1_1,006566534237,Singapore,2019-10-01 03:08:04,2019-10-01 03:08:07,2019-10-01 03:09:50,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259590_1_1.wav
+3259637_1_1,0060320546038,Malaysia,2019-10-01 03:08:05,2019-10-01 03:08:09,2019-10-01 03:09:55,3.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259637_1_1.wav
+3259667_1_1,001613686172,Canada,2019-10-01 03:09:03,2019-10-01 03:09:08,2019-10-01 03:10:40,3.45,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259667_1_1.wav
+3259664_1_1,0086400183629,China,2019-10-01 03:09:04,2019-10-01 03:09:09,2019-10-01 03:10:42,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259664_1_1.wav
+3259669_1_1,0086800886217,China,2019-10-01 03:09:06,2019-10-01 03:09:12,2019-10-01 03:10:57,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259669_1_1.wav
+3259639_1_1,0060180046040,Malaysia,2019-10-01 03:10:03,2019-10-01 03:10:08,2019-10-01 03:11:52,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259639_1_1.wav
+3259640_1_1,00852305146041,Hong Kong,2019-10-01 03:10:06,2019-10-01 03:10:08,2019-10-01 03:11:57,3.72,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259640_1_1.wav
+3259594_1_1,0084120877021,Vietnam,2019-10-01 03:10:07,2019-10-01 03:10:19,2019-10-01 03:12:02,3.61,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259594_1_1.wav
+3259658_1_1,0086218077303,China,2019-10-01 03:11:04,2019-10-01 03:11:09,2019-10-01 03:12:50,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259658_1_1.wav
+3259652_1_1,0060180073476,Malaysia,2019-10-01 03:11:05,2019-10-01 03:11:10,2019-10-01 03:12:44,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259652_1_1.wav
+3259629_1_1,0061283246022,Australia,2019-10-01 03:12:03,2019-10-01 03:12:05,2019-10-01 03:13:51,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259629_1_1.wav
+3259649_1_1,0064428072240,New Zealand,2019-10-01 03:12:04,2019-10-01 03:12:07,2019-10-01 03:13:52,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259649_1_1.wav
+3259668_1_1,0086400686210,China,2019-10-01 03:12:05,2019-10-01 03:12:11,2019-10-01 03:13:58,3.6,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259668_1_1.wav
+3259646_1_1,00886277365750,Taiwan,2019-10-01 03:12:06,2019-10-01 03:12:21,2019-10-01 03:13:56,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259646_1_1.wav
+3259638_1_1,0060180046039,Malaysia,2019-10-01 03:12:07,2019-10-01 03:12:10,2019-10-01 03:13:54,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259638_1_1.wav
+3259631_1_1,0082808546027,Korea South,2019-10-01 03:13:04,2019-10-01 03:13:06,2019-10-01 03:14:54,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259631_1_1.wav
+3259650_1_1,0065800872241,Singapore,2019-10-01 03:13:06,2019-10-01 03:13:11,2019-10-01 03:14:45,3.41,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259650_1_1.wav
+3259651_1_1,0062800172639,Indonesia,2019-10-01 03:13:06,2019-10-01 03:13:08,2019-10-01 03:14:52,4.28,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259651_1_1.wav
+3259661_1_1,0082264177314,Korea South,2019-10-01 03:14:04,2019-10-01 03:14:07,2019-10-01 03:15:48,4.21,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259661_1_1.wav
+3259665_1_1,0061180085853,Australia,2019-10-01 03:14:04,2019-10-01 03:14:09,2019-10-01 03:15:51,3.65,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259665_1_1.wav
+3259643_1_1,0081345046045,Japan,2019-10-01 03:14:06,2019-10-01 03:14:08,2019-10-01 03:15:53,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259643_1_1.wav
+3259655_1_1,0086400176714,China,2019-10-01 03:14:06,2019-10-01 03:14:10,2019-10-01 03:15:54,3.55,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259655_1_1.wav
+3259680_1_1,0061180046023,Australia,2019-10-01 03:16:04,2019-10-01 03:16:06,2019-10-01 03:17:51,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259680_1_1.wav
+3259684_1_1,0086400646033,China,2019-10-01 03:16:05,2019-10-01 03:16:12,2019-10-01 03:17:54,3.4,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259684_1_1.wav
+3259692_1_1,00852800946043,Hong Kong,2019-10-01 03:16:06,2019-10-01 03:16:08,2019-10-01 03:17:57,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259692_1_1.wav
+3259700_1_1,0063288776794,Philippines,2019-10-01 03:16:07,2019-10-01 03:16:09,2019-10-01 03:17:56,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259700_1_1.wav
+3259708_1_1,0061180082989,Australia,2019-10-01 03:18:04,2019-10-01 03:18:07,2019-10-01 03:19:24,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259708_1_1.wav
+3259677_1_1,0082264144482,Korea South,2019-10-01 03:18:05,2019-10-01 03:18:07,2019-10-01 03:19:53,4.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259677_1_1.wav
+3259593_2_1,0084244477020,Vietnam,2019-10-01 03:18:06,2019-10-01 03:18:11,2019-10-01 03:19:55,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259593_2_1.wav
+3259706_1_1,00358800983169,Finland,2019-10-01 03:18:06,2019-10-01 03:18:10,2019-10-01 03:19:26,3.32,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259706_1_1.wav
+3259707_1_1,0034900983171,Spain,2019-10-01 03:18:06,2019-10-01 03:18:08,2019-10-01 03:19:24,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259707_1_1.wav
+3259709_1_1,0064800883168,New Zealand,2019-10-01 03:18:06,2019-10-01 03:18:09,2019-10-01 03:19:27,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259709_1_1.wav
+3259617_2_1,00886800829360,Taiwan,2019-10-01 03:18:07,2019-10-01 03:18:14,2019-10-01 03:20:09,3.37,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259617_2_1.wav
+3259678_1_1,0065800844492,Singapore,2019-10-01 03:18:07,2019-10-01 03:18:10,2019-10-01 03:19:54,4.05,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259678_1_1.wav
+3259705_1_1,0065800183170,Singapore,2019-10-01 03:18:07,2019-10-01 03:18:11,2019-10-01 03:19:26,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259705_1_1.wav
+3259694_1_1,0081120946046,Japan,2019-10-01 03:19:05,2019-10-01 03:19:07,2019-10-01 03:20:52,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259694_1_1.wav
+3259683_1_1,0086800846032,China,2019-10-01 03:20:04,2019-10-01 03:20:12,2019-10-01 03:21:54,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259683_1_1.wav
+3259682_1_1,0082273946028,Korea South,2019-10-01 03:21:03,2019-10-01 03:21:04,2019-10-01 03:22:55,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259682_1_1.wav
+3259701_1_1,0082808882515,Korea South,2019-10-01 03:21:03,2019-10-01 03:21:05,2019-10-01 03:22:49,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259701_1_1.wav
+3259698_1_1,0065800176636,Singapore,2019-10-01 03:21:04,2019-10-01 03:21:08,2019-10-01 03:22:52,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259698_1_1.wav
+3259691_1_1,00852301846042,Hong Kong,2019-10-01 03:21:06,2019-10-01 03:21:09,2019-10-01 03:22:58,3.52,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259691_1_1.wav
+3259697_1_1,0063180073926,Philippines,2019-10-01 03:21:07,2019-10-01 03:21:11,2019-10-01 03:22:57,3.5,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259697_1_1.wav
+3259624_2_1,0061180038474,Australia,2019-10-01 03:22:04,2019-10-01 03:22:08,2019-10-01 03:24:09,4.16,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259624_2_1.wav
+3259687_1_1,0060320546038,Malaysia,2019-10-01 03:22:06,2019-10-01 03:22:11,2019-10-01 03:23:59,3.38,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259687_1_1.wav
+3259685_1_1,0065670846035,Singapore,2019-10-01 03:22:09,2019-10-01 03:22:12,2019-10-01 03:23:59,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259685_1_1.wav
+3259635_2_1,0065670846035,Singapore,2019-10-01 03:23:03,2019-10-01 03:23:05,2019-10-01 03:24:54,3.62,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259635_2_1.wav
+3259704_1_1,0086800886217,China,2019-10-01 03:24:04,2019-10-01 03:24:08,2019-10-01 03:25:57,3.42,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259704_1_1.wav
+3259686_1_1,0065180046036,Singapore,2019-10-01 03:24:05,2019-10-01 03:24:09,2019-10-01 03:26:01,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259686_1_1.wav
+3259690_1_1,00852305146041,Hong Kong,2019-10-01 03:25:06,2019-10-01 03:25:08,2019-10-01 03:26:57,3.44,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259690_1_1.wav
+3259679_1_1,0061283246022,Australia,2019-10-01 03:27:03,2019-10-01 03:27:05,2019-10-01 03:28:50,3.48,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259679_1_1.wav
+3259688_1_1,0060180046039,Malaysia,2019-10-01 03:27:04,2019-10-01 03:27:08,2019-10-01 03:28:54,3.35,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259688_1_1.wav
+3259703_1_1,0086400686210,China,2019-10-01 03:27:04,2019-10-01 03:27:09,2019-10-01 03:28:56,3.49,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259703_1_1.wav
+3259695_1_1,00886277365750,Taiwan,2019-10-01 03:27:05,2019-10-01 03:27:20,2019-10-01 03:29:00,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259695_1_1.wav
+3259681_1_1,0082808546027,Korea South,2019-10-01 03:28:03,2019-10-01 03:28:05,2019-10-01 03:29:56,3.66,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259681_1_1.wav
+3259696_1_1,0062800172639,Indonesia,2019-10-01 03:28:07,2019-10-01 03:28:11,2019-10-01 03:29:54,4.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259696_1_1.wav
+3259702_1_1,0061180085853,Australia,2019-10-01 03:29:02,2019-10-01 03:29:08,2019-10-01 03:30:53,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259702_1_1.wav
+3259699_1_1,0086400176714,China,2019-10-01 03:29:04,2019-10-01 03:29:08,2019-10-01 03:30:56,3.63,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259699_1_1.wav
+3259689_2_1,0060180046040,Malaysia,2019-10-01 03:29:05,2019-10-01 03:29:09,2019-10-01 03:30:58,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259689_2_1.wav
+3259693_1_1,0081345046045,Japan,2019-10-01 03:29:05,2019-10-01 03:29:07,2019-10-01 03:30:58,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259693_1_1.wav
+3259636_3_1,0065180046036,Singapore,2019-10-01 03:30:03,2019-10-01 03:30:06,2019-10-01 03:31:51,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259636_3_1.wav
+3259717_1_1,0046207928137,Sweden,2019-10-01 03:31:04,2019-10-01 03:31:10,2019-10-01 03:32:36,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259717_1_1.wav
+3259756_1_1,0061180046023,Australia,2019-10-01 03:31:04,2019-10-01 03:31:06,2019-10-01 03:32:52,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259756_1_1.wav
+3259751_1_1,0086108733864,China,2019-10-01 03:31:05,2019-10-01 03:31:08,2019-10-01 03:32:47,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259751_1_1.wav
+3259768_1_1,00852800946043,Hong Kong,2019-10-01 03:31:05,2019-10-01 03:31:08,2019-10-01 03:32:57,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259768_1_1.wav
+3259781_1_1,0063288776794,Philippines,2019-10-01 03:31:06,2019-10-01 03:31:08,2019-10-01 03:32:55,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259781_1_1.wav
+3259760_1_1,0086400646033,China,2019-10-01 03:31:07,2019-10-01 03:31:14,2019-10-01 03:32:57,3.57,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259760_1_1.wav
+3259743_1_1,0081663328255,Japan,2019-10-01 03:31:08,2019-10-01 03:31:15,2019-10-01 03:32:42,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259743_1_1.wav
+3259783_1_1,0065315877313,Singapore,2019-10-01 03:31:08,2019-10-01 03:31:14,2019-10-01 03:32:55,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259783_1_1.wav
+3259747_1_1,0027800928274,South Africa,2019-10-01 03:32:02,2019-10-01 03:32:09,2019-10-01 03:33:39,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259747_1_1.wav
+3259716_1_1,0044800028133,United Kingdom,2019-10-01 03:32:03,2019-10-01 03:32:07,2019-10-01 03:33:39,3.99,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259716_1_1.wav
+3259741_1_1,0086108028241,China,2019-10-01 03:32:05,2019-10-01 03:32:13,2019-10-01 03:33:44,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259741_1_1.wav
+3259713_1_1,0061180028128,Australia,2019-10-01 03:33:03,2019-10-01 03:33:08,2019-10-01 03:34:36,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259713_1_1.wav
+3259793_1_1,0061180082989,Australia,2019-10-01 03:33:03,2019-10-01 03:33:06,2019-10-01 03:34:24,3.86,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259793_1_1.wav
+3259753_1_1,0082264144482,Korea South,2019-10-01 03:33:05,2019-10-01 03:33:07,2019-10-01 03:34:48,4.12,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259753_1_1.wav
+3259726_1_1,0039800828161,Italy,2019-10-01 03:33:06,2019-10-01 03:33:17,2019-10-01 03:34:43,3.84,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259726_1_1.wav
+3259729_1_1,0033800928164,France,2019-10-01 03:33:06,2019-10-01 03:33:12,2019-10-01 03:34:38,3.16,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259729_1_1.wav
+3259771_1_1,0063180065440,Philippines,2019-10-01 03:33:06,2019-10-01 03:33:09,2019-10-01 03:34:46,3.59,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259771_1_1.wav
+3259794_1_1,00358800983169,Finland,2019-10-01 03:33:06,2019-10-01 03:33:10,2019-10-01 03:34:31,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259794_1_1.wav
+3259795_1_1,0034900983171,Spain,2019-10-01 03:33:06,2019-10-01 03:33:09,2019-10-01 03:34:25,3.71,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259795_1_1.wav
+3259754_1_1,0065800844492,Singapore,2019-10-01 03:33:07,2019-10-01 03:33:10,2019-10-01 03:34:54,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259754_1_1.wav
+3259774_1_1,0081645672239,Japan,2019-10-01 03:33:07,2019-10-01 03:33:13,2019-10-01 03:34:57,4.26,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259774_1_1.wav
+3259796_1_1,0065800183170,Singapore,2019-10-01 03:33:07,2019-10-01 03:33:10,2019-10-01 03:34:31,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259796_1_1.wav
+3259725_1_1,00420800728159,Czech Republic,2019-10-01 03:34:04,2019-10-01 03:34:09,2019-10-01 03:35:40,3.94,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259725_1_1.wav
+3259782_1_1,0061283177297,Australia,2019-10-01 03:34:04,2019-10-01 03:34:07,2019-10-01 03:35:51,3.13,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259782_1_1.wav
+3259745_1_1,0060180028261,Malaysia,2019-10-01 03:34:06,2019-10-01 03:34:11,2019-10-01 03:35:38,3.87,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259745_1_1.wav
+3259770_1_1,0081120946046,Japan,2019-10-01 03:34:06,2019-10-01 03:34:08,2019-10-01 03:35:53,3.82,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259770_1_1.wav
+3259728_1_1,0033800928163,France,2019-10-01 03:35:03,2019-10-01 03:35:09,2019-10-01 03:36:35,3.1,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259728_1_1.wav
+3259759_1_1,0086800846032,China,2019-10-01 03:35:06,2019-10-01 03:35:13,2019-10-01 03:36:51,3.19,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259759_1_1.wav
+3259773_1_1,0086105368299,China,2019-10-01 03:35:06,2019-10-01 03:35:10,2019-10-01 03:36:44,3.69,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259773_1_1.wav
+3259758_1_1,0082273946028,Korea South,2019-10-01 03:36:03,2019-10-01 03:36:07,2019-10-01 03:37:50,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259758_1_1.wav
+3259746_1_1,0040800828267,Romania,2019-10-01 03:36:04,2019-10-01 03:36:09,2019-10-01 03:37:40,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259746_1_1.wav
+3259785_1_1,0082808882515,Korea South,2019-10-01 03:36:04,2019-10-01 03:36:06,2019-10-01 03:37:50,4.08,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259785_1_1.wav
+3259742_1_1,0045808828245,Denmark,2019-10-01 03:36:05,2019-10-01 03:36:09,2019-10-01 03:37:40,4.02,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259742_1_1.wav
+3259767_1_1,00852301846042,Hong Kong,2019-10-01 03:36:06,2019-10-01 03:36:09,2019-10-01 03:37:57,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259767_1_1.wav
+3259752_1_1,0091224834104,India,2019-10-01 03:36:07,2019-10-01 03:36:11,2019-10-01 03:37:57,3.8,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259752_1_1.wav
+3259779_1_1,0065800176636,Singapore,2019-10-01 03:36:07,2019-10-01 03:36:11,2019-10-01 03:37:50,3.98,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259779_1_1.wav
+3259778_1_1,0063180073926,Philippines,2019-10-01 03:36:11,2019-10-01 03:36:14,2019-10-01 03:38:03,3.79,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259778_1_1.wav
+3259720_1_1,0034800028142,Spain,2019-10-01 03:37:03,2019-10-01 03:37:05,2019-10-01 03:38:31,3.78,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259720_1_1.wav
+3259739_1_1,0032800628238,Belgium,2019-10-01 03:37:03,2019-10-01 03:37:09,2019-10-01 03:38:40,3.93,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259739_1_1.wav
+3259750_1_1,0086400633828,China,2019-10-01 03:37:05,2019-10-01 03:37:13,2019-10-01 03:38:48,3.58,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259750_1_1.wav
+3259712_1_1,0063180028125,Philippines,2019-10-01 03:37:06,2019-10-01 03:37:12,2019-10-01 03:38:40,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259712_1_1.wav
+3259761_1_1,0065670846035,Singapore,2019-10-01 03:37:08,2019-10-01 03:37:11,2019-10-01 03:38:54,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259761_1_1.wav
+3259763_1_1,0060320546038,Malaysia,2019-10-01 03:37:10,2019-10-01 03:37:14,2019-10-01 03:38:58,3.33,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259763_1_1.wav
+3259714_1_1,00353180028130,Ireland,2019-10-01 03:38:02,2019-10-01 03:38:09,2019-10-01 03:39:35,3.89,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259714_1_1.wav
+3259721_1_1,0031800028143,Netherlands,2019-10-01 03:38:02,2019-10-01 03:38:07,2019-10-01 03:39:38,3.96,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259721_1_1.wav
+3259789_1_1,001613686172,Canada,2019-10-01 03:39:02,2019-10-01 03:39:07,2019-10-01 03:40:43,3.81,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259789_1_1.wav
+3259786_1_1,0086400183629,China,2019-10-01 03:39:03,2019-10-01 03:39:08,2019-10-01 03:40:41,3.68,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259786_1_1.wav
+3259762_1_1,0065180046036,Singapore,2019-10-01 03:39:05,2019-10-01 03:39:08,2019-10-01 03:40:53,3.77,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259762_1_1.wav
+3259791_1_1,0086800886217,China,2019-10-01 03:39:05,2019-10-01 03:39:10,2019-10-01 03:40:53,3.73,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259791_1_1.wav
+3259727_1_1,0033800928162,France,2019-10-01 03:40:03,2019-10-01 03:40:07,2019-10-01 03:41:39,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259727_1_1.wav
+3259765_1_1,0060180046040,Malaysia,2019-10-01 03:40:04,2019-10-01 03:40:08,2019-10-01 03:41:57,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259765_1_1.wav
+3259766_1_1,00852305146041,Hong Kong,2019-10-01 03:40:06,2019-10-01 03:40:08,2019-10-01 03:41:57,3.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259766_1_1.wav
+3259719_1_1,0049800028141,Germany,2019-10-01 03:41:05,2019-10-01 03:41:13,2019-10-01 03:42:39,3.97,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259719_1_1.wav
+3259718_1_1,0036680028140,Hungary,2019-10-01 03:41:06,2019-10-01 03:41:12,2019-10-01 03:42:43,3.83,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259718_1_1.wav
+3259777_1_1,0060180073476,Malaysia,2019-10-01 03:41:09,2019-10-01 03:41:14,2019-10-01 03:42:43,3.53,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259777_1_1.wav
+3259715_1_1,0044333328131,United Kingdom,2019-10-01 03:42:03,2019-10-01 03:42:08,2019-10-01 03:43:34,3.91,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259715_1_1.wav
+3259723_1_1,0048800128154,Poland,2019-10-01 03:42:03,2019-10-01 03:42:10,2019-10-01 03:43:37,3.85,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259723_1_1.wav
+3259755_1_1,0061283246022,Australia,2019-10-01 03:42:03,2019-10-01 03:42:05,2019-10-01 03:44:03,3.7,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259755_1_1.wav
+3259790_1_1,0086400686210,China,2019-10-01 03:42:05,2019-10-01 03:42:11,2019-10-01 03:44:04,3.64,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259790_1_1.wav
+3259772_1_1,00886277365750,Taiwan,2019-10-01 03:42:06,2019-10-01 03:42:21,2019-10-01 03:44:01,3.75,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259772_1_1.wav
+3259764_1_1,0060180046039,Malaysia,2019-10-01 03:42:07,2019-10-01 03:42:11,2019-10-01 03:44:03,3.47,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259764_1_1.wav
+3259722_1_1,0065315828151,Singapore,2019-10-01 03:42:09,2019-10-01 03:42:16,2019-10-01 03:43:44,3.9,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259722_1_1.wav
+3259744_1_1,00352800228260,Luxembourg,2019-10-01 03:43:03,2019-10-01 03:43:09,2019-10-01 03:44:35,3.74,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259744_1_1.wav
+3259757_1_1,0082808546027,Korea South,2019-10-01 03:43:03,2019-10-01 03:43:04,2019-10-01 03:44:57,3.51,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259757_1_1.wav
+3259776_1_1,0062800172639,Indonesia,2019-10-01 03:43:06,2019-10-01 03:43:08,2019-10-01 03:44:52,4.29,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259776_1_1.wav
+3259775_1_1,0065800872241,Singapore,2019-10-01 03:43:08,2019-10-01 03:43:13,2019-10-01 03:44:45,3.67,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259775_1_1.wav
+3259749_1_1,0061180032864,Australia,2019-10-01 03:44:04,2019-10-01 03:44:10,2019-10-01 03:45:38,3.88,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259749_1_1.wav
+3259724_1_1,0041800528158,Switzerland,2019-10-01 03:44:05,2019-10-01 03:44:12,2019-10-01 03:45:38,3.92,https://new-call-recordings.s3.amazonaws.com/degraded-audio/3259724_1_1.wav
