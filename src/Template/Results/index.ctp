@@ -3,10 +3,19 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Result[]|\Cake\Collection\CollectionInterface $results
  */
+?>
 
-// Create the sidebar block.
+<?php
+
 $this->start('topbar');
-    echo '<h4>Datepicker, Export/Import, Search</h4>';
+    $this->Form->create();
+        echo $this->Form->control('start_date', ['class' => 'mx-3']);
+        echo $this->Form->control('end_date', ['class' => 'mx-3']);
+        echo '<button>Go</button>';
+        echo '<button>Export</button>';
+        echo '<button>Import</button>';
+        echo $this->Form->control('search', ['class' => 'mx-3']);
+    $this->Form->end();
 $this->end();
 ?>
 
