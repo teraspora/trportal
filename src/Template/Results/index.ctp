@@ -7,8 +7,8 @@
 
 <div class="results index large-9 medium-8 columns content">
     <h3><?= __('Results') ?></h3>
-    <table cellpadding="4" cellspacing="8">
-        <thead>
+    <table class="table" cellpadding="4" cellspacing="8">
+        <thead class="thead-dark">
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col"><?= $this->Paginator->sort('number') ?></th>
@@ -25,17 +25,23 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($results as $result): ?>
+            <?php foreach ($results as $result): 
+                $srt = new DateTime($result->start_time); 
+                $end = new DateTime($result->end_time);
+                $con = new DateTime($result->connect_time); 
+                ?>
+                    
             <tr>
                 <td><?= (string)($result->job_processing_uid) . '_' . (string)($result->test_counter) . '_' . (string)($result->test_type_uid) ?></td>
                 <td><?= h($result->number) ?></td>
                 <td><?= h($result->country) ?></td>
-                <td><?= h($result->start_time) ?></td>
-                <td><?= h($result->connect_time) ?></td>
-                <td><?= h($result->end_time) ?></td>
-                <td>99:59:59</td>
+                <td><?= $srt->format('Y-m-d H:i:s') ?></td>
+                <td><?= $con->format('Y-m-d H:i:s') ?></td>
+                <td><?= $end->format('Y-m-d H:i:s') ?></td>
+                <td><?php 
+                    echo ($end->diff($srt))->format('%H:%I:%S');  ?></td>
                 <td><?= $this->Number->format($result->score) ?></td>
-                <td><?= $this->Html->link('Audio', $result->url) ?></td>
+                <td><?= $this->Html->link('Listen', $result->url); ?></td>
                 <td><?= $this->Number->format($result->added_by) ?></td>
                 <td><?= h($result->added_on) ?></td>
                 <td class="actions">
@@ -56,3 +62,9 @@
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>
 </div>
+
+
+<!-- 
+<i class='fas fa-file-audio' style='font-size:24px'></i>
+
+ -->
