@@ -3,10 +3,14 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Result[]|\Cake\Collection\CollectionInterface $results
  */
+
+// Create the sidebar block.
+$this->start('topbar');
+    echo '<h4>Datepicker, Export/Import, Search</h4>';
+$this->end();
 ?>
 
 <div class="results index large-9 medium-8 columns content">
-    <h3><?= __('Results') ?></h3>
     <table class="table" cellpadding="4" cellspacing="8">
         <thead class="thead-dark">
             <tr>
@@ -28,10 +32,10 @@
             <?php 
                 use Cake\I18n\Time;
                 foreach ($results as $result): 
-                $srt = new Time($result->start_time); 
-                $end = new Time($result->end_time);
-                $con = new Time($result->connect_time); 
-                ?>
+                    $srt = new Time($result->start_time); 
+                    $end = new Time($result->end_time);
+                    $con = new Time($result->connect_time); 
+            ?>
                     
             <tr>
                 <td><?= h($result->id_str) ?></td>
