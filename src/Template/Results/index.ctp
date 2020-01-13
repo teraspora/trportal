@@ -10,36 +10,37 @@
     <table class="table" cellpadding="4" cellspacing="8">
         <thead class="thead-dark">
             <tr>
-                <th scope="col">ID</th>
-                <th scope="col"><?= $this->Paginator->sort('number') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('country') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('start_time') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('connect_time') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('end_time') ?></th>
-                <th>Duration</th>
-                <th scope="col"><?= $this->Paginator->sort('score') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('id_str', 'ID') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('number', 'Number') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('country', 'Country') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('start_time', 'Start time') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('connect_time', 'Connect time') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('end_time', 'End time') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('duration', 'Duration') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('score', 'Score') ?></th>
                 <th scope="col">Recording</th>
-                <th scope="col"><?= $this->Paginator->sort('added_by') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('added_on') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('added_by', 'Added By') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('added_on', 'Added On') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($results as $result): 
-                $srt = new DateTime($result->start_time); 
-                $end = new DateTime($result->end_time);
-                $con = new DateTime($result->connect_time); 
+            <?php 
+                use Cake\I18n\Time;
+                foreach ($results as $result): 
+                $srt = new Time($result->start_time); 
+                $end = new Time($result->end_time);
+                $con = new Time($result->connect_time); 
                 ?>
                     
             <tr>
-                <td><?= (string)($result->job_processing_uid) . '_' . (string)($result->test_counter) . '_' . (string)($result->test_type_uid) ?></td>
+                <td><?= h($result->id_str) ?></td>
                 <td><?= h($result->number) ?></td>
                 <td><?= h($result->country) ?></td>
                 <td><?= $srt->format('Y-m-d H:i:s') ?></td>
                 <td><?= $con->format('Y-m-d H:i:s') ?></td>
                 <td><?= $end->format('Y-m-d H:i:s') ?></td>
-                <td><?php 
-                    echo ($end->diff($srt))->format('%H:%I:%S');  ?></td>
+                <td><?= h($result->duration) ?></td>
                 <td><?= $this->Number->format($result->score) ?></td>
                 <td><?= $this->Html->link('Listen', $result->url); ?></td>
                 <td><?= $this->Number->format($result->added_by) ?></td>

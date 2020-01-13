@@ -1,7 +1,8 @@
 <?php
 namespace App\Model\Entity;
-
+use Cake\Collection\Collection;
 use Cake\ORM\Entity;
+use Cake\I18n\Time;
 
 /**
  * Result Entity
@@ -43,5 +44,27 @@ class Result extends Entity
         'url' => true,
         'added_by' => true,
         'added_on' => true,
+        'id_str' => true,
+        'duration' => true
     ];
+
+    // These hooks create "computed properties", so we can refer to `$result->id_str`
+    // and `$result->duration' in templates.    Ref. Book p.67.
+    protected function _getIdStr() {
+        if (isset($this->_properties['id_str'])) {
+            return $this->_properties['id_str'];
+        }
+        return (string)($this->job_processing_uid) . '_' . (string)($this->test_counter) . '_' . (string)($this->test_type_uid);
+    }
+
+    protected function _getDuration() {
+        if (isset($this->_properties['duration'])) {
+            return $this->_properties['duration'];
+        }
+        // $srt = new Time($this->start_time); 
+        $end = new Time($this->end_time);
+        $con = new Time($this->connect_time);
+        return ($end->diff($con))->format('%H:%I:%S');
+    }
+
 }
