@@ -26,3 +26,13 @@ CREATE TABLE results (
     FOREIGN KEY (added_by) REFERENCES users(id),
     PRIMARY KEY (job_processing_uid, test_type_uid, test_counter)
 );
+
+CREATE TRIGGER tr_insert_added_on
+BEFORE INSERT ON results
+FOR EACH ROW
+SET new.added_on = CURRENT_TIMESTAMP;
+
+CREATE TRIGGER tr_insert_user_created_on
+BEFORE INSERT ON users
+FOR EACH ROW
+SET new.created_on = CURRENT_TIMESTAMP;
