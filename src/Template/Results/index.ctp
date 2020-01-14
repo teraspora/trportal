@@ -8,14 +8,19 @@
 <?php
 
 $this->start('topbar');
-    $this->Form->create();
-        echo $this->Form->control('start_date', ['class' => 'mx-3']);
-        echo $this->Form->control('end_date', ['class' => 'mx-3']);
-        echo '<button>Go</button>';
+        echo $this->Form->create($results, $options = ['class' => 'form-inline', 'method' => 'get', 'url' => 'http://127.0.0.1/trportal/results/index']);
+        echo '<div class="form-group">';
+        echo $this->Form->input('start_date', ['class' => 'form-control datepicker mx-5', 'name' => 'start', 'type' => 'date',
+            'default' => date('d-m-Y')]);
+        echo $this->Form->input('end_date', ['class' => 'form-control datepicker mx-5', 'name' => 'end', 'type' => 'date',
+            'default' => date('d-m-Y')]);
+        echo $this->Form->control('Go', ['class' => 'btn btn-default mx-5', 'type' => 'submit',
+            'value' => 'Hp']);
+        echo '</div>';
         echo '<button>Export</button>';
         echo '<button>Import</button>';
-        echo $this->Form->control('search', ['class' => 'mx-3']);
-    $this->Form->end();
+        echo $this->Form->control('search', ['class' => 'form-control mx-5']);
+        echo $this->Form->end();
 $this->end();
 ?>
 
@@ -77,6 +82,23 @@ $this->end();
     </div>
 </div>
 
+<!-- <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous">
+</script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous">
+</script>
+<script>
+    $(document).ready(function() {
+        $(function() {
+            $('.datepicker').datepicker();
+        });
+    });    
+</script> -->
 
 <!-- 
 <i class='fas fa-file-audio' style='font-size:24px'></i>
