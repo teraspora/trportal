@@ -38,14 +38,11 @@ class ResultsController extends AppController {
                 else {
                     $end = new Time($end_date);
                 }
-            }
-            debug($srt);
-            debug($end);            
+            }                 
             $query = $this->Results
                 ->find()
                 ->where(['start_time >=' => $srt])
-                ->andWhere(['start_time <=' => $end]);
-            // debug($query);
+                ->andWhere(['start_time <=' => $end]);            
             $results = $this->paginate($query);
         }
         else {      // Method must be 'get' so display all
@@ -55,7 +52,7 @@ class ResultsController extends AppController {
     }
 
     public function getDateStringFromObject($obj, $set_23_59 = false) {
-        // Get YYmmdd from the json-type object in request data; add ' 23:59:59' if 2nd param true.
+        // Get YY-mm-dd from the json-type object in request data; add ' 23:59:59' if 2nd param true.
         return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'] . ($set_23_59 ? ' 23:59:59' : '');
     }
 
@@ -66,14 +63,14 @@ class ResultsController extends AppController {
      * @return \Cake\Http\Response|null
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function view($id = null)
-    {
-        $result = $this->Results->get($id, [
-            'contain' => [],
-        ]);
+    // public function view($id = null)
+    // {
+    //     $result = $this->Results->get($id, [
+    //         'contain' => [],
+    //     ]);
 
-        $this->set('result', $result);
-    }
+    //     $this->set('result', $result);
+    // }
 
     /**
      * Add method
