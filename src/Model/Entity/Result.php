@@ -45,7 +45,8 @@ class Result extends Entity
         'added_by' => true,
         'added_on' => true,
         'id_str' => true,
-        'duration' => true
+        'duration' => true,
+        'status' => true
     ];
 
     // These hooks create "computed properties", so we can refer to `$result->id_str`
@@ -54,15 +55,15 @@ class Result extends Entity
         if (isset($this->_properties['id_str'])) {
             return $this->_properties['id_str'];
         }
-        return (string)($this->job_processing_uid) . '_' . (string)($this->test_counter) . '_' . (string)($this->test_type_uid);
+        return (string)($this->job_processing_uid) . '_' . (string)($this->test_type_uid) . '_' . (string)($this->test_counter);
     }
 
     protected function _getDuration() {
         if (isset($this->_properties['duration'])) {
             return $this->_properties['duration'];
         } 
-        $end = new Time($this->end_time);
         $con = new Time($this->connect_time);
+        $end = new Time($this->end_time);
         return ($end->diff($con))->format('%H:%I:%S');
     }
 
