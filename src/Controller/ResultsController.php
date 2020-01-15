@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\I18n\Time;
 
 /**
  * Results Controller
@@ -10,18 +11,51 @@ use App\Controller\AppController;
  *
  * @method \App\Model\Entity\Result[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
-class ResultsController extends AppController
-{
+class ResultsController extends AppController {
     /**
      * Index method
      *
      * @return \Cake\Http\Response|null
      */
-    public function index()
-    {
-        $results = $this->paginate($this->Results);
+    public function index() {
+        if ($this->request->is('post')) {       // Method must be 'post' so display by date range
+            $start_date = $this->getDateFromObject($this->request->getData('start'));
+            $end_date = $this->getDateFromObject($this->request->getData('end'));
+            if (is_null($start_date)) {
+                $srt = new Time('20 years ago');
+                if (is_null($end_date)) {
+                    $end = Time::now();
+                }
+                else {
+                    $end = new Time($end_date);
+                }
+            }
+            else {
+                $srt = new Time($start_date);
+                if (is_null($end_date)) {
+                    $end = Time::now();
+                }
+                else {
+                    $end = new Time($end_date);
+                }
+            }
+            // debug($srt);
+            // debug($end);            
+            $query = $this->Results
+                ->find()
+                ->where(['start_time >=' => $srt])
+                ->andWhere(['start_time <=' => $end]);
+            // debug($query);
+            $results = $this->paginate($query);
+        }
+        else {      // Method must be 'get' so display all
+            $results = $this->paginate($this->Results);
+        }
+        $this->set(compact('results'));        
+    }
 
-        $this->set(compact('results'));
+    public function getDateFromObject($obj) {
+        return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'];
     }
 
     /**
@@ -45,20 +79,20 @@ class ResultsController extends AppController
      *
      * @return \Cake\Http\Response|null Redirects on successful add, renders view otherwise.
      */
-    public function add()
-    {
-        $result = $this->Results->newEntity();
-        if ($this->request->is('post')) {
-            $result = $this->Results->patchEntity($result, $this->request->getData());
-            if ($this->Results->save($result)) {
-                $this->Flash->success(__('The result has been saved.'));
+    // public function add()
+    // {
+    //     $result = $this->Results->newEntity();
+    //     if ($this->request->is('post')) {
+    //         $result = $this->Results->patchEntity($result, $this->request->getData());
+    //         if ($this->Results->save($result)) {
+    //             $this->Flash->success(__('The result has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The result could not be saved. Please, try again.'));
-        }
-        $this->set(compact('result'));
-    }
+    //             return $this->redirect(['action' => 'index']);
+    //         }
+    //         $this->Flash->error(__('The result could not be saved. Please, try again.'));
+    //     }
+    //     $this->set(compact('result'));
+    // }
 
     /**
      * Edit method
@@ -67,22 +101,22 @@ class ResultsController extends AppController
      * @return \Cake\Http\Response|null Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function edit($id = null)
-    {
-        $result = $this->Results->get($id, [
-            'contain' => [],
-        ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
-            $result = $this->Results->patchEntity($result, $this->request->getData());
-            if ($this->Results->save($result)) {
-                $this->Flash->success(__('The result has been saved.'));
+    // public function edit($id = null)
+    // {
+    //     $result = $this->Results->get($id, [
+    //         'contain' => [],
+    //     ]);
+    //     if ($this->request->is(['patch', 'post', 'put'])) {
+    //         $result = $this->Results->patchEntity($result, $this->request->getData());
+    //         if ($this->Results->save($result)) {
+    //             $this->Flash->success(__('The result has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The result could not be saved. Please, try again.'));
-        }
-        $this->set(compact('result'));
-    }
+    //             return $this->redirect(['action' => 'index']);
+    //         }
+    //         $this->Flash->error(__('The result could not be saved. Please, try again.'));
+    //     }
+    //     $this->set(compact('result'));
+    // }
 
     /**
      * Delete method
