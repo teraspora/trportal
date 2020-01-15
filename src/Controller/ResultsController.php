@@ -19,8 +19,8 @@ class ResultsController extends AppController {
      */
     public function index() {
         if ($this->request->is('post')) {       // Method must be 'post' so display by date range
-            $start_date = $this->getDateFromObject($this->request->getData('start'));
-            $end_date = $this->getDateFromObject($this->request->getData('end'));
+            $start_date = $this->getDateStringFromObject($this->request->getData('start'));
+            $end_date = $this->getDateStringFromObject($this->request->getData('end'));
             if (is_null($start_date)) {
                 $srt = new Time('20 years ago');
                 if (is_null($end_date)) {
@@ -54,7 +54,7 @@ class ResultsController extends AppController {
         $this->set(compact('results'));        
     }
 
-    public function getDateFromObject($obj) {
+    public function getDateStringFromObject($obj) {
         return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'];
     }
 
