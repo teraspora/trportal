@@ -19,8 +19,8 @@ class ResultsController extends AppController {
      */
     public function index() {
         if ($this->request->is('post')) {       // Method must be 'post' so display by date range
-            $start_date = $this->getDateStringFromObject($this->request->getData('start'));
-            $end_date = $this->getDateStringFromObject($this->request->getData('end'));
+            $start_date = $this->getDateStringFromObject($this->request->getData('start'), false);
+            $end_date = $this->getDateStringFromObject($this->request->getData('end'), true);
             if (is_null($start_date)) {
                 $srt = new Time('20 years ago');
                 if (is_null($end_date)) {
@@ -39,8 +39,8 @@ class ResultsController extends AppController {
                     $end = new Time($end_date);
                 }
             }
-            // debug($srt);
-            // debug($end);            
+            debug($srt);
+            debug($end);            
             $query = $this->Results
                 ->find()
                 ->where(['start_time >=' => $srt])
@@ -54,8 +54,9 @@ class ResultsController extends AppController {
         $this->set(compact('results'));        
     }
 
-    public function getDateStringFromObject($obj) {
-        return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'];
+    public function getDateStringFromObject($obj, $set_23_59 = false) {
+        // Get YYmmdd from the json-type object in request data; add ' 23:59:59' if 2nd param true.
+        return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'] . ($set_23_59 ? ' 23:59:59' : '');
     }
 
     /**
