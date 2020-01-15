@@ -12,6 +12,12 @@ use Cake\I18n\Time;
  * @method \App\Model\Entity\Result[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
 class ResultsController extends AppController {
+    
+    public function initialize() {
+        parent::initialize();
+        $this->loadComponent('Flash');
+    }
+
     /**
      * Index method
      *
@@ -41,13 +47,16 @@ class ResultsController extends AppController {
             }                 
             $query = $this->Results
                 ->find()
-                ->where(['start_time >=' => $srt])
-                ->andWhere(['start_time <=' => $end]);            
-            $results = $this->paginate($query);
+                ->where(['status =' => 1])
+                ->andWhere(['start_time >=' => $srt])
+                ->andWhere(['start_time <=' => $end]);
         }
-        else {      // Method must be 'get' so display all
-            $results = $this->paginate($this->Results);
+        else {      // Method must be 'get' so display all (except with status == 2)
+            $query = $this->Results
+                ->find()
+                ->where(['status =' => 1]);
         }
+        $results = $this->paginate($query);
         $this->set(compact('results'));        
     }
 
@@ -123,16 +132,17 @@ class ResultsController extends AppController {
      * @return \Cake\Http\Response|null Redirects to index.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function delete($id = null)
-    {
+    public function delete($id_str = null) {
+        debug($this->request);
         $this->request->allowMethod(['post', 'delete']);
-        $result = $this->Results->get($id);
-        if ($this->Results->delete($result)) {
+        list($job_processing_uid, $test_type_uid, $test_counter) = array_map('intval', explode('_', $id_str));
+        $result = $this->Results->get([$job_processing_uid, $test_type_uid, $test_counter]);
+        $this->Results->patchEntity($result, ['status' => 2]);  // Don't actually delete, just set status to 2.
+        if ($this->Results->save($result)) {
             $this->Flash->success(__('The result has been deleted.'));
         } else {
             $this->Flash->error(__('The result could not be deleted. Please, try again.'));
         }
-
         return $this->redirect(['action' => 'index']);
     }
 }
