@@ -106,3 +106,7 @@ body {
   border: 1px solid #000;
 }
 
+.cake-debug-output, .cake-error {
+  margin-left: 400px;
+  overflow-x: scroll;
+}
