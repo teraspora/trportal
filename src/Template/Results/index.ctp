@@ -31,7 +31,7 @@ $this->end();
 ?>
 
 <div class="results index large-9 medium-8 columns content">
-    <table class="table" cellpadding="4" cellspacing="8">
+    <table class="table table-striped" cellpadding="4" cellspacing="8">
         <thead class="thead-dark">
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id_str', 'ID') ?></th>
@@ -70,7 +70,7 @@ $this->end();
                 <td><?= $this->Number->format($result->added_by) ?></td>
                 <td><?= h($result->added_on) ?></td>
                 <td class="actions">
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $result->id], ['confirm' => __('Are you sure you want to delete # {0}?', $result->id)]) ?>
+                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $result->id_str], ['confirm' => __('Are you sure you want to delete record?')]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
