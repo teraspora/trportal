@@ -8,7 +8,7 @@
 <?php
 
 $this->start('topbar');
-        echo $this->Form->create($results, $options = ['class' => 'form-inline', 'method' => 'get', 'url' => 'http://127.0.0.1/trportal/results/index']);
+        echo $this->Form->create($results, ['class' => 'form-inline', 'type' => 'post', 'url' => ['action' => 'index']]);
         echo '<div class="form-group">';
         echo $this->Form->input('start_date', ['class' => 'form-control datepicker mx-5', 'name' => 'start', 'type' => 'date',
             'default' => date('d-m-Y')]);
