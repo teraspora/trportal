@@ -51,7 +51,7 @@
                 <?= $this->fetch('topbar') ?>            
               </div>
               <div class="row pt-2">
-                <?= $this->fetch('content') ?>
+                <?= $this->fetch('content') ?>        
               </div>
             </div>
         </main>
