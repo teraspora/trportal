@@ -31,8 +31,8 @@ class ResultsTable extends Table
         parent::initialize($config);
 
         $this->setTable('results');
-        $this->setDisplayField('id');
-        $this->setPrimaryKey('id');
+        // $this->setDisplayField('id');
+        $this->setPrimaryKey('job_processing_uid', 'test_type_uid', 'test_counter');
     }
 
     /**
@@ -41,59 +41,62 @@ class ResultsTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
+
+    /**
+    Validation: see API docs at https://api.cakephp.org/3.8/namespace-Cake.Validation.html
+    Notes: `Cake\Validation\Validation\isScalar()` tests a passed value; this method will return `true` 
+    for integers, floats, strings and booleans, and `false` for arrays, objects, resources and nulls.
+    
+    Results can only be added by importing a csv file, and all fields in each row of this file must be populated.   `added_on`, `added_by` and `status` will be set later...(in the controller or model??)
+
+    Add appropriate error messages then (listed in the spec).
+
+    */
+
     public function validationDefault(Validator $validator)
     {
         $validator
-            ->nonNegativeInteger('job_processing_uid')
-            ->allowEmptyString('job_processing_uid', null, 'create');
+            ->nonNegativeInteger('job_processing_uid');
 
         $validator
-            ->nonNegativeInteger('test_type_uid')
-            ->allowEmptyString('test_type_uid', null, 'create');
+            ->nonNegativeInteger('test_type_uid');
 
         $validator
-            ->nonNegativeInteger('test_counter')
-            ->allowEmptyString('test_counter', null, 'create');
+            ->nonNegativeInteger('test_counter');
 
         $validator
             ->scalar('number')
-            ->maxLength('number', 20)
-            ->allowEmptyString('number');
+            ->maxLength('number', 20);
 
         $validator
             ->scalar('country')
-            ->maxLength('country', 100)
-            ->allowEmptyString('country');
+            ->maxLength('country', 100);
 
         $validator
-            ->dateTime('start_time')
-            ->allowEmptyDateTime('start_time');
+            ->dateTime('start_time');
 
         $validator
-            ->dateTime('end_time')
-            ->allowEmptyDateTime('end_time');
+            ->dateTime('end_time');
 
         $validator
-            ->dateTime('connect_time')
-            ->allowEmptyDateTime('connect_time');
+            ->dateTime('connect_time');
 
         $validator
             ->numeric('score')
             ->greaterThanOrEqual('score', 0)
-            ->allowEmptyString('score');
+            ->lessThanOrEqual('score', 4.50);
 
         $validator
             ->scalar('url')
-            ->maxLength('url', 1024)
-            ->allowEmptyString('url');
+            ->maxLength('url', 1024);
 
         $validator
-            ->nonNegativeInteger('added_by')
-            ->allowEmptyString('added_by');
+            ->nonNegativeInteger('added_by')    
+            ->allowEmptyString('added_by');         // This will be set by the ORM
 
         $validator
-            ->dateTime('added_on')
-            ->allowEmptyDateTime('added_on');
+            ->dateTime('added_on')              
+            ->allowEmptyDateTime('added_on');       // This will be set by the database layer
 
         return $validator;
     }
