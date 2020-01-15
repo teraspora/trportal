@@ -60,8 +60,7 @@ class Result extends Entity
     protected function _getDuration() {
         if (isset($this->_properties['duration'])) {
             return $this->_properties['duration'];
-        }
-        // $srt = new Time($this->start_time); 
+        } 
         $end = new Time($this->end_time);
         $con = new Time($this->connect_time);
         return ($end->diff($con))->format('%H:%I:%S');
