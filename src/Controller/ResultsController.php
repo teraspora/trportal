@@ -18,7 +18,13 @@ class ResultsController extends AppController {
         $this->loadComponent('Flash');
     }
 
-    /**
+    // Helper function to pull out a date string from a DateTime-type object
+    public function getDateStringFromObject($obj, $set_23_59 = false) {
+        // Get YY-mm-dd from the json-type object in request data; add ' 23:59:59' if 2nd param true.
+        return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'] . ($set_23_59 ? ' 23:59:59' : '');
+    }
+
+/**
      * Index method
      *
      * @return \Cake\Http\Response|null
@@ -58,11 +64,6 @@ class ResultsController extends AppController {
         }
         $results = $this->paginate($query);
         $this->set(compact('results'));        
-    }
-
-    public function getDateStringFromObject($obj, $set_23_59 = false) {
-        // Get YY-mm-dd from the json-type object in request data; add ' 23:59:59' if 2nd param true.
-        return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'] . ($set_23_59 ? ' 23:59:59' : '');
     }
 
     /**
@@ -120,4 +121,11 @@ class ResultsController extends AppController {
         }
         return $this->redirect(['action' => 'index']);
     }
+
+    public function export() {
+        $response = $this->response->withFile(WWW_ROOT . '/test_results.csv',
+            ['download' => true, 'name' => 'results_export.csv']);
+        return $response;
+    }
+
 }
