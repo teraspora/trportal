@@ -23,7 +23,7 @@ $this->start('topbar');
         echo $this->Form->control('Go', ['class' => 'btn btn-default mx-5', 'type' => 'submit',
             'value' => 'Hp']);
         echo '</div>';
-        echo '<button>Export</button>';
+        echo '<button>' . $this->Html->link('Export', ['action' => 'export']) . '</button>';
         echo '<button>Import</button>';
         echo $this->Form->control('search', ['class' => 'form-control mx-5']);
         echo $this->Form->end();
