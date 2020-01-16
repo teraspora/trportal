@@ -32,7 +32,7 @@ class ResultsTable extends Table
 
         $this->setTable('results');
         // $this->setDisplayField('id');
-        $this->setPrimaryKey('job_processing_uid', 'test_type_uid', 'test_counter');
+        $this->setPrimaryKey(['job_processing_uid', 'test_type_uid', 'test_counter']);
     }
 
     /**
