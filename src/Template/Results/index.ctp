@@ -6,10 +6,9 @@
 ?>
 
 <?php
-
 $this->start('topbar');
+
         echo $this->Form->create($results, ['class' => 'form-inline', 'type' => 'post', 'url' => ['action' => 'index']]);
-        echo '<div class="form-group">';
         echo $this->Form->input('start_date', ['class' => 'form-control datepicker mx-5', 
             'name' => 'start', 
             'type' => 'date',
@@ -22,11 +21,14 @@ $this->start('topbar');
             'default' => date('d-m-Y')]);
         echo $this->Form->control('Go', ['class' => 'btn btn-default mx-5', 'type' => 'submit',
             'value' => 'Hp']);
-        echo '</div>';
+        echo $this->Form->end;
+
+        echo $this->Form->create(null, ['class' => 'form-inline', 'type' => 'file', 'url' => ['action' => 'import']]);
         echo '<button>' . $this->Html->link('Export', ['action' => 'export']) . '</button>';
-        echo '<button>Import</button>';
+        echo '<button type="button" class="btn btn-info" data-toggle="modal" data-target="#uploadModal">Import</button>';
         echo $this->Form->control('search', ['class' => 'form-control mx-5']);
         echo $this->Form->end();
+
 $this->end();
 ?>
 
@@ -88,25 +90,27 @@ $this->end();
     </div>
 </div>
 
-<!-- <script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous">
-</script>
-<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous">
-</script>
-<script>
-    $(document).ready(function() {
-        $(function() {
-            $('.datepicker').datepicker();
-        });
-    });    
-</script> -->
+<div id="uploadModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-<!-- 
-<i class='fas fa-file-audio' style='font-size:24px'></i>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">File upload form</h4>
+      </div>
+      <div class="modal-body">
+        <!-- Form -->
+        <form method='post' action='' enctype="multipart/form-data">
+          Please choose a file to import <input type='file' name='file' id='file' class='form-control' ><br>
+          <input type='submit' class='btn btn-info' value='Upload' id='btn_upload'>
+        </form>
 
- -->
+        <!-- Preview-->
+        <div id='preview'></div>
+      </div>
+ 
+    </div>
+
+  </div>
+</div>

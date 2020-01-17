@@ -3,6 +3,8 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\I18n\Time;
+use Cake\Filesystem\Folder;
+use Cake\Filesystem\File;
 
 /**
  * Results Controller
@@ -123,9 +125,16 @@ class ResultsController extends AppController {
     }
 
     public function export() {
-        $response = $this->response->withFile(WWW_ROOT . '/test_results.csv',
-            ['download' => true, 'name' => 'results_export.csv']);
+        $path = 'files/test_results_ex.csv';
+        $file = new File($path, true, 0755);
+        $file->write('#ID,Number,Country,Start time,Connect time,End time,Score,URL', 'w');
+        $file->close();
+        debug($file);
+        $response = $this->response->withFile($path, ['download' => true, 'name' => 'results_export.csv']);
+        $this->Flash->success(__('The file will be downloaded.'));
         return $response;
     }
+
+
 
 }
