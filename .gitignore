@@ -44,3 +44,7 @@ misc_statements.sql
 *backup.*
 src/Template/Layout/dp.html
 src/Controller/deleteq.md
+scratch/
+PHP-manual
+webroot/files/
+webroot/test_results.csv

@@ -21,7 +21,7 @@ CREATE TABLE results (
     connect_time DATETIME,
     score FLOAT(5, 2) UNSIGNED,
     url VARCHAR(1024),
-    status TINYINT(1) UNSIGNED DEFAULT 1;
+    status TINYINT(2) UNSIGNED DEFAULT 1;
     added_by INT(11) UNSIGNED,
     added_on DATETIME,
     FOREIGN KEY (added_by) REFERENCES users(id),
