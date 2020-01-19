@@ -128,12 +128,11 @@ class ResultsController extends AppController {
     }
 
     public function export() {
-        $path = 'files/test_results_ex.csv';
-        $file = new File($path, true, 0755);
-        $file->write('#ID,Number,Country,Start time,Connect time,End time,Score,URL', 'w');
-        $file->close();
-        debug($file);
-        $response = $this->response->withFile($path, ['download' => true, 'name' => 'results_export.csv']);
+        $path = WWW_ROOT . 'files/results_export.csv';
+        file_put_contents($path, 'THIS LINE WRITTEN BY EXPORT METHOD');
+        $readout = file_get_contents($path);
+        die($readout);
+        $response = $this->response->withFile($path, ['download' => true]);
         $this->Flash->success(__('The file will be downloaded.'));
         return $response;
     }

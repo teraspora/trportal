@@ -7,28 +7,12 @@
 
 <?php
 $this->start('topbar');
-
-        echo $this->Form->create($results, ['class' => 'form-inline', 'type' => 'post', 'url' => ['action' => 'index']]);
-        echo $this->Form->input('start_date', ['class' => 'form-control datepicker mx-5', 
-            'name' => 'start', 
-            'type' => 'date',
-            'minYear' => '1990',
-            'default' => date('d-m-Y')]);
-        echo $this->Form->input('end_date', ['class' => 'form-control datepicker mx-5', 
-            'name' => 'end', 
-            'type' => 'date',
-            'minYear' => '1990',
-            'default' => date('d-m-Y')]);
-        echo $this->Form->control('Go', ['class' => 'btn btn-default mx-5', 'type' => 'submit',
-            'value' => 'Hp']);
-        echo $this->Form->end;
-
-        echo $this->Form->create(null, ['class' => 'form-inline', 'type' => 'file', 'url' => ['action' => 'import']]);
-        echo '<button>' . $this->Html->link('Export', ['action' => 'export']) . '</button>';
-        echo '<button type="button" class="btn btn-info" data-toggle="modal" data-target="#uploadModal">Import</button>';
-        echo $this->Form->control('search', ['class' => 'form-control mx-5']);
-        echo $this->Form->end();
-
+    // Datepicker form
+    echo $this->Element('daterangeform'); 
+    // Import/export form
+    echo $this->Element('expimpform'); 
+    // Search form
+    echo $this->Element('searchform'); 
 $this->end();
 ?>
 
