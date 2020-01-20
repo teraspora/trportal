@@ -32,9 +32,11 @@
               <button class="nav-item">
                 <?= $this->Html->link(__('Results'), ['controller' => 'Results', 'action' => 'index'], ['class' => 'nav-link text-nowrap']) ?>
               </button>
+              <?php if ($authUser['admin']): ?>
               <button class="nav-item">
                 <?= $this->Html->link(__('Users'), ['controller' => 'Users', 'action' => 'index'], ['class' => 'nav-link text-nowrap']) ?>
               </button>
+              <?php endif; ?>
               <button class="nav-item">
                 <?= $this->Html->link(__('Logout'), ['controller' => 'Users', 'action' => 'logout'], ['class' => 'nav-link text-nowrap']) ?>
               </button>
