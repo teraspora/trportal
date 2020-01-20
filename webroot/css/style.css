@@ -120,3 +120,7 @@ body {
 .card-body, .card-body input {
   font-size: 1.8vw;
 }
+
+.card {
+  height: 30vh;
+}
