@@ -10,8 +10,12 @@ use App\Controller\AppController;
  *
  * @method \App\Model\Entity\User[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
-class UsersController extends AppController
-{
+class UsersController extends AppController {
+
+    public function initialize() {
+        parent::initialize();
+    }
+
     /**
      * Index method
      *
@@ -107,13 +111,24 @@ class UsersController extends AppController
     public function login() {
         $this->viewBuilder()->setLayout('default_login');
         if ($this->request->is('post')) {
+            // debug($this->request);
+            // debug($this->Auth);
             $user = $this->Auth->identify();
-            if ($user && $user->status == 1) {
-                $this->Auth-setUser($user);
+            // debug($user);
+            if ($user && $user['status'] == 1) {
+                $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl());
             }
             // Handle bad login
             $this->Flash->error('Email or password incorrect! Please try again.');
         }
+    }
+
+    public function logout() {
+        die('Time to log user out.');
+    }
+
+    public function isAuthorized($user) {
+        return parent::isAuthorized($user);
     }
 }

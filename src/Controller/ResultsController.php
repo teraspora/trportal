@@ -17,7 +17,6 @@ class ResultsController extends AppController {
     
     public function initialize() {
         parent::initialize();
-        $this->loadComponent('Flash');
     }
 
     // Helper function to pull out a date string from a DateTime-type object
@@ -137,6 +136,10 @@ class ResultsController extends AppController {
         return $response;
     }
 
+    public function isAuthorized($user) {
+        debug($user);
+        return true;
+    }
 
 
 }

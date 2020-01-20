@@ -37,14 +37,26 @@ class AppController extends Controller
      *
      * @return void
      */
-    public function initialize()
-    {
+    public function initialize() {
         parent::initialize();
 
+        $this->loadComponent('Flash');
         $this->loadComponent('RequestHandler', [
             'enableBeforeRedirect' => false,
         ]);
-        $this->loadComponent('Flash');
+        // $this->loadComponent('Auth', ['authenticate' => [            
+        //         'Form' => [
+        //             'fields' => [
+        //                 'username' => 'email',
+        //                 'password' => 'password'
+        //             ]
+        //         ]
+        //     ],
+        //     'loginAction' => [
+        //         'controller' => 'Users',
+        //         'action' => 'login']
+        // ]);
+
         $this->loadComponent('Auth', ['authenticate' => [            
                 'Form' => [
                     'fields' => [
@@ -53,9 +65,15 @@ class AppController extends Controller
                     ]
                 ]
             ],
-            'loginAction' => [
+            'loginRedirect' => [
+                'controller' => 'Results',
+                'action' => 'index'
+            ],
+            'logoutRedirect' => [
                 'controller' => 'Users',
-                'action' => 'login']
+                'action' => 'login',
+                'home'
+            ]
         ]);
 
         /*
@@ -63,6 +81,26 @@ class AppController extends Controller
          * see https://book.cakephp.org/3.0/en/controllers/components/security.html
          */
         //$this->loadComponent('Security');
+    }
+
+    // public function beforeRender(Event $event) {
+    //     if ($this->request->session()->read('Auth.User')) {
+    //         $this.set('loggedIn', true);
+    //     }
+    //     else {
+    //         $this.set('loggedIn', false);   
+    //     }
+    // }
+
+    public function isAuthorized($user) {
+        // die($user);
+        // Admin can access every action
+        // if (isset($user['admin']) && $user['admin'] = 1) {
+        //     return true;
+        // }
+        // // Default deny
+        // return false;
+        return true;
     }
 
 }
