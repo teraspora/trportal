@@ -19,7 +19,7 @@
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">RESULTS PORTAL</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#"><!-- <?= $username ?> --></a>
+          <?= $this->Html->link($authUser['name'], ['controller' => 'Users', 'action' => 'edit_self', $authUser['id']], ['class' => 'nav-link']) ?>
         </li>
       </ul>
     </nav>
