@@ -103,4 +103,17 @@ class UsersController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+    public function login() {
+        $this->viewBuilder()->setLayout('default_login');
+        if ($this->request->is('post')) {
+            $user = $this->Auth->identify();
+            if ($user && $user->status == 1) {
+                $this->Auth-setUser($user);
+                return $this->redirect($this->Auth->redirectUrl());
+            }
+            // Handle bad login
+            $this->Flash->error('Email or password incorrect! Please try again.');
+        }
+    }
 }
