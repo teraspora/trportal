@@ -92,15 +92,15 @@ class AppController extends Controller
     //     }
     // }
 
-    public function isAuthorized($user) {
-        // die($user);
-        // Admin can access every action
-        // if (isset($user['admin']) && $user['admin'] = 1) {
-        //     return true;
-        // }
-        // // Default deny
-        // return false;
-        return true;
+    public function isAdmin($user) {
+        return  isset($user['status']) && $user['status'] == 1 &&
+                isset($user['admin']) && $user['admin'] == 1;
     }
+
+    public function isAuthorized($user) {
+        // Admin can access every action
+        return isAdmin($user);
+    }
+
 
 }

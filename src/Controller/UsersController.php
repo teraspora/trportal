@@ -129,6 +129,9 @@ class UsersController extends AppController {
     }
 
     public function isAuthorized($user) {
+        if ($this->request->getParam('action') === 'edit') {
+            return true;
+        }
         return parent::isAuthorized($user);
     }
 }

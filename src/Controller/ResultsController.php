@@ -137,7 +137,6 @@ class ResultsController extends AppController {
     }
 
     public function isAuthorized($user) {
-        debug($user);
         return true;
     }
 
