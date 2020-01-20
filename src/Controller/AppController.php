@@ -75,6 +75,8 @@ class AppController extends Controller
                 'home'
             ]
         ]);
+        // So we can get the logged-in user in the default template:
+        $this->set('authUser', $this->Auth->user());
 
         /*
          * Enable the following component for recommended CakePHP security settings.

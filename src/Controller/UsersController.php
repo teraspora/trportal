@@ -23,6 +23,9 @@ class UsersController extends AppController {
      */
     public function index()
     {
+        $session = $this->getRequest()->getSession();
+        
+        debug($this->Auth->user('admin'));
         $users = $this->paginate($this->Users);
 
         $this->set(compact('users'));
@@ -71,8 +74,12 @@ class UsersController extends AppController {
      * @return \Cake\Http\Response|null Redirects on successful edit, renders view otherwise.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function edit($id = null)
-    {
+    
+    public function editSelf($id) {
+        return $this->edit($id, false);
+    }
+
+    public function edit($id, $showAdmin = true) {
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
@@ -86,6 +93,7 @@ class UsersController extends AppController {
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
         }
         $this->set(compact('user'));
+        $this->set('showAdmin', $showAdmin);
     }
 
     /**
