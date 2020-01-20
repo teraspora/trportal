@@ -4,19 +4,28 @@
  * @var \App\Model\Entity\User[]|\Cake\Collection\CollectionInterface $users
  */
 ?>
-<div class="users index large-9 medium-8 columns content">
-    <h3><?= __('Users') ?></h3>
-    <table cellpadding="0" cellspacing="0">
-        <thead>
+
+
+<?php
+$this->start('topbar');
+    // Status checker
+    echo 'Status checker';  
+    // Search form
+    echo 'Search form'; 
+$this->end();
+?>
+
+<div class="results index large-9 medium-8 columns content">
+    <table class="table table-striped" cellpadding="4" cellspacing="8">
+        <thead class="thead-dark">
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('name') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('email') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('admin') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('password') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('status') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('created_by') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('created_on') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('admin') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('status') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
@@ -26,13 +35,11 @@
                 <td><?= $this->Number->format($user->id) ?></td>
                 <td><?= h($user->name) ?></td>
                 <td><?= h($user->email) ?></td>
-                <td><?= h($user->admin) ?></td>
-                <td><?= h($user->password) ?></td>
-                <td><?= h($user->status) ?></td>
                 <td><?= $this->Number->format($user->created_by) ?></td>
                 <td><?= h($user->created_on) ?></td>
+                <td><?= h($user->admin) ?></td>
+                <td><?= h($user->status) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $user->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id]) ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete # {0}?', $user->id)]) ?>
                 </td>
