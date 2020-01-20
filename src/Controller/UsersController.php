@@ -133,7 +133,7 @@ class UsersController extends AppController {
     }
 
     public function logout() {
-        die('Time to log user out.');
+        return $this->redirect($this->Auth->logout());
     }
 
     public function isAuthorized($user) {
