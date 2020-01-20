@@ -4,7 +4,7 @@ CREATE TABLE users (
     email VARCHAR(512) NOT NULL UNIQUE,
     admin TINYINT(1) UNSIGNED DEFAULT 0,
     password VARCHAR(128) NOT NULL,
-    status TINYINT(1) UNSIGNED DEFAULT 1,
+    status TINYINT(2) UNSIGNED DEFAULT 1,
     created_by INT(11) UNSIGNED,
     FOREIGN KEY (created_by) REFERENCES users(id),
     created_on DATETIME
