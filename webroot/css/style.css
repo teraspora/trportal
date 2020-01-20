@@ -1,7 +1,13 @@
 /* Based on code from https://getbootstrap.com/docs/4.1/examples/dashboard/ */
 
+html {
+  height: 100%;
+}
+
 body {
   font-size: 1.0rem;
+  height: 100%;
+  background-color: #ddd;
 }
 
 .feather {
@@ -109,4 +115,8 @@ body {
 .cake-debug-output, .cake-error {
   margin-left: 400px;
   overflow-x: scroll;
+}
+
+.card-body, .card-body input {
+  font-size: 1.8vw;
 }
