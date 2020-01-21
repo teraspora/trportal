@@ -32,8 +32,8 @@
       </ul>
     </nav>
 
-    <!-- User account modal -->
-    <!-- The Modal -->
+<!-- User account modal -->
+
     <div class="modal" id="user-ac">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -46,7 +46,7 @@
 
           <!-- Modal body -->
           <div class="modal-body">
-            INSERT CONTENT
+            <?= $this->element('useraccountform') ?>
           </div>
 
           <!-- Modal footer -->
@@ -56,6 +56,10 @@
         </div>
       </div>
     </div>
+
+<!-- END OF USER ACCOUNT MODAL -->
+
+<!-- START OF LEFT NAVIGATION -->
 
     <div class="container-fluid">
       <div class="row">
@@ -95,9 +99,8 @@
     <footer>
     </footer>
 
-    <!-- Bootstrap core JavaScript
+    <!-- JQuery and Bootstrap 
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="

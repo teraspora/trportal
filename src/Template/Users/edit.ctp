@@ -6,19 +6,5 @@
 ?>
 
 <div class="users form large-9 medium-8 columns content">
-    <?= $this->Form->create($user) ?>
-    <fieldset>
-        <legend><?= __('Edit User') ?></legend>
-        <?php
-            echo $this->Form->control('name');
-            echo $this->Form->control('email');
-            if ($showAdmin) echo $this->Form->control('admin');
-            echo $this->Form->control('password');
-            echo $this->Form->control('status');
-            echo $this->Form->control('created_by');
-            echo $this->Form->control('created_on', ['empty' => true]);
-        ?>
-    </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
-    <?= $this->Form->end() ?>
+    <?= $this->Element('useraccountform') ?>
 </div>
