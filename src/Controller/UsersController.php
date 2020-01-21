@@ -21,12 +21,13 @@ class UsersController extends AppController {
      *
      * @return \Cake\Http\Response|null
      */
-    public function index()
-    {
-        $session = $this->getRequest()->getSession();
+    public function index() {
+        // $session = $this->getRequest()->getSession();
+        // debug($this->Auth->user('admin'));
         
-        debug($this->Auth->user('admin'));
-        $users = $this->paginate($this->Users);
+        $users = $this->paginate($this->Users
+            ->find()
+            ->where(['status <>' => 2]));
 
         $this->set(compact('users'));
     }
@@ -106,6 +107,7 @@ class UsersController extends AppController {
     public function delete($id = null) {
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
+        die($user);
         $this->Users->patchEntity($user, ['status' => 2]);  // Don't actually delete, just set status to 2...
         if ($this->Users->save($user)) {
             $this->Flash->success(__('The user has been deleted.'));
@@ -115,31 +117,6 @@ class UsersController extends AppController {
         }
         return $this->redirect(['action' => 'index']);
     }
-
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public function login() {
         $this->viewBuilder()->setLayout('default_login');
