@@ -98,7 +98,7 @@
     <footer>
     </footer>
 
-    <!-- JQuery and Bootstrap 
+    <!-- JQuery and Bootstrap etc.
     ================================================== -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -110,6 +110,8 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous">
     </script>
+
+    <?= $this->Html->script('main') ?>
 
   </body>
 </html>
