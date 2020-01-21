@@ -124,3 +124,8 @@ body {
 .card {
   height: 30vh;
 }
+
+.message, .error {
+  font-size: 1.8vw;
+  color: #ffc38e;
+}
