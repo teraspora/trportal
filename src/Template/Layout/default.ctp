@@ -19,10 +19,43 @@
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">RESULTS PORTAL</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <?= $this->Html->link($authUser['name'], ['controller' => 'Users', 'action' => 'edit_self', $authUser['id']], ['class' => 'nav-link']) ?>
+          <?= $this->Html->link($authUser['name'], [
+                'controller' => 'Users',
+                'action' => 'edit_self',
+                $authUser['id']
+              ], [
+                'class' => 'nav-link',
+                'data-toggle' => 'modal',
+                'data-target' => '#user-ac'
+              ]) ?>
         </li>
       </ul>
     </nav>
+
+    <!-- User account modal -->
+    <!-- The Modal -->
+    <div class="modal" id="user-ac">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">INSERT HEADING</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            INSERT CONTENT
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container-fluid">
       <div class="row">
@@ -66,14 +99,10 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
       crossorigin="anonymous">
     </script>
-   <!--  <script
-      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-      crossorigin="anonymous"></script> -->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
