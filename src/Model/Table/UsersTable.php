@@ -70,8 +70,7 @@ class UsersTable extends Table
             ->notEmptyString('password');
 
         $validator
-            ->boolean('status')
-            ->allowEmptyString('status');
+            ->nonNegativeInteger('status');
 
         $validator
             ->nonNegativeInteger('created_by')

@@ -113,11 +113,8 @@ class ResultsController extends AppController {
     public function delete($id_str = null) {
         $this->request->allowMethod(['post', 'delete']);
         list($job_processing_uid, $test_type_uid, $test_counter) = array_map('intval', explode('_', $id_str));
-        // eval(breakpoint());
         $result = $this->Results->get([$job_processing_uid, $test_type_uid, $test_counter]);
         $this->Results->patchEntity($result, ['status' => 2]);  // Don't actually delete, just set status to 2...
-        // die($result);
-        // debug($this->Results);
         if ($this->Results->save($result)) {
             $this->Flash->success(__('The result has been deleted.'));  // ...but tell user it's deleted
         } else {
