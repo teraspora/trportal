@@ -103,18 +103,43 @@ class UsersController extends AppController {
      * @return \Cake\Http\Response|null Redirects to index.
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
-    public function delete($id = null)
-    {
+    public function delete($id = null) {
         $this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
-        if ($this->Users->delete($user)) {
+        $this->Users->patchEntity($user, ['status' => 2]);  // Don't actually delete, just set status to 2...
+        if ($this->Users->save($user)) {
             $this->Flash->success(__('The user has been deleted.'));
-        } else {
+        }
+        else {
             $this->Flash->error(__('The user could not be deleted. Please, try again.'));
         }
-
         return $this->redirect(['action' => 'index']);
     }
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public function login() {
         $this->viewBuilder()->setLayout('default_login');
