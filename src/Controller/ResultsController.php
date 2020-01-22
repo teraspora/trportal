@@ -58,7 +58,7 @@ class ResultsController extends AppController {
                 ->andWhere(['start_time >=' => $srt])
                 ->andWhere(['start_time <=' => $end]);
         }
-        else {      // Method must be 'get' so display all (except with status == 2)
+        else {      // If method is 'get', display all (except with status == 2)
             $query = $this->Results
                 ->find()
                 ->where(['status =' => 1]);
@@ -66,22 +66,6 @@ class ResultsController extends AppController {
         $results = $this->paginate($query);
         $this->set(compact('results'));        
     }
-
-    /**
-     * View method
-     *
-     * @param string|null $id Result id.
-     * @return \Cake\Http\Response|null
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    // public function view($id = null)
-    // {
-    //     $result = $this->Results->get($id, [
-    //         'contain' => [],
-    //     ]);
-
-    //     $this->set('result', $result);
-    // }
 
     /**
      * Add method
@@ -124,6 +108,7 @@ class ResultsController extends AppController {
     }
 
     public function export() {
+        // NEEDS SORTING.   NOT WRITING TO FILE.   PERMS ISSUE.
         $path = WWW_ROOT . 'files/results_export.csv';
         file_put_contents($path, 'THIS LINE WRITTEN BY EXPORT METHOD');
         $readout = file_get_contents($path);
