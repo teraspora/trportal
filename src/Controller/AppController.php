@@ -57,7 +57,9 @@ class AppController extends Controller
         //         'action' => 'login']
         // ]);
 
-        $this->loadComponent('Auth', ['authenticate' => [            
+        $this->loadComponent('Auth', [
+            'authorize' => 'Controller',
+            'authenticate' => [            
                 'Form' => [
                     'fields' => [
                         'username' => 'email',
@@ -86,23 +88,14 @@ class AppController extends Controller
         //$this->loadComponent('Security');
     }
 
-    // public function beforeRender(Event $event) {
-    //     if ($this->request->session()->read('Auth.User')) {
-    //         $this.set('loggedIn', true);
-    //     }
-    //     else {
-    //         $this.set('loggedIn', false);   
-    //     }
-    // }
-
     public function isAdmin($user) {
         return  isset($user['status']) && $user['status'] == 1 &&
                 isset($user['admin']) && $user['admin'] == 1;
     }
 
     public function isAuthorized($user) {
-        // Admin can access every action
-        return isAdmin($user);
+        // Admin can access every action; override in child controllers.
+        return $this->isAdmin($user);
     }
 
 

@@ -16,6 +16,11 @@ class UsersController extends AppController {
         parent::initialize();
     }
 
+    public function beforeFilter($event) {
+        parent::beforeFilter($event);
+        $this->Auth->allow(['logout']);
+    }
+
     /**
      * Index method
      *
@@ -84,7 +89,7 @@ class UsersController extends AppController {
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
-        if ($this->request->is(['patch', 'post', 'put'])) {
+        if (in_array($this->request->getMethod(), ['POST', 'PUT', 'PATCH'])) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
@@ -92,7 +97,7 @@ class UsersController extends AppController {
                 return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
-        }
+        }        
         $this->set(compact('user'));
         $this->set('showAdmin', $showAdmin);
     }
@@ -105,7 +110,7 @@ class UsersController extends AppController {
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     public function delete($id = null) {
-        $this->request->allowMethod(['post', 'delete']);
+        $this->request->allowMethod(['patch', 'post', 'delete']);
         $user = $this->Users->get($id);
         $this->Users->patchEntity($user, ['status' => 2]);  // Don't actually delete, just set status to 2...
         if ($this->Users->save($user)) {
@@ -121,7 +126,7 @@ class UsersController extends AppController {
         $this->viewBuilder()->setLayout('default_login');
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
-            if ($user && $user['status'] == 1) {
+            if ($user) {
                 $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl());
             }
@@ -136,6 +141,8 @@ class UsersController extends AppController {
 
     public function isAuthorized($user) {
         if ($this->request->getParam('action') === 'edit') {
+            // Add condition that non-admin user can only edit own profile;
+            // Test that non-admin user cannot access /users;
             return true;
         }
         return parent::isAuthorized($user);
