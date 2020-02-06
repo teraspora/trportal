@@ -5,8 +5,8 @@
             echo $this->Form->control('name');
             echo $this->Form->control('email');
             if ($showAdmin) echo $this->Form->control('admin');
-            echo $this->Form->control('password', ['empty' => true]);
-            echo $this->Form->control('confirm_pw', ['empty' => true]);
+            echo $this->Form->control('password', ['type'=>'password', 'value'=>'', 'autocomplete'=>'off']);
+            echo $this->Form->control('confirm_pwd', ['type'=>'password', 'value'=>'', 'autocomplete'=>'off']);
             echo $this->Form->control('status');
         ?>
     </fieldset>
