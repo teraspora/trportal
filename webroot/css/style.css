@@ -125,9 +125,15 @@ body {
   height: 30vh;
 }
 
-li.prev, li.next {
+li.prev, li.next, .btn {
   font-size: 1.2rem;
-  padding-inline: 1em;
+  padding-inline: 2em;
+  margin-inline: 1em;
+}
+
+
+.date-range-form {
+  border: 1px solid #000;
 }
 
 .message, .error {

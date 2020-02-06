@@ -26,14 +26,10 @@ class UsersController extends AppController {
      *
      * @return \Cake\Http\Response|null
      */
-    public function index() {
-        // $session = $this->getRequest()->getSession();
-        // debug($this->Auth->user('admin'));
-        
+    public function index() {        
         $users = $this->paginate($this->Users
             ->find()
             ->where(['status <>' => 2]));
-
         $this->set(compact('users'));
     }
 

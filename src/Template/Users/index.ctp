@@ -8,10 +8,12 @@
 
 <?php
 $this->start('topbar');
-    // Status checker
-    echo 'Status checker';  
-    // Search form
-    echo 'Search form'; 
+    // User filter
+    echo $this->Element('userfilterdropdown'); 
+    // User search form
+    echo $this->Element('usersearchform'); 
+    // Add user link
+    echo $this->Html->link('Add User', ['action' => 'add'], ['class' => 'btn btn-info']); 
 $this->end();
 ?>
 
@@ -41,6 +43,7 @@ $this->end();
                 <td><?= h($user->status) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id]) ?>
+                    <?= ' | ' ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete user?')]) ?>
                 </td>
             </tr>
@@ -58,6 +61,7 @@ $this->end();
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>
 </div>
+
 
 <!-- User account modal -->
 

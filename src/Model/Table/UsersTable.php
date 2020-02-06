@@ -44,41 +44,39 @@ class UsersTable extends Table
     public function validationDefault(Validator $validator)
     {
         $validator
-            ->nonNegativeInteger('id')
-            ->allowEmptyString('id', null, 'create');
-
-        $validator
             ->scalar('name')
             ->maxLength('name', 128)
             ->requirePresence('name', 'create')
-            ->notEmptyString('name');
+            ->allowEmptyString('name', 'update');
 
         $validator
             ->email('email')
+            ->maxLength('email', 512)
             ->requirePresence('email', 'create')
-            ->notEmptyString('email')
+            ->allowEmptyString('email', 'update')
             ->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
 
         $validator
             ->boolean('admin')
-            ->allowEmptyString('admin');
+            ->requirePresence('admin', 'create')
+            ->allowEmptyString('admin', 'update');
 
         $validator
             ->scalar('password')
             ->maxLength('password', 128)
             ->requirePresence('password', 'create')
-            ->notEmptyString('password');
+            ->allowEmptyString('password', 'update');
 
         $validator
-            ->nonNegativeInteger('status');
+            ->scalar('confirm_pw')
+            ->maxLength('confirm_pw', 128)
+            ->requirePresence('confirm_pw', 'create')
+            ->allowEmptyString('confirm_pw', 'update');
 
         $validator
-            ->nonNegativeInteger('created_by')
-            ->allowEmptyString('created_by');
-
-        $validator
-            ->dateTime('created_on')
-            ->allowEmptyDateTime('created_on');
+            ->nonNegativeInteger('status')
+            ->requirePresence('status', 'create')
+            ->allowEmptyString('status', 'update');
 
         return $validator;
     }
@@ -95,5 +93,15 @@ class UsersTable extends Table
         $rules->add($rules->isUnique(['email']));
 
         return $rules;
+    }
+
+    protected function _isPasswordValid($pw) {
+        // Password must contain at least 1 digit and 1 special character from "()*!_-$%".
+        $chars = '()*!_-$%';
+        $digits = '0123456789';
+        return is_string($pw) 
+            && strlen($pw) > 7
+            && similar_text($chars, $pw)
+            && similar_text($digits, $pw);
     }
 }

@@ -12,7 +12,7 @@ $this->start('topbar');
     // Import/export form
     echo $this->Element('expimpform'); 
     // Search form
-    echo $this->Element('searchform'); 
+    echo $this->Element('resultsearchform'); 
 $this->end();
 ?>
 

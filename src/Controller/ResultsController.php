@@ -32,6 +32,7 @@ class ResultsController extends AppController {
      */
     public function index() {
         if ($this->request->is('post')) {       // if method is 'post', display by date range
+            die('STOPPING HERE.');
             $start_date = $this->getDateStringFromObject($this->request->getData('start'), false);
             $end_date = $this->getDateStringFromObject($this->request->getData('end'), true);
             if (is_null($start_date)) {
