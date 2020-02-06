@@ -131,12 +131,16 @@ li.prev, li.next, .btn {
   margin-inline: 1em;
 }
 
+.btn-info {
+  background-color: #007bff;
+}
+
 
 .date-range-form {
   border: 1px solid #000;
 }
 
 .message, .error {
-  font-size: 1.8vw;
+  font-size: 1vw;
   color: #ffc38e;
 }
