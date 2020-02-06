@@ -46,7 +46,7 @@
 
           <!-- Modal body -->
           <div class="modal-body">
-            <?= $this->element('useraccountform') ?>
+            <?= $this->element('useraccounteditform') ?>
           </div>
 
           <!-- Modal footer -->

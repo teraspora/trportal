@@ -44,7 +44,7 @@ $this->end();
                 <td class="actions">
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id]) ?>
                     <?= ' | ' ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete user?')]) ?>
+                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete record?')]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -77,7 +77,7 @@ $this->end();
 
           <!-- Modal body -->
           <div class="modal-body">
-            <?= $this->element('useraccountform') ?>
+            <?= $this->element('useraccounteditform') ?>
           </div>
 
           <!-- Modal footer -->
