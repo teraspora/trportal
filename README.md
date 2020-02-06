@@ -44,3 +44,12 @@ The following were used in development:
 
 - Users::index() - Users listing page
 
+## Notes
+
+You must ensure:
+- PHP is installed with the `mbstring` and `intl` extensions.
+- The `tmp` and `logs` directories are writeable both by the web server and the
+command line user.
+- 
+- 
+
