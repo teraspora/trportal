@@ -31,8 +31,7 @@ class ResultsController extends AppController {
      * @return \Cake\Http\Response|null
      */
     public function index() {
-        if ($this->request->is('post')) {       // if method is 'post', display by date range
-            die('STOPPING HERE.');
+        if ($this->request->is('put')) {       // if method is 'put', display by date range
             $start_date = $this->getDateStringFromObject($this->request->getData('start'), false);
             $end_date = $this->getDateStringFromObject($this->request->getData('end'), true);
             if (is_null($start_date)) {
