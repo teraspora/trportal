@@ -53,3 +53,4 @@ src/files/results_export.csv
 src/Template/Layout/bad-default.ctp
 heroku_credentials.txt
 heroku_setup.md
+config/app.php
