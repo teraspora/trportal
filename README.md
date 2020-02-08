@@ -6,7 +6,7 @@ The specification describes a Web Portal for viewing call test results.
 
 A user will have the ability to login to the portal and find the results they need using standard features like search, sort and filters. Also, users will have the ability to import new results through the portal and also export test results that already exist.
 
-There will be an admin user role which can manage user accounts, creating/editing/deleting them as they see fit.
+There is an admin user role which can manage user accounts, creating/editing/deleting them as they see fit.
 
 ## Tech Stack
 
@@ -18,7 +18,7 @@ The following were used in development:
 
 ## Database
 
-- Name:     `testresults`
+- Name:     `trdb` in development, 
 - Tables:   `users`, `results`
 
 ### Users Table
@@ -46,6 +46,7 @@ The following were used in development:
 
 # Heroku setup
 
+- Clone this repo and push to Github
 - Create new app from Heroku dashboard
     - name "tr-portal" (or whatever)
     - region Europe
@@ -82,6 +83,49 @@ The following were used in development:
     'password' => env('PASSWORD', null),
     'database' => env('DATABASE', null),
     ```
+You may need to remove `config/app.php` from the default `.gitignore`.
+
+Result:
+
+Successful build on Heroku (with the default Procfile).   App starts, my login page displayed, but login produces Internal Server error.
+
+And back on my localhost, the `env()` function does not seem to be getting the environment variables `USERNAME`, `PASSWORD` and `DATABASE` from the shell, though they are set in the shell.   
+
+I check with `debug(env('USERNAME', null));` etc. in the `login()` method.
+
+I have restarted the server to no avail.   
+
+It picks up `root` correctly as the username, but not from the shell, as I changed it to `fred` and the `debug()` call still returned `root`.   So must investigate if it creates a subshell or what?   What environment is the application getting its environment variables from?
+
+___________ 
+To Do 2020-02-08:
+
+- Fix above documented `env()` issues etc.
+
+- Login bug: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
+
+- Implement password strength conditions and validation for user creation and update.
+
+- Fix permissions issue for file creation in `ResultsController`'s `export()` method.
+
+- Fix CSRF issue with file import.
+
+- Fix user creation and update.
+
+- Implement Search for users and results.
+
+- Fix styling of Login page and check all styling.
+
+- Check fixing login functionality obviates inappropriate Auth Flash messages.
+
+- Check if some code can move from Controllers into models.
+
+- Check code is reasonably DRY.
+
+- Migrate and seed database.
+
+- Testing.   CI/ CT using Travis?
+
 
 ## Notes
 
@@ -89,5 +133,29 @@ You must ensure:
 - PHP is installed with the `mbstring` and `intl` extensions.
 - The `tmp` and `logs` directories are writeable both by the web server and the
 command line user.
+
+## Database migration and seeding
+
+```
+$ bin/cake bake migration_snapshot -v Initial
+
+Creating file /opt/lampp/htdocs/trportal/config/Migrations/20200208040050_Initial.php
+Wrote `/opt/lampp/htdocs/trportal/config/Migrations/20200208040050_Initial.php`
+Marking the migration 20200208040050_Initial as migrated...
+using migration paths 
+ - /opt/lampp/htdocs/trportal/config/Migrations
+using seed paths 
+ - /opt/lampp/htdocs/trportal/config/Seeds
+Migration `20200208040050` successfully marked migrated !
+Creating a dump of the new database state...
+using migration paths 
+ - /opt/lampp/htdocs/trportal/config/Migrations
+using seed paths 
+ - /opt/lampp/htdocs/trportal/config/Seeds
+Writing dump file `/opt/lampp/htdocs/trportal/config/Migrations/schema-dump-default.lock`...
+Dump file `/opt/lampp/htdocs/trportal/config/Migrations/schema-dump-default.lock` was successfully written
+```
+
+
  
 
