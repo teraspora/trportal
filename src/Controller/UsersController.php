@@ -132,6 +132,17 @@ class UsersController extends AppController {
         }
     }
 
+    public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
+        $str = $this->request->getData('search');
+        $query = $this->Users
+            ->find()
+            ->where(['id LIKE' => ($str . '%')], ['id' => 'string'])
+            ->orWhere(['name LIKE' => ($str . '%')])
+            ->orWhere(['email LIKE' => ($str . '%')]);
+        $users = $this->paginate($query);
+        $this->set(compact('users'));
+    }
+
     public function logout() {
         return $this->redirect($this->Auth->logout());
     }
