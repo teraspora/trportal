@@ -12,4 +12,4 @@
     'default' => date('d-m-Y')]); ?>
 <?= $this->Form->control(__('Go'), ['class' => 'btn btn-info mx-5', 'type' => 'submit']); ?>
 <?= '</div>' ?>
-<?= $this->Form->end; ?>
+<?= $this->Form->end() ?>

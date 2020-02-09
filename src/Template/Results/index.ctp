@@ -8,11 +8,11 @@
 <?php
 $this->start('topbar');
     // Datepicker form
-    echo $this->Element('daterangeform'); 
+    echo '<div>' .$this->Element('daterangeform') . '</div>'; 
     // Import/export form
-    echo $this->Element('expimpform'); 
+    echo '<div>' .$this->Element('expimpform') . '</div>'; 
     // Search form
-    echo $this->Element('resultsearchform'); 
+    echo '<div>' .$this->Element('resultsearchform') . '</div>'; 
 $this->end();
 ?>
 

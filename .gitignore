@@ -54,3 +54,5 @@ src/Template/Layout/bad-default.ctp
 heroku_credentials.txt
 heroku_setup.md
 config/app.php
+trdb.php
+trdb.sql
