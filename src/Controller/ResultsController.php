@@ -123,16 +123,11 @@ public function search() {  // Search id, number and country for user-supplied s
     $str = $this->request->getData('search');
     $query = $this->Results
         ->find()
-        // ->where(function (QueryExpression $exp, Query $q) {
-        //     return $exp->like('country', 'Aus');
-        // });
         ->where(['country LIKE' => ($str . '%')])
         ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
         ->orWhere(['number LIKE' => ($str . '%')]);
-        // ->where(['country =' => 'Ghana']);
     $results = $this->paginate($query);
     $this->set(compact('results'));
-    // $this->render('index');
 }
 
     public function isAuthorized($user) {
