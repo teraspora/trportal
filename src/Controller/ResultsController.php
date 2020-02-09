@@ -112,11 +112,28 @@ class ResultsController extends AppController {
         $path = WWW_ROOT . 'files/results_export.csv';
         file_put_contents($path, 'THIS LINE WRITTEN BY EXPORT METHOD');
         $readout = file_get_contents($path);
-        die($readout);
+        die('EXPORT FUNCTION called' . $readout);
+
         $response = $this->response->withFile($path, ['download' => true]);
         $this->Flash->success(__('The file will be downloaded.'));
         return $response;
     }
+
+public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
+    $str = $this->request->getData('search');
+    $query = $this->Results
+        ->find()
+        // ->where(function (QueryExpression $exp, Query $q) {
+        //     return $exp->like('country', 'Aus');
+        // });
+        ->where(['country LIKE' => ($str . '%')])
+        ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
+        ->orWhere(['number LIKE' => ($str . '%')]);
+        // ->where(['country =' => 'Ghana']);
+    $results = $this->paginate($query);
+    $this->set(compact('results'));
+    // $this->render('index');
+}
 
     public function isAuthorized($user) {
         return true;
