@@ -143,6 +143,18 @@ class UsersController extends AppController {
         $this->set(compact('users'));
     }
 
+    public function filter() {
+        $type = (int)$this->request->getData('type');
+        $query = $this->Users->find()
+                ->where(['status <>' => 2]);
+        if ($type < 2) {
+            $query = $query
+                ->where(['status =' => $type]);
+        }
+        $users = $this->paginate($query);
+        $this->set(compact('users'));
+    }
+
     public function logout() {
         return $this->redirect($this->Auth->logout());
     }
