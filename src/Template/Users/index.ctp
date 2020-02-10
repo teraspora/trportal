@@ -13,7 +13,7 @@ $this->start('topbar');
     // User search form
     echo $this->Element('usersearchform'); 
     // Add user link
-    echo $this->Html->link('Add User', ['action' => 'add'], ['class' => 'btn btn-info']); 
+    echo $this->Html->link('Add User', ['action' => 'add'], ['class' => 'btn btn-info btn-sm']); 
 $this->end();
 ?>
 
