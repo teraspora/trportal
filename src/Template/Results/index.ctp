@@ -10,7 +10,7 @@ $this->start('topbar');
     // Datepicker form
     echo '<div>' .$this->Element('daterangeform') . '</div>'; 
     // Import/export form
-    echo '<div>' .$this->Element('expimpform') . '</div>'; 
+    echo '<div class="io">' .$this->Element('expimpform') . '</div>'; 
     // Search form
     echo '<div>' .$this->Element('resultsearchform') . '</div>'; 
 $this->end();

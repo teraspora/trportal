@@ -10,6 +10,6 @@
     'type' => 'date',
     'minYear' => '1990',
     'default' => date('d-m-Y')]); ?>
-<?= $this->Form->control(__('Go'), ['class' => 'btn btn-info mx-5', 'type' => 'submit']); ?>
+<?= $this->Form->control(__('Go'), ['class' => 'btn btn-info btn-xs mx-5', 'type' => 'submit']); ?>
 <?= '</div>' ?>
 <?= $this->Form->end() ?>

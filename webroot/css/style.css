@@ -173,9 +173,17 @@ https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=simple-login-f
     padding-left: 1vw;
 }
 
-body:after {
+password {
+    padding-bottom: 2vh;
+}
+
+.submit {
+    padding-top: 2vh;
+}
+
+.login-page:after {
     content: "";
-    background: url(https://www.spearline.com/contentfiles/images/World_map_1.png);
+    background: url("../img/World_map_1.png");
     opacity: 0.1;
     top: 0;
     left: 0;
@@ -183,4 +191,15 @@ body:after {
     right: 0;
     position: absolute;
     z-index: -1;
+}
+
+.btn-xs {
+    padding: .25rem .4rem;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+}
+
+.io {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

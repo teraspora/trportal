@@ -1,4 +1,4 @@
-<section class="container">
+<section class="container login-page">
     <h2 class="login-title text-center mt-5">Test Results Portal Login</h2>       
             
     <div class="login-form">
