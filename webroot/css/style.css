@@ -144,3 +144,43 @@ li.prev, li.next, .btn {
   font-size: 1vw;
   color: #ffc38e;
 }
+
+/*
+Login CSS adapted from 
+https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=simple-login-form
+*/
+.login-title {
+    color: #7a98ff;
+}
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+    font-size: 1.2vw;
+    background-color: #007bff; 
+    border-radius: 5px; 
+}
+.login-form form {
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.form-control, input {
+    min-height: 38px;
+    max-width: 340px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 1vw;
+}
+
+body:after {
+    content: "";
+    background: url(https://www.spearline.com/contentfiles/images/World_map_1.png);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
