@@ -85,13 +85,7 @@ $this->end();
       </div>
       <div class="modal-body">
         <!-- Form -->
-        <form method='post' action='' enctype="multipart/form-data">
-          Please choose a file to import <input type='file' name='file' id='file' class='form-control' ><br>
-          <input type='submit' class='btn btn-info' value='Upload' id='btn_upload'>
-        </form>
-
-        <!-- Preview-->
-        <div id='preview'></div>
+        <?= $this->Element('uploadmodal') ?>
       </div>
  
     </div>

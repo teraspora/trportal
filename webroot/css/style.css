@@ -149,7 +149,7 @@ li.prev, li.next, .btn {
 Login CSS adapted from 
 https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=simple-login-form
 */
-.login-title {
+.login-title, .import-hint {
     color: #7a98ff;
 }
 
