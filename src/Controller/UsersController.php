@@ -136,6 +136,8 @@ class UsersController extends AppController {
         $str = $this->request->getData('search');
         $query = $this->Users
             ->find()
+            ->where(['status <>' => 2]);
+        $query = $query
             ->where(['id LIKE' => ($str . '%')], ['id' => 'string'])
             ->orWhere(['name LIKE' => ($str . '%')])
             ->orWhere(['email LIKE' => ($str . '%')]);

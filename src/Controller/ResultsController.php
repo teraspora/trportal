@@ -123,6 +123,8 @@ public function search() {  // Search id, number and country for user-supplied s
     $str = $this->request->getData('search');
     $query = $this->Results
         ->find()
+        ->where(['status <>' => 2]);
+    $query = $query
         ->where(['country LIKE' => ($str . '%')])
         ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
         ->orWhere(['number LIKE' => ($str . '%')]);
