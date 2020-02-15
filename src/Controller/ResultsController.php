@@ -5,6 +5,7 @@ use App\Controller\AppController;
 use Cake\I18n\Time;
 use Cake\Filesystem\Folder;
 use Cake\Filesystem\File;
+use Cake\Error\Debugger;
 
 /**
  * Results Controller
@@ -15,6 +16,7 @@ use Cake\Filesystem\File;
  */
 class ResultsController extends AppController {
     
+    public $test_bool = true;
     public function initialize() {
         parent::initialize();
     }
@@ -119,22 +121,65 @@ class ResultsController extends AppController {
         return $response;
     }
 
-public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
-    $str = $this->request->getData('search');
-    $query = $this->Results
-        ->find()
-        ->where(['status <>' => 2]);
-    $query = $query
-        ->where(['country LIKE' => ($str . '%')])
-        ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
-        ->orWhere(['number LIKE' => ($str . '%')]);
-    $results = $this->paginate($query);
-    $this->set(compact('results'));
-}
+    public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
+        $str = $this->request->getData('search');
+        $query = $this->Results
+            ->find()
+            ->where(['status <>' => 2]);
+        $query = $query
+            ->where(['country LIKE' => ($str . '%')])
+            ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
+            ->orWhere(['number LIKE' => ($str . '%')]);
+        $results = $this->paginate($query);
+        $this->set(compact('results'));
+    }
 
     public function isAuthorized($user) {
         return true;
     }
 
+    public function getCsvErrors($row) {
+        // $this->$test_bool = !$this->$test_bool;
+        // return $this->$test_bool;
+        return '';
 
+    }
+
+    public function import() {
+        $validRows = [];
+        $errors = false;
+        $file = $this->request->getData('uploaded_file');
+        if (!empty($file['name'])) {
+            $uploadPath = 'uploads/files/';
+            $uploadFile = $uploadPath . $file['name'];
+            if (move_uploaded_file($file['tmp_name'], $uploadFile)) {
+                // debug($uploadFile);
+                $handle = fopen($uploadFile, 'r');
+                // Get first line and ignore it (it should be column headings)
+                $line = fgetcsv($handle);
+                // Now get the rest and process them
+                while(! feof($handle)) {
+                    $line = fgetcsv($handle);
+                    if ($this->getCsvErrors($line) === '') {
+                        array_push($validRows, $line);
+                    }
+                    else {
+                        $errors = true;
+                        break;
+                    }
+                }
+                fclose($handle);
+                if ($errors) {
+                    die('Alas, your CSV file contains errors.');
+                }
+                else {
+                    Debugger::dump($validRows);
+                    foreach ($validRows as $row) {
+                        // Add to database
+                    }
+
+                }
+            }
+        }
+    }
 }

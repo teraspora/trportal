@@ -58,3 +58,5 @@ trdb.php
 trdb.sql
 src/View/Cell/UserEditCell.php
 email.md
+test_results_min.csv
+test_*.csv
