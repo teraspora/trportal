@@ -60,3 +60,6 @@ src/View/Cell/UserEditCell.php
 email.md
 test_results_min.csv
 test_*.csv
+example_result.php
+webroot/uploads/files/test_results_min.csv
+webroot/uploads/files/test_results_mid.csv

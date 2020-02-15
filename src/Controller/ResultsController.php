@@ -27,6 +27,13 @@ class ResultsController extends AppController {
         return $obj['year'] . '-' . $obj['month'] . '-' . $obj['day'] . ($set_23_59 ? ' 23:59:59' : '');
     }
 
+    // Helper function to pull out a the primary key components from an idstr
+    // public function getPrimaryKeyFromIdString($idstr) {
+        
+
+    //     return [$jpid, $ttid, $tc];
+    // }
+
 /**
      * Index method
      *
@@ -152,7 +159,6 @@ class ResultsController extends AppController {
             $uploadPath = 'uploads/files/';
             $uploadFile = $uploadPath . $file['name'];
             if (move_uploaded_file($file['tmp_name'], $uploadFile)) {
-                // debug($uploadFile);
                 $handle = fopen($uploadFile, 'r');
                 // Get first line and ignore it (it should be column headings)
                 $line = fgetcsv($handle);
@@ -162,11 +168,48 @@ class ResultsController extends AppController {
                     array_push($rows, $line);
                 }
                 fclose($handle);
-                Debugger::dump($rows);
                 foreach ($rows as $row) {
-                    // Add to database
+                    // Extract the three primary key fields from the id
+                    list($job_processing_uid, $test_type_uid, $test_counter) = array_map('intval', explode('_', $row[0]));
+                    $number = $row[1];
+                    $country = $row[2];
+                    $start_time = $row[3];
+                    $connect_time = $row[4];
+                    $end_time = $row[5];
+                    $score = floatval($row[6]);
+                    $url = $row[7];                  
+                    // Construct an associative array in the correct format for saving in database
+                    $row_data = [
+                        'job_processing_uid' => $job_processing_uid,
+                        'test_type_uid' => $test_type_uid,
+                        'test_counter' => $test_counter,
+                        'number' => $number,
+                        'country' => $country,
+                        'start_time' => $start_time,
+                        'end_time' => $end_time,
+                        'connect_time' => $connect_time,
+                        'score' => $score,
+                        'url' => $url,
+                        'added_by' => $this->Auth->user('id'),     // this user
+                        'status' => 1,
+                    ];
+                    
+                    $new_result = $this->Results->newEntity();
+                    $this->Results->patchEntity($new_result, $row_data);
+                    // If result with same primary key exists in database, it will be updated
+                    if (!$this->Results->save($new_result)) {
+                        Debugger::dump($row_data . "NOT saved.");
+                    }
                 }
+                return $this->redirect(['action' => 'index']);
+            }
+            else {
+                // Inform user file could not be uploaded
             }
         }
+        else {
+            // file name empty - handle this (why? how?)
+        }
+        return $this->redirect(['action' => 'index']);  // We shouldn't get here!
     }
-}
+}   // End class ResultsController
