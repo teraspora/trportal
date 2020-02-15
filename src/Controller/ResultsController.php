@@ -146,8 +146,7 @@ class ResultsController extends AppController {
     }
 
     public function import() {
-        $validRows = [];
-        $errors = false;
+        $rows = [];
         $file = $this->request->getData('uploaded_file');
         if (!empty($file['name'])) {
             $uploadPath = 'uploads/files/';
@@ -160,24 +159,12 @@ class ResultsController extends AppController {
                 // Now get the rest and process them
                 while(! feof($handle)) {
                     $line = fgetcsv($handle);
-                    if ($this->getCsvErrors($line) === '') {
-                        array_push($validRows, $line);
-                    }
-                    else {
-                        $errors = true;
-                        break;
-                    }
+                    array_push($rows, $line);
                 }
                 fclose($handle);
-                if ($errors) {
-                    die('Alas, your CSV file contains errors.');
-                }
-                else {
-                    Debugger::dump($validRows);
-                    foreach ($validRows as $row) {
-                        // Add to database
-                    }
-
+                Debugger::dump($rows);
+                foreach ($rows as $row) {
+                    // Add to database
                 }
             }
         }

@@ -87,18 +87,27 @@ class CsvValidator {
         return file_msgs;
     }
 }
-// End Class CsvValidator ####################################################################################
+// End Class CsvValidator
 
-const csv_importer = document.getElementById('csv-input');
-let data = ``;
+// Main top-level code:
+
+const csv_import_form = document.getElementById('upload-form');
+const csv_file_chooser = document.getElementById('csv-input');
+const csv_submit_btn = document.getElementById('csv-submit');
+const msgs = document.getElementsByClassName(`message`);
+const error_list = document.getElementById('errors');
+const upload_form = document.getElementById(`upload-form`);
 
 document.onreadystatechange = _ => {
   if (document.readyState === 'complete') {
-    csv_importer.addEventListener('change', handleFileSelect, false);
-    const msgs = document.getElementsByClassName(`message`);
+    csv_submit_btn.addEventListener('click', handleFileSelect, false);
     fade(msgs);
   }
 };
+// End top-level code
+
+
+// FUNCTIONS:
 
 function fade(elems, delay = 4, interval = 0.1, step = 0.1) {
   // delay (before fade starts) in seconds
@@ -121,26 +130,36 @@ function fade(elems, delay = 4, interval = 0.1, step = 0.1) {
 }
 
 function handleFileSelect(ev0) {
-    f = ev0.target.files[0];
-    let rdr = new FileReader();
+    // stop the default submit event happening;
+    // we call submit() manually if validation passes
+    ev0.preventDefault();
+    const f = csv_file_chooser.files[0];
+    const rdr = new FileReader();
     rdr.readAsText(f);
     // test when read
     rdr.onloadend = ev1 => {
         if (ev1.target.readyState == FileReader.DONE) {
-            if (ev0.target === csv_importer) {
-                data = rdr.result;
+            if (ev0.target === csv_submit_btn) {
+                const data = rdr.result;
                 console.log(`*** Got CSV data\n\n`);
                 const cv = new CsvValidator(data);
                 const errs = cv.validateFile();
                 if (!errs || !errs.length) {
-                    console.log(`No errors, submit file...`);
-                    // submit file
+                    console.log(`No errors, submitting file...`);
+                    csv_import_form.submit();
                 }
                 else {
+                    // upload_form.style.display = 'none';
+                    error_list.innerHTML = ``;
                     errs.forEach( err => {
                         console.log(`Error: ${err}`);
+                        const li = document.createElement(`LI`);
+                        const entry = document.createTextNode(err);
+                        li.appendChild(entry);
+                        error_list.appendChild(li);
                     });
-                    // inform user about errors
+                    // Show user errors in modal; 
+                    // user can dismiss modal and remains on results page; no HTTP post request is sent;
                 }
             }
         }
