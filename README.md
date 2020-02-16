@@ -108,34 +108,6 @@ The following were used in development:
 You may need to remove `config/app.php` from the default `.gitignore`.
 
 ___________ 
-To Do 2020-02-08:
-
-- Fix above documented `env()` issues etc.
-
-- Login bug: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
-
-- Implement password strength conditions and validation for user creation and update.
-
-- Fix permissions issue for file creation in `ResultsController`'s `export()` method.
-
-- Fix CSRF issue with file import.
-
-- Fix user creation and update.
-
-- Implement Search for users and results.
-
-- Fix styling of Login page and check all styling.
-
-- Check fixing login functionality obviates inappropriate Auth Flash messages.
-
-- Check if some code can move from Controllers into models.
-
-- Check code is reasonably DRY.
-
-- Migrate and seed database.
-
-- Testing.   CI/ CT using Travis?
-
 
 ## Notes
 
@@ -238,21 +210,29 @@ Then check "Seeding" at https://book.cakephp.org/migrations/2/en/index.html.
 
 _________________________________________________
 
-### Todo: after implementing import and (mostly, except for tweaking date format) export:
+### Todo: 2020-16-02
 
-conditional prev next paginator counter
+- Login bug - sometimes: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
 
-import/export on deployed app?
+- Implement password strength conditions and validation for user creation and update.
 
-add triggers to heroku database - 
+- Check all styling.
 
-user add, user edit, self edit
+- Check fixing login functionality obviates inappropriate Auth Flash messages.
 
-put top bar in grid container
+- Check if some code can move from Controllers into models.
 
-test search & filtering - also in deployed app.
+- Check code is reasonably DRY.
 
-Writeup README.
+- Add triggers to Heroku/Cleardb database.
 
-Testing.
+- Testing.   CI/ CT using Travis?conditional prev next paginator counter
+
+- add triggers to heroku database
+
+- user add, user edit, self edit
+
+- put top bar in grid container
+
+- Writeup README.
 
