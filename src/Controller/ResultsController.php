@@ -171,6 +171,9 @@ class ResultsController extends AppController {
                 foreach ($rows as $row) {
                     // Extract the three primary key fields from the id
                     list($job_processing_uid, $test_type_uid, $test_counter) = array_map('intval', explode('_', $row[0]));
+                    if (!$job_processing_uid) {
+                        break;      // ignore an empty line at the end;
+                    }
                     $number = $row[1];
                     $country = $row[2];
                     $start_time = $row[3];
@@ -179,7 +182,7 @@ class ResultsController extends AppController {
                     $score = floatval($row[6]);
                     $url = $row[7];                  
                     // Construct an associative array in the correct format for saving in database;
-                    // Note that the `added_on` field is set by a MySql TRIGGER.
+                    // Note that the `added_on` field should set when created in database by a MySql TRIGGER.
                     $row_data = [
                         'job_processing_uid' => $job_processing_uid,
                         'test_type_uid' => $test_type_uid,
@@ -194,13 +197,14 @@ class ResultsController extends AppController {
                         'added_by' => $this->Auth->user('id'),     // this user
                         'status' => 1,
                     ];
-                    
                     $new_result = $this->Results->newEntity();
                     $this->Results->patchEntity($new_result, $row_data);
                     // If result with same primary key exists in database, it will be updated
+                    // see https://book.cakephp.org/3/en/orm/saving-data.html
                     if (!$this->Results->save($new_result)) {
-                        Debugger::dump($row_data . "NOT saved.");
+                        Debugger::dump($row_data);
                     }
+                    // $this->Results->save($new_result);
                 }
                 return $this->redirect(['action' => 'index']);
             }

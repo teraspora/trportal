@@ -1,7 +1,7 @@
 <?php
 
 // Template/Users/export.ctp
-echo "#ID,Number,Country,Start time,Connect time,End time,Score,URL\n";
+echo "#ID,Number,Country,Start time,Connect time,End time,Score,URL";
 foreach ($data as $result):
     // foreach ($row as &$cell):
     //     // Escape double quotation marks
@@ -12,11 +12,11 @@ foreach ($data as $result):
                 . '_' . $result->get('test_type_uid');
     $number = $result->get('number');
     $country = $result->get('country');
-    $times = $result->get('start_time')->i18nFormat('yyyy-MM-dd HH:mm:ss')
-            . ',' . $result->get('connect_time')->i18nFormat('yyyy-MM-dd HH:mm:ss'
-            . ',' . $result->get('end_time')->i18nFormat('yyyy-MM-dd HH:mm:ss');
+    $times = $result->get('start_time')->format('Y-m-d H:i:s')
+            . ',' . $result->get('connect_time')->format('Y-m-d H:i:s')
+            . ',' . $result->get('end_time')->format('Y-m-d H:i:s');
     $score = number_format($result->get('score'), 2);
     $url = $result->get('url');
     $csv_row = $idstr . ',' . $number . ',' . $country . ',' . $times . ',' . $score . ',' . $url;
-    echo $csv_row . "\n";
+    echo "\n" . $csv_row;
 endforeach;
