@@ -100,9 +100,11 @@ const upload_form = document.getElementById(`upload-form`);
 
 document.onreadystatechange = _ => {
   if (document.readyState === 'complete') {
-    csv_submit_btn.addEventListener('click', handleFileSelect, false);
+    if(document.URL.indexOf(`results`) != -1) {
+      csv_submit_btn.addEventListener('click', handleFileSelect, false);
+    }
     fade(msgs);
-  }
+  };
 };
 // End top-level code
 
