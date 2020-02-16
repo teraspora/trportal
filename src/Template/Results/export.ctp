@@ -1,7 +1,7 @@
 <?php
 
 // Template/Users/export.ctp
-
+echo "#ID,Number,Country,Start time,Connect time,End time,Score,URL\n";
 foreach ($data as $result):
     // foreach ($row as &$cell):
     //     // Escape double quotation marks
