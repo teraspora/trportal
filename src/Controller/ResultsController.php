@@ -73,11 +73,10 @@ class ResultsController extends AppController {
                 ->where(['Results.status =' => 1]);
         }
         $this->paginate = [
-            'contain' => ['Users']
+            'contain' => ['Users'], 'limit' => 30
         ];
         $results = $this->paginate($query);
-        $this->set(compact('results'));
-        $this->set('_serialize', ['results']);      
+        $this->set(compact('results'));      
     }
 
     /**
