@@ -63,17 +63,21 @@ class ResultsController extends AppController {
             }                 
             $query = $this->Results
                 ->find()
-                ->where(['status =' => 1])
+                ->where(['Results.status =' => 1])
                 ->andWhere(['start_time >=' => $srt])
                 ->andWhere(['start_time <=' => $end]);
         }
         else {      // If method is 'get', display all (except with status == 2)
             $query = $this->Results
                 ->find()
-                ->where(['status =' => 1]);
+                ->where(['Results.status =' => 1]);
         }
+        $this->paginate = [
+            'contain' => ['Users']
+        ];
         $results = $this->paginate($query);
-        $this->set(compact('results'));        
+        $this->set(compact('results'));
+        $this->set('_serialize', ['results']);      
     }
 
     /**
