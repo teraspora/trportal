@@ -118,96 +118,9 @@ command line user.
 
 ## Database migration and seeding
 
-Generate a snapshot of the local database using `bake`:
-
-```
-$ bin/cake bake migration_snapshot -v Initial
-
-Creating file /opt/lampp/htdocs/trportal/config/Migrations/20200208040050_Initial.php
-Wrote `/opt/lampp/htdocs/trportal/config/Migrations/20200208040050_Initial.php`
-Marking the migration 20200208040050_Initial as migrated...
-using migration paths 
- - /opt/lampp/htdocs/trportal/config/Migrations
-using seed paths 
- - /opt/lampp/htdocs/trportal/config/Seeds
-Migration `20200208040050` successfully marked migrated !
-Creating a dump of the new database state...
-using migration paths 
- - /opt/lampp/htdocs/trportal/config/Migrations
-using seed paths 
- - /opt/lampp/htdocs/trportal/config/Seeds
-Writing dump file `/opt/lampp/htdocs/trportal/config/Migrations/schema-dump-default.lock`...
-Dump file `/opt/lampp/htdocs/trportal/config/Migrations/schema-dump-default.lock` was successfully written
-```
-
-Attempt to apply migrations in Heroku:
-
-```
-$ heroku ps:exec -a tr-portal
-Establishing credentials... done
-Connecting to web.1 on ⬢ tr-portal... 
-~ $ bin/cake migrations migrate
-using migration paths
-
- - /app/config/Migrations
-using seed paths
-
- - /app/config/Seeds
-Exception: There was a problem connecting to the database: SQLSTATE[HY000] [2002] No such file or directory in [/app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 82]
-2020-02-08 05:21:41 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 82
-Stack Trace:
-#0 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(116): Phinx\Db\Adapter\PdoAdapter->createPdoConnection('mysql:host=loca...', 'my_app', 'secret', Array)
-#1 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(148): Phinx\Db\Adapter\MysqlAdapter->connect()
-#2 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(496): Phinx\Db\Adapter\PdoAdapter->getConnection()
-#3 /app/vendor/cakephp/migrations/src/CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
-#4 /app/vendor/cakephp/migrations/src/Command/CommandTrait.php(77): Migrations\CakeAdapter->__construct(Object(Phinx\Db\Adapter\TimedOutputAdapter), Object(Cake\Database\Connection))
-#5 /app/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(63): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#6 /app/vendor/cakephp/migrations/src/Command/CommandTrait.php(34): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /app/vendor/cakephp/migrations/src/Command/Migrate.php(66): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /app/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 /app/vendor/symfony/console/Application.php(1011): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /app/vendor/symfony/console/Application.php(272): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /app/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /app/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /app/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
-#14 /app/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(169): Cake\Console\Shell->runCommand(Array, true, Array)
-#15 /app/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand(Array, true)
-#16 /app/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
-#17 /app/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
-#18 {main}
-
-Caused by: [PDOException] SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 79
-Stack Trace:
-#0 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(79): PDO->__construct('mysql:host=loca...', 'my_app', 'secret', Array)
-#1 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(116): Phinx\Db\Adapter\PdoAdapter->createPdoConnection('mysql:host=loca...', 'my_app', 'secret', Array)
-#2 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(148): Phinx\Db\Adapter\MysqlAdapter->connect()
-#3 /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(496): Phinx\Db\Adapter\PdoAdapter->getConnection()
-#4 /app/vendor/cakephp/migrations/src/CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
-#5 /app/vendor/cakephp/migrations/src/Command/CommandTrait.php(77): Migrations\CakeAdapter->__construct(Object(Phinx\Db\Adapter\TimedOutputAdapter), Object(Cake\Database\Connection))
-#6 /app/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(63): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /app/vendor/cakephp/migrations/src/Command/CommandTrait.php(34): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /app/vendor/cakephp/migrations/src/Command/Migrate.php(66): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 /app/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /app/vendor/symfony/console/Application.php(1011): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /app/vendor/symfony/console/Application.php(272): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /app/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /app/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /app/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
-#15 /app/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(169): Cake\Console\Shell->runCommand(Array, true, Array)
-#16 /app/vendor/cakephp/cakephp/src/Console/CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand(Array, true)
-#17 /app/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
-#18 /app/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
-#19 {main}
-
-```
-
-Need to check
-```
-[PDOException] SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 79
-```
-
-Then check "Seeding" at https://book.cakephp.org/migrations/2/en/index.html.
-
+* Generate a snapshot of the local database using phpMyAdmin.
+* Fire up a Mysql shell locally and connect to the remote database with its DSN, username and password.
+* Paste in the sql and hit `Enter`!
 _________________________________________________
 
 ### Todo: 2020-16-02
@@ -220,6 +133,8 @@ _________________________________________________
 
 - Check all styling.
 
+- Get audio icon instead of 'Listen'.
+
 - Check fixing login functionality obviates inappropriate Auth Flash messages.
 
 - Check if some code can move from Controllers into models.
@@ -228,13 +143,13 @@ _________________________________________________
 
 - Add triggers to Heroku/Cleardb database.
 
-- Testing.   CI/ CT using Travis?conditional prev next paginator counter
+- Testing.   CI/ CT using Travis?
+
+- conditional prev next paginator counter + styling
 
 - add triggers to heroku database
 
 - user add, user edit, self edit
-
-- put top bar in grid container
 
 - Writeup README.
 
