@@ -128,16 +128,10 @@ body {
   height: 30vh;
 }
 
-li.prev, li.next, .btn {
-  font-size: 1.2rem;
-  padding-inline: 2em;
-  margin-inline: 1em;
-}
-
 .btn-info {
-  background-color: #007bff;
+  background-color: #343a40;
+  font-size: 1.2vw;
 }
-
 
 .date-range-form {
   border: 1px solid #000;
@@ -221,3 +215,9 @@ password {
     font-weight: bold;
     background-color: #282828;
 }
+
+/*li.prev, li.next, .btn {
+  font-size: 1.2rem;
+  padding-inline: 2em;
+  margin-inline: 1em;
+}*/
