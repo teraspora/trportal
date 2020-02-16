@@ -63,6 +63,7 @@ class ResultsController extends AppController {
             }                 
             $query = $this->Results
                 ->find()
+                // need to qualify 'status' to avoid sql ambiguity with 'Users.status'
                 ->where(['Results.status =' => 1])
                 ->andWhere(['start_time >=' => $srt])
                 ->andWhere(['start_time <=' => $end]);
@@ -70,6 +71,7 @@ class ResultsController extends AppController {
         else {      // If method is 'get', display all (except with status == 2)
             $query = $this->Results
                 ->find()
+                // as above
                 ->where(['Results.status =' => 1]);
         }
         $this->paginate = [
@@ -113,11 +115,14 @@ class ResultsController extends AppController {
         $str = $this->request->getData('search');
         $query = $this->Results
             ->find()
-            ->where(['status <>' => 2]);
+            ->where(['Results.status <>' => 2]);
         $query = $query
             ->where(['country LIKE' => ($str . '%')])
             ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
             ->orWhere(['number LIKE' => ($str . '%')]);
+        $this->paginate = [
+            'contain' => ['Users'], 'limit' => 30
+        ];
         $results = $this->paginate($query);
         $this->set(compact('results'));
     }
@@ -141,7 +146,9 @@ class ResultsController extends AppController {
                 // Now get the rest and process them
                 while(! feof($handle)) {
                     $line = fgetcsv($handle);
-                    array_push($rows, $line);
+                    if ($line != "\n") {
+                        array_push($rows, $line);
+                    }
                 }
                 fclose($handle);
 
