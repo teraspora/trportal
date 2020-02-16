@@ -136,30 +136,27 @@ function handleFileSelect(ev0) {
     const f = csv_file_chooser.files[0];
     const rdr = new FileReader();
     rdr.readAsText(f);
-    // test when read
+    // test when file has been read, get the contents, and pass them to the validator
     rdr.onloadend = ev1 => {
         if (ev1.target.readyState == FileReader.DONE) {
             if (ev0.target === csv_submit_btn) {
                 const data = rdr.result;
-                console.log(`*** Got CSV data\n\n`);
                 const cv = new CsvValidator(data);
                 const errs = cv.validateFile();
-                if (!errs || !errs.length) {
-                    console.log(`No errors, submitting file...`);
+                if (!errs || !errs.length) {  // if no errors, submit form (with file) to server
                     csv_import_form.submit();
                 }
                 else {
-                    // upload_form.style.display = 'none';
                     error_list.innerHTML = ``;
+                    // Show user errors in modal; 
+                    // user can dismiss modal and remains on results page; no HTTP post request is sent;
+                    // or user can edit the file and retry;
                     errs.forEach( err => {
-                        console.log(`Error: ${err}`);
                         const li = document.createElement(`LI`);
                         const entry = document.createTextNode(err);
                         li.appendChild(entry);
                         error_list.appendChild(li);
                     });
-                    // Show user errors in modal; 
-                    // user can dismiss modal and remains on results page; no HTTP post request is sent;
                 }
             }
         }
