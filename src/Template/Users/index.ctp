@@ -38,7 +38,7 @@ $this->end();
                 <td><?= h($user->name) ?></td>
                 <td><?= h($user->email) ?></td>
                 <td><?= $this->Number->format($user->created_by) ?></td>
-                <td><?= h($user->created_on) ?></td>
+                <td><?= h($user->created_on->format('Y-m-d H:i:s')) ?></td>
                 <td><?= h($user->admin) ?></td>
                 <td><?= h($user->status) ?></td>
                 <td class="actions">
