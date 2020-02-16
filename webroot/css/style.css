@@ -212,3 +212,12 @@ password {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr;
 }
+
+.pagination > li {
+    border: 2px solid #555;
+    border-radius: 5px;
+    margin-inline: 0.3vw;
+    padding-inline: 0.7vw;
+    font-weight: bold;
+    background-color: #282828;
+}
