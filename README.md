@@ -33,16 +33,38 @@ The following were used in development:
 
 ### Unauthenticated
 
-- Users::login() - Login view
+- `Users::login()` - Login view
 
-### Authenticated - use Portal Template
+### Authenticated
 
-- Results::index() - Results listing​ page
-- Users::view() - User account page
+- `Results::index()` - Results listing​ page
+- `Results::search()` - As `index()` but filtered
+- `Results::filter()` - As `index()` but filtered
+- `Users::view()` - User's own account page
 
 ### Authenticated + Admin
 
-- Users::index() - Users listing page
+- `Users::index()` - Users listing page
+- `Users::search()` - As `index()` but filtered
+- `Users::filter()` - As `index()` but filtered
+
+### Modal Views
+
+- `Results::import()` - Import results as csv
+- `Users::add()`      - Add new user (Admin only)
+- `Users::edit()`     - Add a user's details (Admin only)
+
+|  Functionality | Code  | State  | To do   | Notes  |
+|---|---|---|---|---|
+| Results search  | `search()`  | Done  |   | Test in deployed app  |
+| Results import  | `import()`  | Done  |   | Test in deployed app  |
+| Results export  | `export()`  | Done  |   | Test in deployed app  |
+| Results filter  | `index()`   | Done  |   | Test in deployed app  |
+| Users filter    | `index()`   | Done  |   | Test in deployed app  |
+| Users search    | `search()`  | Done  |   | Test in deployed app  |
+| Users edit      | `edit()`    | To do |   | Test in deployed app  |
+| Users add       | `add()`     | To do |   | Test in deployed app  |
+
 
 # Heroku setup
 
@@ -84,18 +106,6 @@ The following were used in development:
     'database' => env('DATABASE', null),
     ```
 You may need to remove `config/app.php` from the default `.gitignore`.
-
-Result:
-
-Successful build on Heroku (with the default Procfile).   App starts, my login page displayed, but login produces Internal Server error.   Because I haven't migrated and seeded the database yet.
-
-And back on my localhost, the `env()` function does not seem to be getting the environment variables `USERNAME`, `PASSWORD` and `DATABASE` from the shell, though they are set in the shell.   
-
-I check with `debug(env('USERNAME', null));` etc. in the `login()` method.
-
-I have restarted the server to no avail.   
-
-It picks up `root` correctly as the username, but not from the shell, as I changed it to `fred` and the `debug()` call still returned `root`.   So must investigate if it creates a subshell or what?   What environment is the application getting its environment variables from?
 
 ___________ 
 To Do 2020-02-08:
@@ -226,5 +236,23 @@ Need to check
 
 Then check "Seeding" at https://book.cakephp.org/migrations/2/en/index.html.
 
+_________________________________________________
 
+### Todo: after implementing import and (mostly, except for tweaking date format) export:
+
+conditional prev next paginator counter
+
+import/export on deployed app?
+
+add triggers to heroku database - 
+
+user add, user edit, self edit
+
+put top bar in grid container
+
+test search & filtering - also in deployed app.
+
+Writeup README.
+
+Testing.
 
