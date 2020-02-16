@@ -48,13 +48,13 @@ $this->end();
                 <td><?= h($result->number) ?></td>
                 <td><?= h($result->country) ?></td>
                 <td><?= $srt->format('Y-m-d H:i:s') ?></td>
-                <td><?= $con->format('Y-m-d H:i:s') ?></td>
+                <td><?= $result->connect_time->format('Y-m-d H:i:s') ?></td>
                 <td><?= $end->format('Y-m-d H:i:s') ?></td>
                 <td><?= h($result->duration) ?></td>
                 <td><?= $this->Number->format($result->score) ?></td>
                 <td><?= $this->Html->link('Listen', $result->url); ?></td>
                 <td><?= $this->Number->format($result->added_by) ?></td>
-                <td><?= h($result->added_on) ?></td>
+                <td><?= h($result->added_on->format('Y-m-d H:i:s')) ?></td>
                 <td class="actions">
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $result->id_str], ['confirm' => __('Are you sure you want to delete record?')]) ?>
                 </td>
