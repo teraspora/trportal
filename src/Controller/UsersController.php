@@ -120,7 +120,6 @@ class UsersController extends AppController {
 
     public function login() {
         $this->viewBuilder()->setLayout('default_login');
-        // debug(env('USERNAME', null));
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
             if ($user) {
