@@ -44,19 +44,7 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler', [
             'enableBeforeRedirect' => false,
         ]);
-        // $this->loadComponent('Auth', ['authenticate' => [            
-        //         'Form' => [
-        //             'fields' => [
-        //                 'username' => 'email',
-        //                 'password' => 'password'
-        //             ]
-        //         ]
-        //     ],
-        //     'loginAction' => [
-        //         'controller' => 'Users',
-        //         'action' => 'login']
-        // ]);
-
+       
         $this->loadComponent('Auth', [
             'authorize' => 'Controller',
             'authenticate' => [            
