@@ -77,26 +77,6 @@ class ResultsController extends AppController {
     }
 
     /**
-     * Add method
-     *
-     * @return \Cake\Http\Response|null Redirects on successful add, renders view otherwise.
-     */
-    // public function add()
-    // {
-    //     $result = $this->Results->newEntity();
-    //     if ($this->request->is('post')) {
-    //         $result = $this->Results->patchEntity($result, $this->request->getData());
-    //         if ($this->Results->save($result)) {
-    //             $this->Flash->success(__('The result has been saved.'));
-
-    //             return $this->redirect(['action' => 'index']);
-    //         }
-    //         $this->Flash->error(__('The result could not be saved. Please, try again.'));
-    //     }
-    //     $this->set(compact('result'));
-    // }
-
-    /**
      * Delete method
      *
      * @param string|null $id Result id.
@@ -143,14 +123,8 @@ class ResultsController extends AppController {
         return true;
     }
 
-    public function getCsvErrors($row) {
-        // $this->$test_bool = !$this->$test_bool;
-        // return $this->$test_bool;
-        return '';
-
-    }
-
     public function import() {
+        // Check it's a post request (user hasn't typed in /results/import etc.)
         $rows = [];
         $file = $this->request->getData('uploaded_file');
         if (!empty($file['name'])) {
@@ -201,10 +175,10 @@ class ResultsController extends AppController {
                     $this->Results->patchEntity($new_result, $row_data);
                     // If result with same primary key exists in database, it will be updated
                     // see https://book.cakephp.org/3/en/orm/saving-data.html
-                    if (!$this->Results->save($new_result)) {
-                        Debugger::dump($row_data);
-                    }
-                    // $this->Results->save($new_result);
+                    // if (!$this->Results->save($new_result)) {
+                    //     Debugger::dump($row_data);
+                    // }
+                    $this->Results->save($new_result);
                 }
                 return $this->redirect(['action' => 'index']);
             }
@@ -213,7 +187,7 @@ class ResultsController extends AppController {
             }
         }
         else {
-            // file name empty - handle this (why? how?)
+            // file name empty - handle this? (why? how?) - or just redirect?
         }
         return $this->redirect(['action' => 'index']);  // We shouldn't get here!
     }
