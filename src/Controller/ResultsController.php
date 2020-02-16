@@ -117,15 +117,13 @@ class ResultsController extends AppController {
     }
 
     public function export() {
-        // NEEDS SORTING.   NOT WRITING TO FILE.   PERMS ISSUE.
-        $path = WWW_ROOT . 'files/results_export.csv';
-        file_put_contents($path, 'THIS LINE WRITTEN BY EXPORT METHOD');
-        $readout = file_get_contents($path);
-        die('EXPORT FUNCTION called' . $readout);
-
-        $response = $this->response->withFile($path, ['download' => true]);
-        $this->Flash->success(__('The file will be downloaded.'));
-        return $response;
+        $this->viewBuilder()->setLayout('');
+        $this->response->download("results_export.csv");
+        $data = $this->Results->find('all')
+                    ->where(['status =' => 2]); // 2 for debugging, 1 for production!
+        $this->set(compact('data'));
+        $this->layout = 'ajax';
+        return;
     }
 
     public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
@@ -158,6 +156,7 @@ class ResultsController extends AppController {
         if (!empty($file['name'])) {
             $uploadPath = 'uploads/files/';
             $uploadFile = $uploadPath . $file['name'];
+
             if (move_uploaded_file($file['tmp_name'], $uploadFile)) {
                 $handle = fopen($uploadFile, 'r');
                 // Get first line and ignore it (it should be column headings)
@@ -168,6 +167,7 @@ class ResultsController extends AppController {
                     array_push($rows, $line);
                 }
                 fclose($handle);
+
                 foreach ($rows as $row) {
                     // Extract the three primary key fields from the id
                     list($job_processing_uid, $test_type_uid, $test_counter) = array_map('intval', explode('_', $row[0]));
@@ -178,7 +178,8 @@ class ResultsController extends AppController {
                     $end_time = $row[5];
                     $score = floatval($row[6]);
                     $url = $row[7];                  
-                    // Construct an associative array in the correct format for saving in database
+                    // Construct an associative array in the correct format for saving in database;
+                    // Note that the `added_on` field is set by a MySql TRIGGER.
                     $row_data = [
                         'job_processing_uid' => $job_processing_uid,
                         'test_type_uid' => $test_type_uid,
@@ -204,7 +205,7 @@ class ResultsController extends AppController {
                 return $this->redirect(['action' => 'index']);
             }
             else {
-                // Inform user file could not be uploaded
+                // Inform user file could not be uploaded?  Try to diagnose cause?
             }
         }
         else {
