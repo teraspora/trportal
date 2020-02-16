@@ -125,7 +125,7 @@ _________________________________________________
 
 ### Todo: 2020-16-02
 
-- Debug results data-range filter, now broken!
+- Debug results date-range filter, now broken!
 
 - Login bug - sometimes: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
 
@@ -134,6 +134,8 @@ _________________________________________________
 - Check all styling.
 
 - Get audio icon instead of 'Listen'.
+
+- Fix date range filtering.
 
 - Check fixing login functionality obviates inappropriate Auth Flash messages.
 
@@ -144,8 +146,6 @@ _________________________________________________
 - Add triggers to Heroku/Cleardb database.
 
 - Testing.   CI/ CT using Travis?
-
-- conditional prev next paginator counter + styling
 
 - add triggers to heroku database
 
