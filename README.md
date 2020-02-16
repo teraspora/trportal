@@ -212,6 +212,8 @@ _________________________________________________
 
 ### Todo: 2020-16-02
 
+- Debug results data-range filter, now broken!
+
 - Login bug - sometimes: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
 
 - Implement password strength conditions and validation for user creation and update.

@@ -1,12 +1,7 @@
 <?php
 
-// Template/Users/export.ctp
 echo "#ID,Number,Country,Start time,Connect time,End time,Score,URL";
 foreach ($data as $result):
-    // foreach ($row as &$cell):
-    //     // Escape double quotation marks
-    //     $cell = '"' . preg_replace('/"/', '""', $cell) . '"';
-    // endforeach;
     $idstr = $result->get('job_processing_uid')
                 . '_' . $result->get('test_counter')
                 . '_' . $result->get('test_type_uid');
@@ -18,5 +13,5 @@ foreach ($data as $result):
     $score = number_format($result->get('score'), 2);
     $url = $result->get('url');
     $csv_row = $idstr . ',' . $number . ',' . $country . ',' . $times . ',' . $score . ',' . $url;
-    echo "\n" . $csv_row;
+    echo "\n" . $csv_row;   // must use double quotes around newline
 endforeach;

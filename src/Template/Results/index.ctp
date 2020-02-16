@@ -7,12 +7,14 @@
 
 <?php
 $this->start('topbar');
+    echo '<section class="topbar">';
     // Datepicker form
     echo '<div>' .$this->Element('daterangeform') . '</div>'; 
     // Import/export form
-    echo '<div class="io">' .$this->Element('expimpform') . '</div>'; 
+    echo $this->Element('expimpform'); 
     // Search form
-    echo '<div>' .$this->Element('resultsearchform') . '</div>'; 
+    echo '<div>' .$this->Element('resultsearchform') . '</div>';
+    echo '</section>';
 $this->end();
 ?>
 
@@ -38,18 +40,15 @@ $this->end();
             <?php 
                 use Cake\I18n\Time;
                 foreach ($results as $result): 
-                    $srt = new Time($result->start_time); 
-                    $end = new Time($result->end_time);
-                    $con = new Time($result->connect_time); 
             ?>
                     
             <tr>
                 <td><?= h($result->id_str) ?></td>
                 <td><?= h($result->number) ?></td>
                 <td><?= h($result->country) ?></td>
-                <td><?= $srt->format('Y-m-d H:i:s') ?></td>
+                <td><?= $result->start_time->format('Y-m-d H:i:s') ?></td>
                 <td><?= $result->connect_time->format('Y-m-d H:i:s') ?></td>
-                <td><?= $end->format('Y-m-d H:i:s') ?></td>
+                <td><?= $result->end_time->format('Y-m-d H:i:s') ?></td>
                 <td><?= h($result->duration) ?></td>
                 <td><?= $this->Number->format($result->score) ?></td>
                 <td><?= $this->Html->link('Listen', $result->url); ?></td>

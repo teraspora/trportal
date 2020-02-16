@@ -109,7 +109,10 @@ body {
 
 .nav-link {
   font-size: 1.5rem;
-  border: 1px solid #000;
+}
+
+.nav-item {
+  border-width: 2px;
 }
 
 .cake-debug-output, .cake-error {
@@ -205,7 +208,7 @@ password {
     border-radius: .2rem;
 }
 
-.io {
+.topbar {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
 }
