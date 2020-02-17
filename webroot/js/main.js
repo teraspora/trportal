@@ -111,7 +111,7 @@ document.onreadystatechange = _ => {
 
 // FUNCTIONS:
 
-function fade(elems, delay = 4, interval = 0.1, step = 0.1) {
+function fade(elems, delay = 2, interval = 0.1, step = 0.1) {
   // delay (before fade starts) in seconds
   // step (reduction in opacity per step)
   // interval (time between steps) in seconds
