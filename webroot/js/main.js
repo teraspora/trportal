@@ -1,8 +1,8 @@
 class CsvValidator {
 
     nthIndexOf = (s, t, n) => s.split(t, n).join(t).length;
-    // contains_duplicates = arr => [...new Set(arr)].length < arr.length;
 
+    // Patterns for id, number, country, start_time, connect_time, end_time, score, url
     rules = [
         /^\d{1,11}_\d{1,5}_\d{1,5}$/g,
         /^\d{1,20}$/g,
@@ -16,7 +16,7 @@ class CsvValidator {
 
     fieldCount = this.rules.length;
 
-    msgs = {
+    msgs = {    // as per specification
         // Note:  line_no + 1 accounts for stripped header row
         wrong_length_row:   (line_no, field_count, expected_count) => `On line ${line_no + 1}: Found ${field_count} columns, expecting ${expected_count} columns`,
         empty_field:        (line_no, column_no) => `On line ${line_no + 1}, column ${column_no}: required field missing`,
@@ -24,10 +24,10 @@ class CsvValidator {
         duplicate_id:       line_no => `On line ${line_no + 1}: Row already defined in file previously`,
     }
 
-    ids = [];
     
     constructor(csv_file_data) {
         this.data = csv_file_data;
+        this.ids = [];   // keep list of ids so we can check for duplicates
     }
 
     validateField(field, rule) {
