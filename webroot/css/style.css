@@ -11,6 +11,7 @@ html {
   --mid-grey: #999999;
   --dark-grey: #333333;
   --dark-grey-alt: #343a40;
+  --pale-blue-bkg: #c6d8ed;
   --black-trans-40: #00000040;
   --white-trans-40: #ffffff40;
   --muted-title-col: #7a98ff;
@@ -51,7 +52,7 @@ body {
   padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  background-color: #c6d8ed;
+  background-color: var(--pale-blue-bkg);
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
@@ -269,4 +270,8 @@ fieldset#user-add input {
 #admin {
   width: 1.4vw;
   height: 1.4vw;
+}
+
+.modal-content {
+  background-color: var(--pale-blue-bkg);
 }
