@@ -274,4 +274,5 @@ fieldset#user-add input {
 
 .modal-content {
   background-color: var(--pale-blue-bkg);
+  border: 3px ridge black;
 }
