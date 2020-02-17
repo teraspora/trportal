@@ -53,7 +53,8 @@ $this->end();
                 <td><?= $this->Number->format($result->score, ['places' => 2]) ?></td>
 
                 <td><?= $this->Html->image("audio.png", ['url' => $result->url]) ?></td>
-                
+                <!-- using 'user->name', here in the view, depends on belongsTo() association and
+                $this->paginate = ['contain' => ['Users']] in view method -->
                 <td><?= h($result->user->name) ?></td>
                 <td><?= h($result->added_on->format('Y-m-d H:i:s')) ?></td>
                 <td class="actions">

@@ -251,3 +251,21 @@ a>img:hover {
 .btn-info:hover {
     background-color: var(--really-dark-blue-trans-aa);
 }
+
+#user-add {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    justify-content: end;
+}
+
+fieldset#user-add input {
+    padding-block: 1vh;
+    margin-block: 1vh;
+    margin-inline: 1vw;
+}
+
+#admin {
+  width: 1.4vw;
+  height: 1.4vw;
+}

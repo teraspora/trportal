@@ -13,7 +13,11 @@ $this->start('topbar');
     // User search form
     echo $this->Element('usersearchform'); 
     // Add user link
-    echo $this->Html->link('Add User', ['action' => 'add'], ['class' => 'btn btn-info btn-sm']); 
+    
+    echo $this->Html->link(__('Add User'), ['action' => 'add'],
+         ['class' => 'btn btn-info btn-sm',
+          'data-toggle' => 'modal',
+          'data-target' => '#user-ac-add']);
 $this->end();
 ?>
 
@@ -62,30 +66,3 @@ $this->end();
     </div>
 </div>
 
-
-<!-- User account modal -->
-
-    <div class="modal" id="user-ac">
-      <div class="modal-dialog">
-        <div class="modal-content">
-
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">INSERT HEADING</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <?= $this->element('useraccounteditform') ?>
-          </div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-<!-- END OF USER ACCOUNT MODAL -->
