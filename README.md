@@ -127,7 +127,11 @@ _________________________________________________
 
 - Debug results date-range filter, now broken!
 
+- user add, user edit, self edit
+
 - Login bug - sometimes: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
+
+- Check fixing login functionality obviates inappropriate Auth Flash messages.
 
 - Implement password strength conditions and validation for user creation and update.
 
@@ -137,19 +141,13 @@ _________________________________________________
 
 - Fix date range filtering.
 
-- Check fixing login functionality obviates inappropriate Auth Flash messages.
-
-- Check if some code can move from Controllers into models.
-
-- Check code is reasonably DRY.
-
 - Add triggers to Heroku/Cleardb database.
 
 - Testing.   CI/ CT using Travis?
 
-- add triggers to heroku database
+- Check if some code can move from Controllers into models.
 
-- user add, user edit, self edit
+- Check code is reasonably DRY.
 
 - Writeup README.
 
