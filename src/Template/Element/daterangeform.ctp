@@ -1,5 +1,5 @@
 <?= $this->Form->create($results, ['class' => 'form-inline', 'type' => 'post', 'url' => ['action' => 'index']]); ?>
-<?= '<div class="form-group">' ?>
+<?= '<div class="form-group date-pickers">' ?>
 <?= $this->Form->input('start_date', ['class' => 'form-control datepicker mx-5', 
     'name' => 'start', 
     'type' => 'date',

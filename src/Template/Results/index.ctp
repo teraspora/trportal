@@ -51,13 +51,16 @@ $this->end();
                 <td><?= $result->end_time->format('Y-m-d H:i:s') ?></td>
                 <td><?= h($result->duration) ?></td>
                 <td><?= $this->Number->format($result->score) ?></td>
-                <td><?= $this->Html->link('Listen', $result->url); ?></td>
+
+                <td><?= $this->Html->image("audio.png", ['url' => $result->url]) ?></td>
+                
                 <td><?= h($result->user->name) ?></td>
                 <td><?= h($result->added_on->format('Y-m-d H:i:s')) ?></td>
                 <td class="actions">
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $result->id_str], ['confirm' => __('Are you sure you want to delete record?')]) ?>
                 </td>
             </tr>
+
             <?php endforeach; ?>
         </tbody>
     </table>
