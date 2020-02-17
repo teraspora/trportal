@@ -129,15 +129,13 @@ _________________________________________________
 
 - user add, user edit, self edit
 
+- Implement password strength conditions and validation for user creation and update.
+
 - Login bug - sometimes: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
 
 - Check fixing login functionality obviates inappropriate Auth Flash messages.
 
-- Implement password strength conditions and validation for user creation and update.
-
 - Check all styling.
-
-- Get audio icon instead of 'Listen'.
 
 - Fix date range filtering.
 

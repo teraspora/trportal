@@ -50,7 +50,7 @@ $this->end();
                 <td><?= $result->connect_time->format('Y-m-d H:i:s') ?></td>
                 <td><?= $result->end_time->format('Y-m-d H:i:s') ?></td>
                 <td><?= h($result->duration) ?></td>
-                <td><?= $this->Number->format($result->score) ?></td>
+                <td><?= $this->Number->format($result->score, ['places' => 2]) ?></td>
 
                 <td><?= $this->Html->image("audio.png", ['url' => $result->url]) ?></td>
                 
