@@ -1,4 +1,4 @@
-<?= $this->Form->create() ?>
+<?= $this->Form->create(null, ['type' => 'post', 'url' => ['action' => 'add']]) ?>
     <fieldset id="user-add">
         <legend><?= __('Add User') ?></legend>
         <?= $this->Form->control('name'); ?>
@@ -11,5 +11,5 @@
         <?= $this->Form->control('password', ['type'=>'password', 'value'=>'', 'autocomplete'=>'off']); ?>
         <?= $this->Form->control('confirm_password', ['type'=>'password', 'value'=>'', 'autocomplete'=>'off']); ?>
     </fieldset>
-    <?= $this->Form->button(__('Add'), ['type' => 'submit', 'class' => 'btn btn-warning']) ?>
+    <?= $this->Form->button(__('Add'), ['type' => 'submit', 'class' => 'btn btn-info']) ?>
 <?= $this->Form->end() ?>
