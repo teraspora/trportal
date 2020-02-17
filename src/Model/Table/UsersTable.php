@@ -33,9 +33,6 @@ class UsersTable extends Table
         $this->setTable('users');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-        // $this->hasMany('Results', [
-        //     'foreignKey' => 'added_by',
-        // ]);
     }
 
     /**
@@ -71,10 +68,10 @@ class UsersTable extends Table
             ->allowEmptyString('password', 'update');
 
         $validator
-            ->scalar('confirm_pw')
-            ->maxLength('confirm_pw', 128)
-            ->requirePresence('confirm_pw', 'create')
-            ->allowEmptyString('confirm_pw', 'update');
+            ->scalar('confirm_password')
+            ->maxLength('confirm_password', 128)
+            ->requirePresence('confirm_password', 'create')
+            ->allowEmptyString('confirm_password', 'update');
 
         $validator
             ->nonNegativeInteger('status')
