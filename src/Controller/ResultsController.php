@@ -146,10 +146,11 @@ class ResultsController extends AppController {
                 // Now get the rest and process them
                 while(! feof($handle)) {
                     $line = fgetcsv($handle);
-                    if ($line != "\n") {
+                    if ($line) {    // Necessary to handle '\n' at end of file e.g in sample file
                         array_push($rows, $line);
                     }
                 }
+
                 fclose($handle);
 
                 foreach ($rows as $row) {
