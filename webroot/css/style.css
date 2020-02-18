@@ -254,7 +254,7 @@ a>img:hover {
     background-color: var(--really-dark-blue-trans-aa);
 }
 
-#user-add {
+#user-add, #user-edit {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);

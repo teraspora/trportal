@@ -31,6 +31,9 @@ class UsersController extends AppController {
         $users = $this->paginate($this->Users
             ->find()
             ->where(['status <>' => 2]));
+        $this->paginate = [
+            'contain' => ['Users'], 'limit' => 30
+        ];
         $this->set(compact('users'));
     }
 

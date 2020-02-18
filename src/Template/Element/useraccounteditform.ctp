@@ -1,5 +1,5 @@
-<?= $this->Form->create($user, ['type' => 'post', 'url' => ['action' => 'edit']]) ?>
-    <fieldset id="user-add">
+<?= $this->Form->create($users, ['type' => 'post', 'url' => ['action' => 'edit']]) ?>
+    <fieldset id="user-edit">
         <legend><?= __('Edit User') ?></legend>
         <?= $this->Form->control('name'); ?>
         <?= $this->Form->control('email'); ?>
