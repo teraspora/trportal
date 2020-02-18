@@ -75,7 +75,7 @@ class ResultsController extends AppController {
                 ->where(['Results.status =' => 1]);
         }
         $this->paginate = [
-            'contain' => ['Users'], 'limit' => 30, 'sortWhitelist' => ['id_str', 'duration']
+            'contain' => ['Users'], 'limit' => 30
         ];
         $results = $this->paginate($query);
         $this->set(compact('results'));      

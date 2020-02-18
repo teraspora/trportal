@@ -30,7 +30,7 @@ class UsersController extends AppController {
     public function index() {        
         $users = $this->paginate($this->Users
             ->find()
-            ->where(['status <>' => 2]));
+            ->where(['status <' => 2]));
         $this->paginate = [
             'contain' => ['Users'], 'limit' => 30
         ];
@@ -150,7 +150,7 @@ class UsersController extends AppController {
     public function filter() {
         $type = (int)$this->request->getData('type');
         $query = $this->Users->find()
-                ->where(['status <>' => 2]);
+                ->where(['status <' => 2]);
         if ($type < 2) {
             $query = $query
                 ->where(['status =' => $type]);

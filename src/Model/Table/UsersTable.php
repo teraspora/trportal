@@ -81,6 +81,11 @@ class UsersTable extends Table
             ->requirePresence('status', 'create')
             ->allowEmptyString('status', 'update');
 
+        $validator->add('password', 'length', ['rule' => ['lengthBetween', 8, 128]]);
+        $validator->add('confirm_password', 'no-misspelling', [
+            'rule' => ['compareWith', 'password'],
+            'message' => 'Passwords are not equal',
+        ]);
         return $validator;
     }
 
@@ -108,11 +113,11 @@ class UsersTable extends Table
             && similar_text($digits, $pw);
     }
 
-    public function validatePasswords($validator) {
-        $validator->add('confirm_password', 'no-misspelling', [
-            'rule' => ['compareWith', 'password'],
-            'message' => 'Passwords are not equal',
-        ]);
-        return $validator;
-    }
+    // public function validatePasswords($validator) {
+    //     $validator->add('confirm_password', 'no-misspelling', [
+    //         'rule' => ['compareWith', 'password'],
+    //         'message' => 'Passwords are not equal',
+    //     ]);
+    //     return $validator;
+    // }
 }
