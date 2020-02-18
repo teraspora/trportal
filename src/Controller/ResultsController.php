@@ -186,9 +186,6 @@ class ResultsController extends AppController {
                     $this->Results->patchEntity($new_result, $row_data);
                     // If result with same primary key exists in database, it will be updated
                     // see https://book.cakephp.org/3/en/orm/saving-data.html
-                    // if (!$this->Results->save($new_result)) {
-                    //     Debugger::dump($row_data);
-                    // }
                     $this->Results->save($new_result);
                 }
                 return $this->redirect(['action' => 'index']);

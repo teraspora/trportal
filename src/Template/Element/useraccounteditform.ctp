@@ -1,14 +1,15 @@
-<?= $this->Form->create($user, ['url' => ['action' => 'edit']]) ?>
-    <fieldset>
+<?= $this->Form->create($user, ['type' => 'post', 'url' => ['action' => 'edit']]) ?>
+    <fieldset id="user-add">
         <legend><?= __('Edit User') ?></legend>
-        <?php
-            echo $this->Form->control('name');
-            echo $this->Form->control('email');
-            if ($showAdmin) echo $this->Form->control('admin');
-            echo $this->Form->control('password', ['type'=>'password', 'value'=>'', 'autocomplete'=>'off']);
-            echo $this->Form->control('confirm_pwd', ['type'=>'password', 'value'=>'', 'autocomplete'=>'off']);
-            echo $this->Form->control('status');
-        ?>
+        <?= $this->Form->control('name'); ?>
+        <?= $this->Form->control('email'); ?>
+        <div class="input admin">
+            <?= $this->Form->label('admin', 'Admin'); ?>
+            <?= $this->Form->checkbox('admin', ['id' => 'admin']); ?>
+        </div>
+        <?= $this->Form->input('status', ['type' => 'select', 'label' => false, 'options' => ['Inactive', 'Active'], 'value' => 1]); ?>
+        <?= $this->Form->control('password', ['type' => 'password', 'value' => '', 'autocomplete' => 'off']); ?>
+        <?= $this->Form->control('confirm_password', ['type' => 'password', 'value' => '', 'autocomplete' => 'off']); ?>
     </fieldset>
-    <?= $this->Form->button(__('Update'), ['type' => 'submit', 'class' => 'btn btn-warning']) ?>
+    <?= $this->Form->button(__('Update'), ['type' => 'submit', 'class' => 'btn btn-info']) ?>
 <?= $this->Form->end() ?>

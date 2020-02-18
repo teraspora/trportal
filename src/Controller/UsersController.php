@@ -55,8 +55,8 @@ class UsersController extends AppController {
      *
      * @return \Cake\Http\Response|null Redirects on successful add, renders view otherwise.
      */
-    public function add()
-    {
+    public function add() {
+        // Invoked by the 'Add' button in the 'Add User' modal
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
@@ -78,6 +78,7 @@ class UsersController extends AppController {
      */
     
     public function editSelf($id) {
+        // Ha! No, don't call edit() - will introduce complexity with redirect despite being more DRY.
         return $this->edit($id, false);
     }
 
@@ -93,9 +94,8 @@ class UsersController extends AppController {
                 return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The user could not be saved. Please, try again.'));
-        }        
-        $this->set(compact('user'));
-        $this->set('showAdmin', $showAdmin);
+        }
+        return $this->redirect(['action' => 'index']);
     }
 
     /**

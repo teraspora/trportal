@@ -12,8 +12,7 @@ $this->start('topbar');
     echo $this->Element('userfilterdropdown'); 
     // User search form
     echo $this->Element('usersearchform'); 
-    // Add user link
-    
+    // Add user link    
     echo $this->Html->link(__('Add User'), ['action' => 'add'],
          ['class' => 'btn btn-info btn-sm',
           'data-toggle' => 'modal',
@@ -46,7 +45,10 @@ $this->end();
                 <td><?= h($user->admin) ?></td>
                 <td><?= h($user->status) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id]) ?>
+                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id], 
+                        ['data-toggle' => 'modal',
+                         'data-target' => '#user-ac-edit',
+                         'data-id' => $user->id]) ?>
                     <?= ' | ' ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete record?')]) ?>
                 </td>
@@ -66,3 +68,54 @@ $this->end();
     </div>
 </div>
 
+<!-- User account edit modal -->
+
+    <div class="modal" id="user-ac-edit">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <?= $this->element('useraccounteditform') ?>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- END OF USER ACCOUNT EDIT MODAL -->
+
+<!-- User account add modal -->
+
+    <div class="modal" id="user-ac-add">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <?= $this->element('useraccountaddform') ?>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- END OF USER ACCOUNT ADD MODAL -->
