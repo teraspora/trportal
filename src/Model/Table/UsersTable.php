@@ -34,7 +34,7 @@ class UsersTable extends Table
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
         $this->belongsTo('Users')
-            ->setForeignKey('created_by');
+            ->setForeignKey('created_by');  
             // ->setPropertyName('creator');
     }
 
@@ -106,5 +106,13 @@ class UsersTable extends Table
             && strlen($pw) > 7
             && similar_text($chars, $pw)
             && similar_text($digits, $pw);
+    }
+
+    public function validatePasswords($validator) {
+        $validator->add('confirm_password', 'no-misspelling', [
+            'rule' => ['compareWith', 'password'],
+            'message' => 'Passwords are not equal',
+        ]);
+        return $validator;
     }
 }
