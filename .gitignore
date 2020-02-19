@@ -68,3 +68,5 @@ Screenshot*
 SELECT_Results.sql
 user-add-data.txt
 trdb*
+Dockerfile
+docker-compose.yml

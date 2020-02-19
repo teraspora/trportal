@@ -121,7 +121,7 @@ class ResultsController extends AppController {
             ->orWhere(['job_processing_uid LIKE' => ($str . '%')], ['job_processing_uid' => 'string'])
             ->orWhere(['number LIKE' => ($str . '%')]);
         $this->paginate = [
-            'contain' => ['Users'], 'limit' => 30, 'sortWhitelist' => ['id_str', 'duration']
+            'contain' => ['Users'], 'limit' => 30
         ];
         $results = $this->paginate($query);
         $this->set(compact('results'));

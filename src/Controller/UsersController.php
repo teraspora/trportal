@@ -28,12 +28,12 @@ class UsersController extends AppController {
      * @return \Cake\Http\Response|null
      */
     public function index() {        
-        $users = $this->paginate($this->Users
-            ->find()
-            ->where(['status <' => 2]));
         $this->paginate = [
             'contain' => ['Creators'], 'limit' => 30
         ];
+        $users = $this->paginate($this->Users
+            ->find()
+            ->where(['Users.status <' => 2]));
         $this->set(compact('users'));
     }
 
@@ -136,24 +136,30 @@ class UsersController extends AppController {
 
     public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
         $str = $this->request->getData('search');
+        $this->paginate = [
+            'contain' => ['Creators'], 'limit' => 30
+        ];
         $query = $this->Users
             ->find()
-            ->where(['status <>' => 2]);
+            ->where(['Users.status <>' => 2]);
         $query = $query
-            ->where(['id LIKE' => ($str . '%')], ['id' => 'string'])
-            ->orWhere(['name LIKE' => ($str . '%')])
-            ->orWhere(['email LIKE' => ($str . '%')]);
+            ->where(['Users.id LIKE' => ($str . '%')], ['Users.id' => 'string'])
+            ->orWhere(['Users.name LIKE' => ($str . '%')])
+            ->orWhere(['Users.email LIKE' => ($str . '%')]);
         $users = $this->paginate($query);
         $this->set(compact('users'));
     }
 
     public function filter() {
+        $this->paginate = [
+            'contain' => ['Creators'], 'limit' => 30
+        ];
         $type = (int)$this->request->getData('type');
         $query = $this->Users->find()
-                ->where(['status <' => 2]);
+                ->where(['Users.status <' => 2]);
         if ($type < 2) {
             $query = $query
-                ->where(['status =' => $type]);
+                ->where(['Users.status =' => $type]);
         }
         $users = $this->paginate($query);
         $this->set(compact('users'));
