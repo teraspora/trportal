@@ -33,9 +33,10 @@ class UsersTable extends Table
         $this->setTable('users');
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
-        $this->belongsTo('Users')
+        $this->belongsTo('Creators')
+            ->setClassName('Users')
             ->setForeignKey('created_by');  
-            // ->setPropertyName('creator');
+            ->setPropertyName('creator');
     }
 
     /**
