@@ -40,7 +40,9 @@ class ResultsController extends AppController {
      * @return \Cake\Http\Response|null
      */
     public function index() {
-        if ($this->request->is('put')) {       // if method is 'put', display by date range
+        if (in_array($this->request->getMethod(), ['POST', 'PUT', 'PATCH'])) {
+        // if method is 'put', display by date range
+            // debug($this->request);
             $start_date = $this->getDateStringFromObject($this->request->getData('start'), false);
             $end_date = $this->getDateStringFromObject($this->request->getData('end'), true);
             if (is_null($start_date)) {
@@ -73,12 +75,16 @@ class ResultsController extends AppController {
                 ->find()
                 // as above
                 ->where(['Results.status =' => 1]);
+            $start_date = Time::now();
+            $end_date = Time::now();
         }
         $this->paginate = [
             'contain' => ['Users'], 'limit' => 30
         ];
         $results = $this->paginate($query);
-        $this->set(compact('results'));      
+        $this->set(compact('results'));
+        $this->set('start_date', $start_date);
+        $this->set('end_date', $end_date);      
     }
 
     /**
@@ -125,6 +131,8 @@ class ResultsController extends AppController {
         ];
         $results = $this->paginate($query);
         $this->set(compact('results'));
+        $this->set('start_date', Time::now());
+        $this->set('end_date', Time::now());
     }
 
     public function isAuthorized($user) {
