@@ -75,7 +75,7 @@ class ResultsController extends AppController {
                 ->find()
                 // as above
                 ->where(['Results.status =' => 1]);
-            $start_date = Time::now();
+            $start_date = Time::now()->year(2000);
             $end_date = Time::now();
         }
         $this->paginate = [
@@ -131,7 +131,7 @@ class ResultsController extends AppController {
         ];
         $results = $this->paginate($query);
         $this->set(compact('results'));
-        $this->set('start_date', Time::now());
+        $this->set('start_date', Time::now()->year(2000));
         $this->set('end_date', Time::now());
     }
 

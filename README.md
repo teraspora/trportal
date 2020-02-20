@@ -69,7 +69,7 @@ The following were used in development:
 | Results search   | `search()`  | Working  |
 | Results filter by date   | `index()`   | Working  |Fixed
 | Results import   | `import()`  | Working  |
-| Results export   | `export()`  | ~~Working~~  | Seems to be broken!
+| Results export   | `export()`  | Working  | 
 | Users display    | `index()`  | Working  |
 | Users pagination  | `Paginator`  | Working  |
 | Users sort  | `Paginator`  | Working  |
