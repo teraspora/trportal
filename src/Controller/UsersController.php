@@ -151,6 +151,7 @@ class UsersController extends AppController {
     }
 
     public function filter() {
+        // Filter by status: Inactive => 0, Active => 1, All => 2
         $this->paginate = [
             'contain' => ['Creators'], 'limit' => 30
         ];
@@ -163,6 +164,7 @@ class UsersController extends AppController {
         }
         $users = $this->paginate($query);
         $this->set(compact('users'));
+        $this->set('value', $type);
     }
 
     public function logout() {
