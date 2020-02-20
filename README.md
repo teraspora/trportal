@@ -57,8 +57,8 @@ The following were used in development:
 |  Functionality | Code  | State  | Issues |
 |---|---|---|---|---|
 | Login            | `login()`  | Working |
-| Login as admin   | `login()`  | Working |
-| Logout            | `login()`  | Working |
+| Login as admin   | `login()`  | Working | 
+| Logout            | `login()`  | Working | 
 | Edit own profile | `edit_self()` | Needs work |
 | Results display  | `index()`  | Working  |
 | Results pagination  | `Paginator`  | Working  |
@@ -77,7 +77,7 @@ The following were used in development:
 | Users search     | `search()`  | Working  |
 | Users delete        | `delete()`     | Working  |
 | Users edit      | `edit()`    | Needs work | Have to get `$user->id` into the modal to prepopulate fields. |
-| Users add        | `add()`     | Working  |
+| Users add        | `add()`     | Working...  | But need to get password strength validation working 
 
 So, a few things to sort out there.
 
