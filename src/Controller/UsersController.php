@@ -35,6 +35,7 @@ class UsersController extends AppController {
             ->find()
             ->where(['Users.status <' => 2]));
         $this->set(compact('users'));
+        $this->set('value', 2);     // set dropdown "All" option for user status
     }
 
     /**
@@ -148,6 +149,7 @@ class UsersController extends AppController {
             ->orWhere(['Users.email LIKE' => ($str . '%')]);
         $users = $this->paginate($query);
         $this->set(compact('users'));
+        $this->set('value', 2);     // set dropdown "All" option for user status
     }
 
     public function filter() {
