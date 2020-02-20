@@ -111,7 +111,7 @@ class ResultsController extends AppController {
         $this->viewBuilder()->setLayout('');
         $this->response->download("results_export.csv");
         $data = $this->Results->find('all')
-                    ->where(['status =' => 2]); // 2 for debugging, 1 for production!
+                    ->where(['status =' => 1]);
         $this->set(compact('data'));
         $this->layout = 'ajax';
         return;
