@@ -54,16 +54,51 @@ The following were used in development:
 - `Users::add()`      - Add new user (Admin only)
 - `Users::edit()`     - Add a user's details (Admin only)
 
-|  Functionality | Code  | State  | To do   | Notes  |
+|  Functionality | Code  | State  | Issues |
 |---|---|---|---|---|
-| Results search  | `search()`  | Done  |   | Test in deployed app  |
-| Results import  | `import()`  | Done  |   | Test in deployed app  |
-| Results export  | `export()`  | Done  |   | Test in deployed app  |
-| Results filter  | `index()`   | Done  |   | Test in deployed app  |
-| Users filter    | `index()`   | Done  |   | Test in deployed app  |
-| Users search    | `search()`  | Done  |   | Test in deployed app  |
-| Users edit      | `edit()`    | To do |   | Test in deployed app  |
-| Users add       | `add()`     | To do |   | Test in deployed app  |
+| Login            | `login()`  | Working |
+| Login as admin   | `login()`  | Working |
+| Logout            | `login()`  | Working |
+| Edit own profile | `edit_self()` | Needs work |
+| Results display  | `index()`  | Working  |
+| Results pagination  | `Paginator`  | Working  |
+| Results sort  | `Paginator`  | Working  | Except for `id_str` and `duration`, which are computed properties. Need to figure out how to get Paginator to sort by these columns.
+| Results delete  | `delete()`  | Working  |
+| Results search  | `search()`  | Working  |
+| Results - Listen to recording  | Link to URL  | Working  |
+| Results search   | `search()`  | Working  |
+| Results filter by date   | `index()`   | Working  | But need to persist datepicker values
+| Results import   | `import()`  | Working  |
+| Results export   | `export()`  | Working  |
+| Users display    | `index()`  | Working  |
+| Users pagination  | `Paginator`  | Working  |
+| Users sort  | `Paginator`  | Working  |
+| Users filter     | `index()`   | Working, but...  | selecting 'Active' or 'Inactive' both submit to `filter()`, and render correctly, but selecting 'All' does not seem to do anything.  See Element `userfilterdropdown.ctp`.   Also, dropdown does not retain setting; need to set this in view function when returning the response.
+| Users search     | `search()`  | Working  |
+| Users delete        | `delete()`     | Working  |
+| Users edit      | `edit()`    | Needs work | Have to get `$user->id` into the modal to prepopulate fields. |
+| Users add        | `add()`     | Working  |
+
+So, a few things to sort out there.
+
+As I mentioned, I have the application deployed to Heroku (automatically rebuilt and deployed when I push to Github) and have able to populate the database from the MySQL CLI.   But I am unable to apply the triggers I have created:
+
+```
+MySQL [heroku_7d97c0e73725ec2]> show tables;
++----------------------------------+
+| Tables_in_heroku_7d97c0e73725ec2 |
++----------------------------------+
+| results                          |
+| users                            |
++----------------------------------+
+2 rows in set (0.048 sec)
+
+MySQL [heroku_7d97c0e73725ec2]> CREATE TRIGGER tr_insert_user_created_on
+    -> BEFORE INSERT ON users
+    -> FOR EACH ROW
+    -> SET new.created_on = CURRENT_TIMESTAMP;
+ERROR 1419 (HY000): You do not have the SUPER privilege and binary logging is enabled (you *might* want to use the less safe log_bin_trust_function_creators variable)
+```
 
 
 # Heroku setup

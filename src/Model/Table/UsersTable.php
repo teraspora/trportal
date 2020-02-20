@@ -36,6 +36,13 @@ class UsersTable extends Table
         $this->belongsTo('Creators')
             ->setClassName('Users')
             ->setForeignKey('created_by');
+        $this->addBehavior('Timestamp', [
+            'events' => [
+                'Model.beforeSave' => [
+                    'created_on' => 'new'
+                ]
+            ]
+        ]);
     }
 
     /**

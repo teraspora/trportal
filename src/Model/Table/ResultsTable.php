@@ -31,11 +31,17 @@ class ResultsTable extends Table
         parent::initialize($config);
 
         $this->setTable('results');
-        // $this->setDisplayField('id');
         $this->setPrimaryKey(['job_processing_uid', 'test_type_uid', 'test_counter']);
         $this->belongsTo('Users')
             ->setForeignKey('added_by')
             ->setJoinType('INNER');
+        $this->addBehavior('Timestamp', [
+            'events' => [
+                'Model.beforeSave' => [
+                    'added_on' => 'new'
+                ]
+            ]
+        ]);
     }
 
     /**
