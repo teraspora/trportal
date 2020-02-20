@@ -222,10 +222,14 @@ password {
 .pagination > li {
     border: 2px solid #555;
     border-radius: 5px;
-    margin-inline: 0.3vw;
-    padding-inline: 0.7vw;
+    margin-left: 0.6vw;
+    padding-left: 1.4vw;
     font-weight: bold;
     background-color: var(--dark-grey);
+}
+
+.pagination > li > a {
+    padding-right: 1vw;  
 }
 
 a>img:hover {
