@@ -46,7 +46,7 @@ class ResultsController extends AppController {
             $start_date = $this->getDateStringFromObject($this->request->getData('start'), false);
             $end_date = $this->getDateStringFromObject($this->request->getData('end'), true);
             if (is_null($start_date)) {
-                $srt = new Time('20 years ago');
+                $srt = new Time('30 years ago');
                 if (is_null($end_date)) {
                     $end = Time::now();
                 }
@@ -75,7 +75,7 @@ class ResultsController extends AppController {
                 ->find()
                 // as above
                 ->where(['Results.status =' => 1]);
-            $start_date = Time::now()->year(2000);
+            $start_date = Time::now()->year(1900);
             $end_date = Time::now();
         }
         $this->paginate = [
