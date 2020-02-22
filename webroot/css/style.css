@@ -17,6 +17,7 @@ html {
   --muted-title-col: #7a98ff;
   --very-dark-blue-trans-55: #00002455;
   --really-dark-blue-trans-aa: #000016aa;
+  --really-dark-blue: #000016;
 }
 
 body {
@@ -249,8 +250,8 @@ a>img:hover {
     font-weight: bold;
 }
 
-.nav-link:hover, .btn-info:hover {
-    transform: scale(1.02) translateY(1px);
+.nav-link:hover, .btn-info:hover, .btn-danger:hover {
+    transform: scale(1.03) translateY(1px);
     transition: 0.2s;
 }
 
@@ -265,7 +266,7 @@ a>img:hover {
     justify-content: end;
 }
 
-fieldset#user-add input {
+fieldset#user-add input, fieldset#user-edit input {
     padding-block: 1vh;
     margin-block: 1vh;
     margin-inline: 1vw;
@@ -281,3 +282,10 @@ fieldset#user-add input {
   border: 3px ridge black;
 }
 
+/* Override default red */
+.btn-danger {
+  background-color: var(--highlight-col);
+}
+.btn-danger:hover {
+  background-color: var(--really-dark-blue);
+}
