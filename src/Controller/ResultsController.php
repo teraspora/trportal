@@ -131,7 +131,7 @@ class ResultsController extends AppController {
         ];
         $results = $this->paginate($query);
         $this->set(compact('results'));
-        $this->set('start_date', Time::now()->year(2000));
+        $this->set('start_date', Time::now()->year(1990));
         $this->set('end_date', Time::now());
     }
 
