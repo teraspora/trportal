@@ -98,8 +98,19 @@ const msgs = document.getElementsByClassName(`message`);
 const error_list = document.getElementById('errors');
 const upload_form = document.getElementById(`upload-form`);
 
+// Code to save user info and prepopulate User Profile modal when User Name is clicked top right
+let user = eval(decodeURIComponent(document.cookie).slice(5));
+user[0] = user[0].replace(`+`, ` `);
+document.getElementById(`edit-profile`).addEventListener('click', ev => {
+    document.getElementById(`self-edit-name`).value = user[0];
+    document.getElementById(`self-edit-email`).value = user[1];
+    document.getElementById(`self-edit-status`).value = user[2];
+    document.getElementById(`self-edit-password`).value = ``;
+    document.getElementById(`self-edit-confirm-password`).value = ``;
+})
+
 document.onreadystatechange = _ => {
-  if (document.readyState === 'complete') {
+  if (document.readyState === `complete`) {
     if(document.URL.indexOf(`results`) != -1) {
       csv_submit_btn.addEventListener('click', handleFileSelect, false);
     }

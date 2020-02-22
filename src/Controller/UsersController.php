@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Http\Cookie\Cookie;
 use Cake\Error\Debugger;
 
 /**
@@ -81,9 +82,9 @@ class UsersController extends AppController {
      * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
      */
     
-    public function editSelf($id) {
+    public function editSelf() {
         // Ha! No, don't call edit() - will introduce complexity with redirect despite being more DRY.
-        return $this->edit($id, false);
+        return $this->edit($this->Auth->user('id'), false);
     }
 
     public function edit($id, $showAdmin = true) {
@@ -128,6 +129,11 @@ class UsersController extends AppController {
             $user = $this->Auth->identify();
             if ($user) {
                 $this->Auth->setUser($user);
+                $cookie = [$this->Auth->user('name'), $this->Auth->user('email'),
+                            $this->Auth->user('status')];
+                // set cookie so we can access user data at front-end to populate self-edit modal form.
+                $this->response = $this->response->withCookie(new Cookie('user', $cookie));
+                    // ['name' => $this->Auth->user('name'), 'email' => $this->Auth->user('email')]
                 return $this->redirect($this->Auth->redirectUrl());
             }
             // Handle bad login
@@ -166,7 +172,7 @@ class UsersController extends AppController {
         }
         $users = $this->paginate($query);
         $this->set(compact('users'));
-        $this->set('value', $type);
+        $this->set('value', $type);     // set dropdown option for user status
     }
 
     public function logout() {

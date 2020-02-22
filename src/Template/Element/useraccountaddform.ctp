@@ -5,7 +5,7 @@
         <?= $this->Form->control('email', ['value' => '@']); ?>
         <div class="input admin">
             <?= $this->Form->label('admin', 'Admin'); ?>
-            <?= $this->Form->checkbox('admin', ['id' => 'admin']); ?>
+            <?= $this->Form->checkbox('admin'); ?>
         </div>
         <?= $this->Form->input('status', ['type' => 'select', 'label' => false, 'options' => ['Inactive', 'Active'], 'value' => 1]); ?>
         <?= $this->Form->control('password', ['type' => 'password', 'value' => '', 'autocomplete' => 'off']); ?>

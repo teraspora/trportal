@@ -1,6 +1,6 @@
-<?= $this->Form->create($users, ['type' => 'post', 'idPrefix' => 'edit', 'url' => ['action' => 'edit', $user->id]]) ?>
+<?= $this->Form->create(null, ['type' => 'post', 'idPrefix' => 'self-edit', 'url' => ['action' => 'editSelf']]) ?>
     <fieldset id="user-edit">
-        <legend><?= __('Edit User') ?></legend>
+        <legend><?= __('Edit Your Profile') ?></legend>  
         <?= $this->Form->control('name'); ?>
         <?= $this->Form->control('email'); ?>
         <div class="input admin">

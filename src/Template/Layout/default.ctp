@@ -26,8 +26,9 @@
                 $authUser['id']
               ], [
                 'class' => 'nav-link',
+                'id' => 'edit-profile',
                 'data-toggle' => 'modal',
-                'data-target' => '#user-ac-edit'
+                'data-target' => '#user-ac-self-edit'
               ]) ?>
         </li>
       </ul>
@@ -85,6 +86,34 @@
     </script>
 
     <?= $this->Html->script('main') ?>
+
+    <!-- User account self-edit modal -->
+
+        <div class="modal" id="user-ac-self-edit">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <?= $this->element('useraccountselfeditform', ['user' => $authUser]) ?>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- END OF USER ACCOUNT EDIT MODAL -->
+
+
 
   </body>
 </html>
