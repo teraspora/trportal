@@ -259,20 +259,20 @@ a>img:hover {
     background-color: var(--really-dark-blue-trans-aa);
 }
 
-#user-add, #user-edit {
+#user-add, #user-edit, #user-self-edit {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     justify-content: end;
 }
 
-fieldset#user-add input, fieldset#user-edit input {
+fieldset#user-add input, fieldset#user-edit input, fieldset#user-self-edit input {
     padding-block: 1vh;
     margin-block: 1vh;
     margin-inline: 1vw;
 }
 
-#admin {
+input[type='checkbox'] {
   width: 1.4vw;
   height: 1.4vw;
 }
