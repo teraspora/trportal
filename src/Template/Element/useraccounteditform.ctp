@@ -1,11 +1,11 @@
-<?= $this->Form->create($users, ['type' => 'post', 'idPrefix' => 'edit', 'url' => ['action' => 'edit', $user->id]]) ?>
+<?= $this->Form->create(null, ['type' => 'post', 'idPrefix' => 'edit', 'id' => 'user-edit-form', 'url' => ['action' => 'edit']]) ?>
     <fieldset id="user-edit">
         <legend><?= __('Edit User') ?></legend>
         <?= $this->Form->control('name'); ?>
-        <?= $this->Form->control('email'); ?>
+        <?= $this->Form->control('email', ['value' => '']); ?>
         <div class="input admin">
             <?= $this->Form->label('admin', 'Admin'); ?>
-            <?= $this->Form->checkbox('admin'); ?>
+            <?= $this->Form->checkbox('admin', ['id' => 'edit-admin']); ?>
         </div>
         <?= $this->Form->input('status', ['type' => 'select', 'label' => false, 'options' => ['Inactive', 'Active'], 'value' => 1]); ?>
         <?= $this->Form->control('password', ['type' => 'password', 'value' => '', 'autocomplete' => 'off']); ?>

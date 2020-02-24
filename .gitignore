@@ -71,3 +71,5 @@ trdb*
 Dockerfile
 docker-compose.yml
 project_update.md
+cakephp3.8_notes.md
+useredit.md

@@ -46,9 +46,14 @@ $this->end();
                 <td><?= h($user->status) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $user->id], 
-                        ['data-toggle' => 'modal',
+                        ['onclick' => 'setUserToEdit(this)',
+                         'data-toggle' => 'modal',
                          'data-target' => '#user-ac-edit',
-                         'data-id' => $user->id]) ?>
+                         'data-id' => $user->id,
+                         'data-name' => $user->name,
+                         'data-email' => $user->email,
+                         'data-admin' => $user->admin,
+                         'data-status' => $user->status]) ?>
                     <?= ' | ' ?>
                     <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $user->id], ['confirm' => __('Are you sure you want to delete record?')]) ?>
                 </td>

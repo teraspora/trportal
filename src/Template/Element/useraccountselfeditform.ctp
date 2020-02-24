@@ -1,5 +1,5 @@
 <?= $this->Form->create(null, ['type' => 'post', 'idPrefix' => 'self-edit', 'url' => ['action' => 'editSelf']]) ?>
-    <fieldset id="user-edit">
+    <fieldset id="user-self-edit">
         <legend><?= __('Edit Your Profile') ?></legend>  
         <?= $this->Form->control('name'); ?>
         <?= $this->Form->control('email'); ?>

@@ -96,7 +96,8 @@ const csv_file_chooser = document.getElementById('csv-input');
 const csv_submit_btn = document.getElementById('csv-submit');
 const msgs = document.getElementsByClassName(`message`);
 const error_list = document.getElementById('errors');
-const upload_form = document.getElementById(`upload-form`);
+// const upload_form = document.getElementById(`upload-form`);
+const user_edit_form = document.getElementById(`user-edit-form`);
 
 document.onreadystatechange = _ => {
   if (document.readyState === `complete`) {
@@ -174,3 +175,15 @@ function handleFileSelect(ev0) {
         }
     };
 }
+
+// Function to populate Edit User modal and set action
+function setUserToEdit(elem) {
+    const user = elem.dataset;
+    user.password = ``;
+    [`name`, `email`, 'status', `password`].forEach(field => {
+        document.getElementById(`edit-${field}`).value = user[field];
+    });
+    document.getElementById(`edit-admin`).checked = ~~user.admin;
+    user_edit_form.action += `/${user.id}`;
+} 
+
