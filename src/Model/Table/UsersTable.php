@@ -124,12 +124,11 @@ class UsersTable extends Table
             && similar_text($digits, $pw);
     }
 
-    public function beforeSave($options = []) {
-        parent::beforeSave($options);
-        if (!empty($this->data[$this->alias]['pwd'])) {
-            $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['pwd']);
-        }
-        return true;
-    }
+    // public function beforeSave($options = []) {
+    //     if (!empty($this->data[$this->alias]['pwd'])) {
+    //         $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['pwd']);
+    //     }
+    //     return true;
+    // }
 }
 
