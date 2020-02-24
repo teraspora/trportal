@@ -93,6 +93,10 @@ class UsersTable extends Table
             'rule' => ['compareWith', 'password'],
             'message' => 'Passwords are not equal',
         ]);
+        $validator->add('password', 'custom', [
+            'rule' => 'validatePasswordStrength',
+            'message' => 'Password must contain >= 1 digit and >= 1 special character from "()*!_-$%". '
+        ]);
         return $validator;
     }
 
@@ -110,7 +114,7 @@ class UsersTable extends Table
         return $rules;
     }
 
-    protected function _isPasswordValid($pw) {
+    protected function validatePasswordStrength($pw) {
         // Password must contain at least 1 digit and 1 special character from "()*!_-$%".
         $chars = '()*!_-$%';
         $digits = '0123456789';
@@ -120,11 +124,12 @@ class UsersTable extends Table
             && similar_text($digits, $pw);
     }
 
-    // public function validatePasswords($validator) {
-    //     $validator->add('confirm_password', 'no-misspelling', [
-    //         'rule' => ['compareWith', 'password'],
-    //         'message' => 'Passwords are not equal',
-    //     ]);
-    //     return $validator;
-    // }
+    public function beforeSave($options = []) {
+        parent::beforeSave($options);
+        if (!empty($this->data[$this->alias]['pwd'])) {
+            $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['pwd']);
+        }
+        return true;
+    }
 }
+
