@@ -55,7 +55,7 @@ The following were used in development:
 - `Users::edit()`     - Add a user's details (Admin only)
 
 |  Functionality | Code  | State  | Issues |
-|---|---|---|---|---|
+|---|---|---|---|
 | Login            | `login()`  | Working |
 | Login as admin   | `login()`  | Working | 
 | Logout            | `login()`  | Working | 
