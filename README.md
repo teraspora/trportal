@@ -112,6 +112,22 @@ command line user.
 * Paste in the sql and hit `Enter`!
 _________________________________________________
 
+### Current state 2020-02-24
+
+#### Deviations from specification
+
+- For the name of the database table, `results` has been used rather than `data` (to conform with CakePHP Inflexion convention).
+- Field names `job_processing_uid` and `test_type_uid` have been used rather than `job_processing_id` and `test_type_id` (to avoid assumptions Cake, or bake, may make about field names ending in `_id` being foreign keys.)
+- The `status` column of the `Users` table has been implemented as `TINYINT(2)` (as it has 3 possible values, and `TINYINT(1)` is interpreted as a Boolean.)
+
+#### Assumptions
+
+- "Target environment: Chrome" is assumed to mean a modern versions of Chrome which supports ES2015 and CSS3 syntax.   The application was developed using Chromium 79 and tested on Chrome 79.   For older versions it may be necessary to introduce tools like Babel into the workflow.
+- Link to call audio recording has been set to open in a new tab.   This is not stated in the spec but seems sensible as it's an external link.
+- Filtering by date range, and search (for results) and filtering by status and search (for users) are independent of each other.   It was not entirely clear to me what was intended from the spec.
+- The oldest year for filtering results has been set at 1990.
+- `Search` submits only when `Enter` is pressed.   It could be changed to submit each time a character is typed, but this would result in more HTTP requests - although perhaps for smaller datasets results could be cached at the front end?
+
 ### Todo: 2020-02-24
 
 - Fix and test password validation on login, edit user and add user.
