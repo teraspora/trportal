@@ -139,13 +139,9 @@ command line user.
 * Paste in the sql and hit `Enter`!
 _________________________________________________
 
-### Todo: 2020-17-02
+### Todo: 2020-02-24
 
-- Debug results date-range filter, now broken!
-
-- user add, user edit, self edit
-
-- Implement password strength conditions and validation for user creation and update.
+- Fix and test password validation on login, edit user and add user.
 
 - Login bug - sometimes: the first login fails, the second try works.  Check authorisation works correctly for non-admins (i.e. no access to Users except self).
 
@@ -153,37 +149,10 @@ _________________________________________________
 
 - Check all styling.
 
-- Fix date range filtering.
-
-- Add triggers to Heroku/Cleardb database.
-
-- Testing.   CI/ CT using Travis?
-
 - Check if some code can move from Controllers into models.
 
 - Check code is reasonably DRY.
 
 - Writeup README.
 
-________________________________
-# TODO 2020-02-18
-
-## Local dev
-
-- In "Edit User" modal, need to prepopulate inputs (except `password` and `confirm_password`).
-
-- Debug User filtering by status: selecting 'Active' or 'Inactive' both submit to `filter()`, and render correctly, but selecting 'All' does not seem to do anything.  See Element `userfilterdropdown.ctp`.   Also, dropdown does not retain setting; need to set this in view function when returning the response.
-
 - Cannot sort by `id_str` or `duration` as these are computed properties, not model fields; there should be a way of doing this with the Paginator class.
-
-- Filtering by date range seems to be broken now!   Also, need to send the data back to the datepickers.
-
-- Exporting seems to be broken now!   Just writing the header row.
-
-- Need to implement user self-edit.
-
-## Heroku deployed application
-
-- Importing a CSV file seems to corrupt the database immediately.   It returns an unstyled page listing including the imported results, but the "Internal Server Error".   Deleting all results from the database with SQL directly fixes this, but further attempted imports fail similarly.
-
-- 
