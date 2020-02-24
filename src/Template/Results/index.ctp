@@ -52,7 +52,11 @@ $this->end();
                 <td><?= h($result->duration) ?></td>
                 <td><?= $this->Number->format($result->score, ['places' => 2]) ?></td>
 
-                <td><?= $this->Html->image("audio.png", ['url' => $result->url]) ?></td>
+                <!-- The below written manually due to issues with HtmlHelper::image and HtmlHelper:link -->
+                <td><a target="_blank" href="
+                        <?= $result->url ?>
+                    "><img src="/trportal/img/audio.png" alt="audio icon"></a></td>
+
                 <!-- using 'user->name', here in the view, depends on belongsTo() association and
                 $this->paginate = ['contain' => ['Users']] in view method -->
                 <td><?= h($result->user->name) ?></td>
