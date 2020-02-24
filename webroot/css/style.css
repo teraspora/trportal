@@ -289,3 +289,7 @@ input[type='checkbox'] {
 .btn-danger:hover {
   background-color: var(--really-dark-blue);
 }
+
+input[value="Login"]:focus {
+  filter: invert(1);
+}
