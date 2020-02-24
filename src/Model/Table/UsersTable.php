@@ -72,10 +72,10 @@ class UsersTable extends Table
             ->allowEmptyString('admin', 'update');
 
         $validator
-            ->scalar('password')
-            ->maxLength('password', 128)
-            ->requirePresence('password', 'create')
-            ->allowEmptyString('password', 'update');
+            ->scalar('pwd')
+            ->maxLength('pwd', 128)
+            ->requirePresence('pwd', 'create')
+            ->allowEmptyString('pwd', 'update');
 
         $validator
             ->scalar('confirm_password')
@@ -88,12 +88,12 @@ class UsersTable extends Table
             ->requirePresence('status', 'create')
             ->allowEmptyString('status', 'update');
 
-        $validator->add('password', 'length', ['rule' => ['lengthBetween', 8, 128]]);
+        $validator->add('pwd', 'length', ['rule' => ['lengthBetween', 8, 128]]);
         $validator->add('confirm_password', 'no-misspelling', [
-            'rule' => ['compareWith', 'password'],
+            'rule' => ['compareWith', 'pwd'],
             'message' => 'Passwords are not equal',
         ]);
-        $validator->add('password', 'custom', [
+        $validator->add('pwd', 'custom', [
             'rule' => 'validatePasswordStrength',
             'message' => 'Password must contain >= 1 digit and >= 1 special character from "()*!_-$%". '
         ]);
@@ -114,7 +114,7 @@ class UsersTable extends Table
         return $rules;
     }
 
-    protected function validatePasswordStrength($pw) {
+    public function validatePasswordStrength($pw) {
         // Password must contain at least 1 digit and 1 special character from "()*!_-$%".
         $chars = '()*!_-$%';
         $digits = '0123456789';
