@@ -145,3 +145,5 @@ _________________________________________________
 - Writeup README.
 
 - Cannot sort by `id_str` or `duration` as these are computed properties, not model fields; there should be a way of doing this with the Paginator class.
+
+- When user edits own profile, need to update the cookie.
