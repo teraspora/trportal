@@ -54,33 +54,6 @@ The following were used in development:
 - `Users::add()`      - Add new user (Admin only)
 - `Users::edit()`     - Add a user's details (Admin only)
 
-|  Functionality | Code  | State  | Issues |
-|---|---|---|---|
-| Login            | `login()`  | Working |
-| Login as admin   | `login()`  | Working | 
-| Logout            | `login()`  | Working | 
-| Edit own profile | `edit_self()` | Needs work |   Emulate edit().
-| Results display  | `index()`  | Working  |
-| Results pagination  | `Paginator`  | Working  |
-| Results sort  | `Paginator`  | Working  | Except for `id_str` and `duration`, which are computed properties. Need to figure out how to get Paginator to sort by these columns.
-| Results delete  | `delete()`  | Working  |
-| Results search  | `search()`  | Working  |
-| Results - Listen to recording  | Link to URL  | Working  |
-| Results search   | `search()`  | Working  |
-| Results filter by date   | `index()`   | Working  |Fixed
-| Results import   | `import()`  | Working  |
-| Results export   | `export()`  | Working  | 
-| Users display    | `index()`  | Working  |
-| Users pagination  | `Paginator`  | Working  |
-| Users sort  | `Paginator`  | Working  |
-| Users filter     | `index()`   | Working  | Fixed.
-| Users search     | `search()`  | Working  |
-| Users delete        | `delete()`     | Working  |
-| Users edit      | `edit()`    | Needs work | Have to get `$user->id` into the modal to prepopulate fields. |
-| Users add        | `add()`     | Working...  | But need to get password strength validation working 
-
-So, a few things to sort out there.
-
 
 # Heroku setup
 
