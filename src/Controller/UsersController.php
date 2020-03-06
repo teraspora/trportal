@@ -139,6 +139,10 @@ class UsersController extends AppController {
             // Handle bad login
             $this->Flash->error('Email or password incorrect! Please try again.');
         }
+        elseif ($this->request->is('get') 
+                && $this->Auth->user()) {  //
+            return $this->redirect($this->Auth->redirectUrl());
+        }
     }
 
     public function search() {  // Search id, number and country for user-supplied string; value must begin with string 
